@@ -3,16 +3,6 @@
 /** Template Name: Services page */
 get_header();
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services in New York</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
     <!-- newyork -->
 <div class="bg-gradient-to-br from-blue-900 to-blue-700 py-20 px-6">
         <div class="max-w-4xl mx-auto text-center text-white">
@@ -324,8 +314,8 @@ get_header();
             </section>
     </section>
     </section>
-</body>
-</html>
+
+<?php get_footer(); ?>
 
 <?php
 

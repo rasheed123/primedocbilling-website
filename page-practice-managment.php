@@ -601,5 +601,3 @@ get_header();
 <script src="<?php echo get_theme_file_uri(); ?>/services.js"></script>
 
 <?php get_footer(); ?>
-</body>
-</html>

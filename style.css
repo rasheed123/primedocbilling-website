@@ -1,0 +1,696 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.testimonial-slider .slick-track {
+  display: flex;
+  align-items: center;
+}
+._max_height {
+  max-height: 1200px !important;
+  transition: all 0.3s ease-in-out;
+
+  padding-bottom: 12px;
+}
+.slick-slide {
+  width: max-content !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px !important;
+  margin-right: 80px !important;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1260px) {
+  .hero-heading {
+    font-size: clamp(2rem, calc(-2.34rem + 6.78vw), 3rem) !important;
+  }
+  .hero-maxw {
+    max-width: clamp(26.88rem, calc(-7.84rem + 54.24vw), 34.88rem) !important;
+  }
+  .hero-btn {
+    font-size: clamp(1rem, calc(0.46rem + 0.85vw), 1.13rem) !important;
+    padding-left: clamp(1rem, calc(6.34rem + -6.78vw), 2rem) !important;
+    padding-right: clamp(1rem, calc(6.34rem + -6.78vw), 2rem) !important;
+  }
+}
+
+.search-form-container {
+  transition: all 0.3s;
+}
+input[type="date"] {
+  width: 100%;
+  color: #acacac;
+}
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  min-height: 340px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.flip-card__photo {
+  height: 170px;
+  object-position: top;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #fff;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Additional flip card styles from page-services.php */
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  perspective: 1000px;
+  min-height: 400px; /* Set a minimum height */
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.flip-card-front {
+  background-color: #fff;
+  color: black;
+  overflow: hidden; /* Prevent content overflow */
+}
+
+.flip-card-back {
+  background-color: #3873CC; /* Keep the same background color */
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/* Ensure the image takes a consistent height */
+.flip-card__photo {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Card content container */
+.flip-card-content {
+  padding: 1rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Button container */
+.flip-card-actions {
+  padding: 1rem;
+  margin-top: auto; /* Push to bottom */
+}
+
+/* Increased font sizes */
+.text-title {
+  font-size: 22px; /* Increased title font size */
+}
+
+.text-description {
+  font-size: 15px; /* Increased description font size */
+}
+
+.text-button {
+  font-size: 15px; /* Increased button font size */
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove it if you don't want it). */
+.flip-card {
+  background-color: transparent;
+  width: 100%; /* Adjust as needed */
+  height: 100%; /* Adjust as needed */
+  perspective: 1000px; /* This is important for 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 0.5rem; /* Matches the rounded-lg of the parent */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Matches the shadow-lg of the parent */
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #fff; /* Matches the bg-white of the parent */
+  color: black;
+  display: flex; /* Ensure flex properties are maintained */
+  flex-direction: column; /* Ensure flex properties are maintained */
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #3873CC; /* As provided */
+  color: white;
+  transform: rotateY(180deg);
+  display: flex; /* Ensure flex properties are maintained */
+  flex-direction: column; /* Ensure flex properties are maintained */
+}
+.hero,
+.section-services {
+  background-image: linear-gradient(to right, #3873cc 100%, #3873cc 100%);
+  width: 100%;
+  position: relative;
+}
+.wrap {
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 120px;
+  width: 100%;
+}
+.bgWave {
+  position: absolute;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background-repeat: repeat;
+  background-position: left bottom;
+  transform-origin: left bottom;
+}
+.waveOne {
+  background-size: 50% 120px;
+  background-image: url(https://upload.cc/i1/2020/05/14/A2kBfn.png);
+  animation: wave 12s linear infinite;
+}
+.waveTwo {
+  background-size: 50% 120px;
+  background-image: url(https://upload.cc/i1/2020/05/14/A2kBfn.png);
+  animation: wave-reverse 6s linear infinite;
+  right: 0;
+  left: auto;
+}
+@keyframes wave {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-25%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes wave-reverse {
+  0% {
+    transform: translateX(0) scaleY(1);
+  }
+  50% {
+    transform: translateX(25%) scaleY(0.55);
+  }
+  100% {
+    transform: translateX(50%) scaleY(1);
+  }
+}
+
+/* Loader */
+.loader-container {
+  z-index: 100;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #3873cc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff !important;
+}
+.loader {
+  transform: rotateZ(45deg);
+  perspective: 1000px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  color: #fff;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  transform: rotateX(70deg);
+  animation: 1s spin linear infinite;
+}
+.loader:after {
+  color: #00d1b2;
+  transform: rotateY(70deg);
+  animation-delay: 0.4s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotateZ(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotateZ(360deg);
+  }
+}
+
+@keyframes rotateccw {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+@keyframes spin {
+  0%,
+  100% {
+    box-shadow: 0.2em 0px 0 0px currentcolor;
+  }
+  12% {
+    box-shadow: 0.2em 0.2em 0 0 currentcolor;
+  }
+  25% {
+    box-shadow: 0 0.2em 0 0px currentcolor;
+  }
+  37% {
+    box-shadow: -0.2em 0.2em 0 0 currentcolor;
+  }
+  50% {
+    box-shadow: -0.2em 0 0 0 currentcolor;
+  }
+  62% {
+    box-shadow: -0.2em -0.2em 0 0 currentcolor;
+  }
+  75% {
+    box-shadow: 0px -0.2em 0 0 currentcolor;
+  }
+  87% {
+    box-shadow: 0.2em -0.2em 0 0 currentcolor;
+  }
+}
+/* Loader Ends */
+.dark\:bg-neutral-600 {
+  background-color: #fff !important;
+}
+.wpcf7-form input:focus,
+.wpcf7-form textarea:focus {
+  outline: none;
+  border-bottom: 1px solid #20c197;
+  transition: border 0.3s;
+}
+.wpcf7-submit {
+  background: #00d084 !important;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.wpcf7-submit:hover {
+  box-shadow: none;
+}
+.mt-4.mdmt-8.wpcf7-submit {
+  width: 100%;
+}
+.section-services--web,
+.section-services--ar,
+.section-services--crd,
+.section-services--mbc,
+.section-services--rcm,
+.section-services--prm,
+.section-services--pa,
+.section-services--scr,
+.section-services--vb,
+.section-services--va {
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.section-services--web {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/wd_services_bg.png);
+  background-position: bottom right;
+}
+.section-services--ar {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/ar_services_bg.png);
+}
+.section-services--crd {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/bg_services_crd.png);
+}
+.section-services--mbc {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/mbc_services_bg.png);
+  background-position: bottom right;
+}
+.section-services--rcm {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/rcm_services_bg.jpg);
+}
+.section-services--prm {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/prm_services_bg.png);
+}
+.section-services--pa {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/pa_services_bg.png);
+  background-position: right;
+}
+.section-services--scr {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/scr_services_bg.png);
+  background-position: top right;
+}
+.section-services--vb {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/vb_services_bg.png);
+  background-position: bottom right;
+}
+.section-services--va {
+  background-image: linear-gradient(to bottom, #3873cc, #3873cc8a),
+    url(./assets/images/va_services_bg.png);
+  background-position: center;
+}
+.testimonial__logo {
+  max-width: 100%;
+}
+.testimonial__logo--ng {
+  min-width: calc(197px / 1.3);
+}
+.testimonial__logo--admd {
+  min-width: calc(350px / 1.3);
+}
+.testimonial__logo--ecw {
+  min-width: calc(295px / 1.3);
+}
+.testimonial__logo--dchrono {
+  min-width: calc(300px / 1.3);
+}
+.testimonial__logo--pf {
+  min-width: calc(360px / 1.3);
+}
+.testimonial__logo--val {
+  min-width: calc(360px / 1.3);
+}
+.testimonial__logo--jane {
+  min-width: calc(170px / 1.3);
+}
+.testimonial__logo--cmd {
+  min-width: calc(298px / 1.3);
+}
+.testimonial__logo--athena {
+  min-width: calc(298px / 1.3);
+}
+@media (max-width: 767px) {
+  .testimonial__logo--ng {
+    min-width: calc(197px / 2.5);
+  }
+  .testimonial__logo--admd {
+    min-width: calc(350px / 2.5);
+  }
+  .testimonial__logo--ecw {
+    min-width: calc(295px / 2.5);
+  }
+  .testimonial__logo--dchrono {
+    min-width: calc(300px / 2.5);
+  }
+  .testimonial__logo--pf {
+    min-width: calc(360px / 2.5);
+  }
+  .testimonial__logo--val {
+    min-width: calc(360px / 2.5);
+  }
+  .testimonial__logo--jane {
+    min-width: calc(170px / 2.5);
+  }
+  .testimonial__logo--cmd {
+    min-width: calc(298px / 2.5);
+  }
+  .testimonial__logo--athena {
+    min-width: calc(298px / 2.5);
+  }
+  .slick-slide {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+}
+.featured__image img {
+  width: 100% !important;
+  height: 170px !important;
+  object-fit: cover !important;
+  object-position: top center !important;
+}
+.single-blog-thumbnail img {
+  height: 140px;
+  width: auto;
+  object-fit: contain;
+}
+input[type="search" i]::-webkit-search-cancel-button {
+  display: none !important;
+}
+label[for="input__search-blog"] {
+  transform: translateX(-24px);
+}
+.wpcf7-response-output {
+  display: none !important;
+}
+.cf7Modal__title {
+  color: #222 !important;
+}
+.wpcf7-spinner {
+  display: none !important;
+}
+.choose-us-frame {
+  background-image: url(./assets/images/form_bg.png);
+}
+.serve-dr-bg {
+  background-image: url(./assets/images/CardServe.png);
+  background-size: cover;
+}
+.serve-np-bg {
+  background-image: url(./assets/images/nurse_practitioners.png);
+  background-size: cover;
+}
+.serve-pp-bg {
+  background-image: url(./assets/images/private_prc.png);
+  background-size: cover;
+}
+.serve-lbr-bg {
+  background-image: url(./assets/images/serve_lab.png);
+  background-size: cover;
+}
+.serve-hspt-bg {
+  background-image: url(./assets/images/serve_hospitals.png);
+  background-size: cover;
+}
+.serve-mbc-bg {
+  background-image: url(./assets/images/serve_mbc.png);
+  background-size: cover;
+}
+.page-services-bg{
+    background-image: url(./assets/images/img_services_bg.png);
+    background-size: cover;
+}
+.benefits-source-bg{
+    background-image: url(./assets/images/img_outsourcing.png);
+    background-size: cover;
+}
+.sticky-form {
+    top: 30px;
+    right: 20px;
+}
+
+
+/* Animated glowing border for the Book A Demo form container */
+.animated-border {
+  position: relative;
+  border: 3px solid #00FFC2;
+  border-radius: 0.5rem; /* match rounded-lg */
+  box-shadow: 0 0 10px #00FFC2, 0 0 20px #00FFC2;
+  animation: glow-border 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes glow-border {
+  0% {
+    border-color: #00FFC2;
+    box-shadow: 0 0 10px #00FFC2, 0 0 20px #00FFC2;
+  }
+  50% {
+    border-color: #00FFFF;
+    box-shadow: 0 0 25px #00FFFF, 0 0 40px #00FFFF;
+  }
+  100% {
+    border-color: #00FFC2;
+    box-shadow: 0 0 10px #00FFC2, 0 0 20px #00FFC2;
+  }
+}
+
+.animated-border {
+  position: relative;
+  border: 3px solid #3873CC; /* red from logo */
+  border-radius: 0.5rem;
+  box-shadow: 0 0 8px #3873CC;
+  animation: spring-glow 2s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite;
+}
+
+.archive-hero {
+  width: 100vw;
+  max-width: 100vw;
+  padding: 6rem 1rem;
+  background-image: url('../assets/images/blog-archive-hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  box-sizing: border-box;
+}
+
+@keyframes spring-glow {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 6px #3873CC, 0 0 10px #3873CC;
+  }
+  30% {
+    transform: scale(1.02);
+    box-shadow: 0 0 14px #3873CC, 0 0 28px #3873CC;
+  }
+  60% {
+    transform: scale(0.98);
+    box-shadow: 0 0 8px #3873CC, 0 0 16px #3873CC;
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 6px #3873CC, 0 0 10px #3873CC;
+  }
+}
+
+
+/* New York Page Styles */
+.page-services-bg {
+    background: linear-gradient(180deg, #3873CC 0%, #2C5FAA 100%);
+}
+
+/* Responsive adjustments for New York page */
+@media (max-width: 768px) {
+    .page-services-bg h1 {
+        font-size: 32px;
+    }
+    
+    .page-services-bg p {
+        font-size: 16px;
+    }
+}
+
+
+
+/* === Custom Stats Section === */
+.stats-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  text-align: center;
+  background: #f9f9f9;
+  padding: 50px 20px;
+  border-radius: 20px;
+}
+
+.stats-item {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.stats-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.stats-item h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff4b4b;
+  margin-bottom: 10px;
+}
+
+.stats-item p {
+  font-size: 1rem;
+  color: #555;
+}

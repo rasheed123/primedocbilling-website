@@ -1,0 +1,66 @@
+/* Updated styles for offer-card with color fill animation, motion effects, and improved colors */
+
+/* Fade-in and slide-up animation on page load */
+
+
+/* Color fill animation on hover */
+@keyframes colorFill {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.offer-card {
+  background-color: #3873cc;
+  color: #f0f4ff; /* lighter font color for better contrast */
+  border-radius: 0.75rem; /* rounded-lg */
+  box-shadow: 0 4px 8px rgba(56, 115, 204, 0.3);
+  padding: 1.5rem; /* p-6 */
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-image: linear-gradient(90deg, #2a56a0 50%, #3873cc 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  color: #f0f4ff;
+}
+
+.offer-card:hover {
+  background-position: 0 0;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(56, 115, 204, 0.6);
+  animation: colorFill 0.5s forwards;
+  color: #e0e7ff;
+}
+
+.offer-card h5 {
+  font-size: 1.125rem; /* 18px */
+  font-weight: 700; /* bold */
+  line-height: 1.56; /* 28px */
+  text-transform: capitalize;
+  transition: color 0.3s ease;
+  text-align: center;
+  color: #e0e7ff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.offer-card p {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 300; /* light */
+  color: #d1d5db;
+  text-transform: capitalize;
+  text-align: center;
+  transition: color 0.3s ease;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.offer-card:hover p {
+  color: #f0f4ff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}

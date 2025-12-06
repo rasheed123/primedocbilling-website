@@ -1,0 +1,179 @@
+/* services.css - External stylesheet for Medical Scribe Services page */
+
+/* Base styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Color variables */
+:root {
+    --primary-color: #3873cc;
+    --secondary-color-transparent: #3873cc8a;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --bg-light: #f8fafc;
+    --border-light: #e5e7eb;
+}
+
+/* Hero section styles */
+.section-services {
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color-transparent) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.bgWave {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.waveOne {
+    background-image: url('wave-pattern.png');
+    opacity: 0.05;
+    top: 0;
+    left: 0;
+}
+
+.waveTwo {
+    background-image: url('wave-pattern-2.png');
+    opacity: 0.03;
+    bottom: 0;
+    right: 0;
+}
+
+.hero-btn {
+    transition: all 0.3s ease;
+}
+
+.hero-btn:hover {
+    background-color: var(--primary-color);
+    transform: translateY(-2px);
+}
+
+.animated-border {
+    position: relative;
+}
+
+.animated-border::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent;
+    background: linear-gradient(45deg, var(--primary-color), var(--secondary-color-transparent)) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    border-radius: 0.5rem;
+    animation: border-fade 4s linear infinite;
+}
+
+@keyframes border-fade {
+    0% { opacity: 0.8; }
+    50% { opacity: 0.3; }
+    100% { opacity: 0.8; }
+}
+
+.sticky-form {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2rem;
+    align-self: flex-start;
+}
+
+.accordion__item {
+    transition: all 0.3s ease;
+}
+
+.accordion__item:hover {
+    background-color: var(--bg-light);
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+    .section-services {
+        padding: 2rem 0;
+    }
+    
+    .sticky-form {
+        position: relative;
+        top: auto;
+    }
+}
+
+/* Custom component styles */
+.bg-teal-50 {
+    background-color: rgba(56, 115, 204, 0.05);
+}
+
+.border-teal-500 {
+    border-color: var(--primary-color);
+}
+
+.text-teal-600 {
+    color: var(--primary-color);
+}
+
+.bg-teal-100 {
+    background-color: rgba(56, 115, 204, 0.1);
+}
+
+.text-sky-600 {
+    color: var(--primary-color);
+}
+
+.bg-sky-50 {
+    background-color: rgba(56, 115, 204, 0.05);
+}
+
+.bg-sky-600 {
+    background-color: var(--primary-color);
+}
+
+.bg-sky-700 {
+    background-color: var(--primary-color);
+}
+
+/* Button hover states */
+button:hover {
+    transition: all 0.3s ease;
+}
+
+/* Form styles */
+input:focus, textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+}
+
+/* Trust indicators */
+.trust-indicators {
+    background-color: var(--bg-light);
+}
+
+/* CTA section */
+.cta-section {
+    background-color: var(--primary-color);
+}
+
+    @keyframes tilt {
+      0%, 100% {
+        transform: rotate(0deg);
+      }
+      50% {
+        transform: rotate(3deg);
+      }
+    }
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-15px);
+      }
+    }

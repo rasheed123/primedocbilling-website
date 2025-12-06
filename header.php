@@ -20,13 +20,6 @@
 	<meta name="google-site-verification" content="g6k-mv4uZBfUQ9R2B05BIZ19nv_znqHg90gJzI0waKc" />
 
 	<?php wp_head(); ?>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://upload.cc" />
-	<link rel="preconnect" href="https://sp-ao.shortpixel.ai" />
-	<link rel="preconnect" href="https://cdnjs.cloudflare.com" />
-	<link rel="preconnect" href="https://embed.tawk.to" />
-	<link rel="preconnect" href="https://cdn.jsdelivr.net" />
-	 <link rel="preload" href="https://upload.cc/i1/2020/05/14/A2kBfn.png" as="image"  media="(width <= 600px) />
 </head>
 
 <body <?php body_class(); ?>>

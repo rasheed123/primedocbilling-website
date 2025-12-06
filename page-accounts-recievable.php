@@ -3,23 +3,8 @@
 get_header();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accounts Receivable Management in the USA - Prime Doc Billing</title>
-    
-    <!-- External CSS -->
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/services.css">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body class="bg-gray-50">
+<!-- External CSS -->
+<link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/services.css">
 
 <!-- Hero Section -->
   <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
@@ -506,5 +491,3 @@ get_header();
 <script src="<?php echo get_theme_file_uri(); ?>/services.js"></script>
 
 <?php get_footer(); ?>
-</body>
-</html>

@@ -1,24 +1,9 @@
-<?php
+﻿<?php
 /** Template Name: Web Development Services */
 get_header();
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seamless Web Development Services for New York’s Healthcare Providers - Prime Doc Billing</title>
-    
-    <!-- External CSS -->
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/services.css">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
+<!-- External CSS -->
+<link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/services.css">
 <body class="bg-gray-50">
 
 <!-- Hero Section -->

@@ -3,24 +3,6 @@
 get_header();
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prior Authorization Services in the USA - Prime Doc Billing</title>
-    
-    <!-- External CSS -->
-    <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/services.css">
-    
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body class="bg-gray-50">
-
 <!-- Hero Section -->
   <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">

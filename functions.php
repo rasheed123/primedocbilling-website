@@ -189,6 +189,12 @@ function primedocbilling_scripts() {
 	// Main theme script - depends on jQuery
 	wp_enqueue_script( 'primedocbilling-main-js', get_template_directory_uri() . '/assets/js/main.js', array( 'primedocbilling-jquery-js' ), $theme_version, true );
 	
+	// Modal and TOC functionality
+	wp_enqueue_script( 'primedocbilling-modal-toc-js', get_template_directory_uri() . '/assets/js/modal-toc.js', array(), $theme_version, true );
+	
+	// Modal popup styles
+	wp_enqueue_style( 'primedocbilling-modal-popup', get_template_directory_uri() . '/assets/css/modal-popup.css', array(), $theme_version );
+	
 	// REMOVED: Tailwind CDN script - this is a major performance issue
 	// wp_enqueue_script( 'primedocbilling-tailwind-script', '//cdn.tailwindcss.com', array(), NULL, true);
 	
@@ -360,3 +366,11 @@ function add_custom_schema_markup_for_medical_billing_outsourcing() {
 	}
 }
 add_action('wp_head', 'add_custom_schema_markup_for_medical_billing_outsourcing');
+
+/**
+ * Add Google Site Verification meta tag
+ */
+function primedocbilling_add_google_verification() {
+	echo '<meta name="google-site-verification" content="g6k-mv4uZBfUQ9R2B05BIZ19nv_znqHg90gJzI0waKc" />' . "\n";
+}
+add_action( 'wp_head', 'primedocbilling_add_google_verification' );

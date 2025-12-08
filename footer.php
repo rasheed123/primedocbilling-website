@@ -17,10 +17,10 @@
     <div class="max-w-[1280px] mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-12">
       <!-- Logo & Description -->
       <div class="space-y-6 flex flex-col justify-start">
-        <a href="<?php echo site_url() ?>" class="inline-block">
+        <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="inline-block">
           <img
-            src="<?php echo get_theme_file_uri() ?>/assets/images/logo_footer.png"
-            alt="Prime Doc Billing company logo in white and blue colors"
+            src="<?php echo esc_url( get_theme_file_uri( '/assets/images/logo_footer.png' ) ); ?>"
+            alt="<?php esc_attr_e( 'Prime Doc Billing company logo in white and blue colors', 'primedocbilling' ); ?>"
             width="160"
             height="auto"
             class="hover:opacity-90 transition-opacity duration-300"
@@ -28,21 +28,21 @@
           />
         </a>
         <p class="text-[#D1D5DB] text-sm leading-relaxed max-w-[280px]">
-          Empowering your medical practice with expert billing, coding, and revenue cycle management solutions.
+          <?php esc_html_e( 'Empowering your medical practice with expert billing, coding, and revenue cycle management solutions.', 'primedocbilling' ); ?>
         </p>
-		<span class="block text-[#D1D5DB] mb-2 uppercase tracking-wide font-semibold text-xs">Follow us on</span>
+		<span class="block text-[#D1D5DB] mb-2 uppercase tracking-wide font-semibold text-xs"><?php esc_html_e( 'Follow us on', 'primedocbilling' ); ?></span>
         <div class="flex space-x-4 mt-2">
-          <a href="https://web.facebook.com/Primedocbilling" target="_blank" aria-label="Facebook" class="hover:text-gray-300 transition-colors duration-200">
-            <img src="<?php echo get_theme_file_uri() ?>/assets/images/facebook.png" alt="Facebook icon in white" class="w-6 h-6" />
+          <a href="<?php echo esc_url( 'https://web.facebook.com/Primedocbilling' ); ?>" target="_blank" rel="noopener noreferrer" aria-label="<?php esc_attr_e( 'Facebook', 'primedocbilling' ); ?>" class="hover:text-gray-300 transition-colors duration-200">
+            <img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/facebook.png' ) ); ?>" alt="<?php esc_attr_e( 'Facebook icon in white', 'primedocbilling' ); ?>" class="w-6 h-6" />
           </a>
-          <a href="https://web.twitter.com/Primedocbilling" target="_blank" aria-label="Twitter" class="hover:text-gray-300 transition-colors duration-200">
-            <img src="<?php echo get_theme_file_uri() ?>/assets/images/twitter.png" alt="Twitter icon in white" class="w-6 h-6" />
+          <a href="<?php echo esc_url( 'https://web.twitter.com/Primedocbilling' ); ?>" target="_blank" rel="noopener noreferrer" aria-label="<?php esc_attr_e( 'Twitter', 'primedocbilling' ); ?>" class="hover:text-gray-300 transition-colors duration-200">
+            <img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/twitter.png' ) ); ?>" alt="<?php esc_attr_e( 'Twitter icon in white', 'primedocbilling' ); ?>" class="w-6 h-6" />
           </a>
-          <a href="https://www.instagram.com/primedocbillingllc/" target="_blank" aria-label="Instagram" class="hover:text-gray-300 transition-colors duration-200">
-            <img src="<?php echo get_theme_file_uri() ?>/assets/images/instagram.png" alt="Instagram icon in white" class="w-6 h-6" />
+          <a href="<?php echo esc_url( 'https://www.instagram.com/primedocbillingllc/' ); ?>" target="_blank" rel="noopener noreferrer" aria-label="<?php esc_attr_e( 'Instagram', 'primedocbilling' ); ?>" class="hover:text-gray-300 transition-colors duration-200">
+            <img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/instagram.png' ) ); ?>" alt="<?php esc_attr_e( 'Instagram icon in white', 'primedocbilling' ); ?>" class="w-6 h-6" />
           </a>
-          <a href="https://www.linkedin.com/company/prime-doc-billing-llc/" target="_blank" aria-label="LinkedIn" class="hover:text-gray-300 transition-colors duration-200">
-            <img src="<?php echo get_theme_file_uri() ?>/assets/images/invision.png" alt="LinkedIn icon in white" class="w-6 h-6" />
+          <a href="<?php echo esc_url( 'https://www.linkedin.com/company/prime-doc-billing-llc/' ); ?>" target="_blank" rel="noopener noreferrer" aria-label="<?php esc_attr_e( 'LinkedIn', 'primedocbilling' ); ?>" class="hover:text-gray-300 transition-colors duration-200">
+            <img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/invision.png' ) ); ?>" alt="<?php esc_attr_e( 'LinkedIn icon in white', 'primedocbilling' ); ?>" class="w-6 h-6" />
           </a>
         </div>
       </div>
@@ -303,157 +303,7 @@ document.addEventListener("DOMContentLoaded", function() {
   </div>
 
 </div>
-<style>
-  /* Make CF7 submit button full width inside the popup */
-  #demoModal input[type="submit"] {
-    width: 100% !important;
-    display: block;
-    text-align: center;
-  }
-  
-  /* Background fade overlay */
-  @keyframes fadeIn {
-  from { opacity: 0; }
-  to { opacity: 1; }
-}
-.animate-fadeIn {
-  animation: fadeIn 0.5s ease-in-out;
-}
-.popup-overlay-fade {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 998;
-}
 
-/* Centered popup */
-.popup-thankyou {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 999;
-  background: #fff;
-  border: 2px solid #000;
-  padding: 50px 30px 50px;
-  text-align: center;
-  border-radius: 8px;
-  max-width: 80%;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* Headline and text */
-.popup-thankyou h2 {
-  font-size: 34px;
-  margin-bottom: 15px;
-  color: #fff;
-  border: 2px solid #3873cc;
-  background-color: #3873cc;
-  display: inline-block;
-  padding: 10px 25px;
-  border-radius: 4px;
-}
-
-.popup-thankyou p {
-  font-size: 20px;
-  color: #000;
-  padding: 20px;
-  margin: 20px 0 0;
-  line-height: 1.5;
-}
-
-/* Top-right Close Button */
-.popup-close-btn {
-  position: absolute;
-  top: 10px;
-  right: 12px;
-  background: none;
-  border: none;
-  font-size: 30px;
-  font-weight: bold;
-  color: #3873cc;
-  cursor: pointer;
-  line-height: 1;
-  transition: 0.2s;
-}
-
-.popup-close-btn:hover {
-  color: #000;
-  transform: scale(1.2);
-}
-
-</style>
-
-<!-- Vanilla JS for Modal -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const openBtn = document.getElementById("openDemoModal");
-    const closeBtn = document.getElementById("closeDemoModal");
-    const modal = document.getElementById("demoModal");
-
-    if (!modal) return;
-
-    openBtn?.addEventListener("click", () => {
-      modal.classList.remove("hidden");
-      modal.classList.add("flex");
-      document.body.classList.add("overflow-hidden"); // Prevent background scroll
-    });
-
-    const closeModal = () => {
-      modal.classList.remove("flex");
-      modal.classList.add("hidden");
-      document.body.classList.remove("overflow-hidden");
-    };
-
-    closeBtn?.addEventListener("click", closeModal);
-
-    // Close when clicking outside modal box
-    modal.addEventListener("click", (e) => {
-      if (e.target === modal) closeModal();
-    });
-
-    // Optional: close with Esc key
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && modal.classList.contains("flex")) {
-        closeModal();
-      }
-    });
-  });
-  
-  
-    // This code for Table content - Hide and Show option 
-  
-  document.addEventListener('DOMContentLoaded', function() {
-    const toggleBtn = document.getElementById('toc-toggle');
-    const tocContent = document.getElementById('toc-content');
-
-    tocContent.style.transition = 'max-height 0.5s ease, opacity 0.5s ease';
-    tocContent.style.overflow = 'hidden';
-
-    let isVisible = true;
-
-    toggleBtn.addEventListener('click', () => {
-      if (isVisible) {
-        tocContent.style.maxHeight = '0';
-        tocContent.style.opacity = '0';
-        toggleBtn.textContent = "Show Table of Contents"; // change button text
-        isVisible = false;
-      } else {
-        tocContent.style.maxHeight = tocContent.scrollHeight + 'px';
-        tocContent.style.opacity = '1';
-        toggleBtn.textContent = "Hide Table of Contents"; // change button text
-        isVisible = true;
-      }
-    });
-
-    // Set initial maxHeight
-    tocContent.style.maxHeight = tocContent.scrollHeight + 'px';
-  });
-</script>
- 
-  <?php wp_footer(); ?>
+<?php wp_footer(); ?>
 </body>
 </html>

@@ -1,3 +1,22 @@
+/*
+Theme Name: Prime Doc Billing
+Theme URI: https://primedocbilling.com
+Author: Prime Doc Billing LLC
+Author URI: https://primedocbilling.com
+Description: A professional WordPress theme for Prime Doc Billing LLC, specializing in medical billing, coding, and revenue cycle management services. Features a modern design with Tailwind CSS, optimized for healthcare providers.
+Version: 1.1.0
+Requires at least: 5.8
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: primedocbilling
+Tags: healthcare, medical, business, custom-menu, featured-images, threaded-comments, translation-ready, block-styles, wide-blocks
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 body {
@@ -5,6 +24,62 @@ body {
   overflow-x: hidden;
 }
 
+/* Accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  z-index: 100000;
+  padding: 8px 15px;
+  background-color: #3873cc;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+  top: 6px;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+
+.screen-reader-text:focus {
+  background-color: #3873cc;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}
+
+/* Theme Styles */
 .testimonial-slider .slick-track {
   display: flex;
   align-items: center;

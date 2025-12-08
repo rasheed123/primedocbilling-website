@@ -14,35 +14,34 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo('charset'); ?>">
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<meta name="google-site-verification" content="g6k-mv4uZBfUQ9R2B05BIZ19nv_znqHg90gJzI0waKc" />
-
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 	<?php wp_body_open(); ?>
+	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'primedocbilling' ); ?></a>
 
 	<!-- Search -->
 	<div class="p-6 min-h-screen flex justify-center items-start min-w-screen w-full bg-black bg-opacity-90 fixed top-0 left-0 z-50 search-form-container invisible opacity-0 transition duration-300 delay-150 ease-in">
-		<img src="<?php echo get_theme_file_uri()?>/assets/images/close_big.png" alt="close" class="absolute top-8 right-8 close-search cursor-pointer" />
-		<form action="<?php echo home_url('/')?>" method="get" class="mt-10 w-full flex justify-center invisible translate-y-4 opacity-0 transition duration-300 delay-150 searchform" id="search-form">
+		<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/close_big.png' ) ); ?>" alt="<?php esc_attr_e( 'Close search', 'primedocbilling' ); ?>" class="absolute top-8 right-8 close-search cursor-pointer" />
+		<form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get" class="mt-10 w-full flex justify-center invisible translate-y-4 opacity-0 transition duration-300 delay-150 searchform" id="search-form">
 			<div class="bg-white w-full max-w-[500px] flex items-center border-b-4 border-[#00D1B2]">
-				<input type="search" name="s" placeholder="Search..." class="p-4 w-[92%] focus:outline-none" id="input__search" value="<?php echo get_search_query()?>" required/>
+				<input type="search" name="s" placeholder="<?php esc_attr_e( 'Search...', 'primedocbilling' ); ?>" class="p-4 w-[92%] focus:outline-none" id="input__search" value="<?php echo esc_attr( get_search_query() ); ?>" required/>
 				<label for="input__search">
-					<button type="submit" class="flex items-center justify-center"><img src="<?php echo get_theme_file_uri()?>/assets/images/search_icon.png" alt="icon" /></button>
+					<button type="submit" class="flex items-center justify-center"><img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/search_icon.png' ) ); ?>" alt="<?php esc_attr_e( 'Search icon', 'primedocbilling' ); ?>" /></button>
 				</label>
 			</div>
 		</form>
 	</div>
 	<!-- Mobile Header -->
 	<div class="flex flex-col justify-between min-h-screen w-screen bg-[#3873CC] text-white fixed left-0 top-0 z-50 mobile-menu -translate-x-full ease-in duration-300">
-		<img src="<?php echo get_theme_file_uri()?>/assets/images/close_big.png" alt="icon" class="mobile_icon_close absolute top-4 right-4 z-100" />
+		<img src="<?php echo esc_url( get_theme_file_uri( '/assets/images/close_big.png' ) ); ?>" alt="<?php esc_attr_e( 'Close menu', 'primedocbilling' ); ?>" class="mobile_icon_close absolute top-4 right-4 z-100" />
 		<ul class="flex flex-col gap-3 p-3 mt-8">
 			<li>
-				<a href="<?php echo site_url()?>" class="capitalize">home</a>
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="capitalize"><?php esc_html_e( 'Home', 'primedocbilling' ); ?></a>
 			</li>
 			
 			<li class="relative">

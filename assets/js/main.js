@@ -97,13 +97,18 @@ $(document).ready(function () {
     }
   });
 
-  AOS.init({
-    duration: 800,
-    offset: 60,
-    startEvent: "DOMContentLoaded",
-    once: true,
-    disable: 'phone',
-  });
+  if (typeof AOS !== "undefined") {
+    AOS.init({
+      duration: 800,
+      offset: 60,
+      startEvent: "DOMContentLoaded",
+      once: true,
+      disable: 'phone',
+    });
+  } else {
+    console.warn("AOS library is not loaded.");
+  }
+  
   function waitForContactForm7Submission() {
     const selectors = [
       $("#billing-form input"),

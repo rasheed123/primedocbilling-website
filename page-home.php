@@ -231,14 +231,6 @@ get_header();
   </div>
 </section>
 
-<script>
-  AOS.init({
-    duration: 800,
-    once: true,
-    mirror: false,
-  });
-</script>
-
 <!-- Who We Are -->
 <section class="py-10 lg:py-16 bg-[#fffff]">
   <div class="2xl:max-w-[1284px] xl:max-w-[1152px] lg:max-w-[984px] md:max-w-[744px] sm:max-w-[100%] px-6 sm:px-3 mx-auto">

@@ -155,19 +155,17 @@ function primedocbilling_scripts() {
 	echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
 	
 	// Load stylesheets with proper versioning
-	wp_enqueue_style( 'primedocbilling-tailwind-style', get_template_directory_uri() . '/assets/css/tailwind.prod.min.css', array(), $theme_version );
-	wp_enqueue_style( 'primedocbilling-aos-style', get_template_directory_uri() . '/assets/css/aos.css', array(), $theme_version );
+	// Check if Tailwind CSS file exists before enqueuing
+	$tailwind_css_path = get_template_directory() . '/assets/css/tailwind.prod.min.css';
+	$tailwind_css_uri  = get_template_directory_uri() . '/assets/css/tailwind.prod.min.css';
+
+	wp_enqueue_style( 'primedocbilling-tailwind-style', $tailwind_css_uri, array(), $theme_version );
+	wp_enqueue_style( 'primedocbilling-aos-style', get_template_directory_uri() . '/assets/css/aos.css', array(), $theme_version, true );
 	wp_enqueue_style( 'primedocbilling-slick-style', get_template_directory_uri() . '/assets/css/plugins/slick.1.8.1.min.css', array(), $theme_version );
 	wp_enqueue_style( 'primedocbilling-main-style', get_stylesheet_uri(), array(), $theme_version );
 	wp_enqueue_style( 'primedocbilling-offer-card-enhancements', get_template_directory_uri() . '/offer-card-enhancements.css', array(), $theme_version );
-	
-	// Load Font Awesome locally if available, otherwise use CDN with integrity
-	if ( file_exists( get_template_directory() . '/assets/css/all.min.css' ) ) {
-		wp_enqueue_style( 'primedocbilling-fontawesome', get_template_directory_uri() . '/assets/css/all.min.css', array(), $theme_version );
-	} else {
-		wp_enqueue_style( 'primedocbilling-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css', array(), '5.15.3' );
-	}
-	
+	wp_enqueue_style( 'primedocbilling-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css', array(), '5.15.3' );
+
 	// Load Google Fonts with display=swap for performance
 	wp_enqueue_style( 'primedocbilling-googlefonts-inter', 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap', array(), null );
 	
@@ -197,7 +195,12 @@ function primedocbilling_scripts() {
 	
 	// REMOVED: Tailwind CDN script - this is a major performance issue
 	// wp_enqueue_script( 'primedocbilling-tailwind-script', '//cdn.tailwindcss.com', array(), NULL, true);
-	
+
+	// If local Tailwind CSS is missing or incomplete, fallback to CDN for development
+	// if ( ! file_exists( get_template_directory_uri() . '/assets/css/tailwind.prod.min.css' ) ) {
+	// 	wp_enqueue_script( 'primedocbilling-tailwind-script', '//cdn.tailwindcss.com', array(), NULL, true );
+	// }
+
 	// Add defer attribute to non-critical scripts
 	add_filter( 'script_loader_tag', 'primedocbilling_defer_scripts', 10, 2 );
 }

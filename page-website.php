@@ -1,57 +1,58 @@
 <?php
+
 /** Template Name: Web Development Services for Medical Practices */
 get_header();
 ?>
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Web Development Services
-    </li>
-  </ol>
-</nav>
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Web Development Services for Medical Practices<br />in the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Web development services for medical practices involve creating a website tailored to healthcare providers. A custom website for providers includes many tools, like appointment scheduling and a telehealth dashboard.
-          </p>
-          <p>
-            Prime Doc Billing develops a website that is easy to access and run for providers. We ensure the website is user-friendly and HIPAA compliant for digital health care.
-          </p>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Web Development Services
+                    </li>
+                </ol>
+            </nav>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Web Development Services for Medical Practices<br />in the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Web development services for medical practices involve creating a website tailored to healthcare providers. A custom website for providers includes many tools, like appointment scheduling and a telehealth dashboard.
+                </p>
+                <p>
+                    Prime Doc Billing develops a website that is easy to access and run for providers. We ensure the website is user-friendly and HIPAA compliant for digital health care.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <img alt="3D style modern icon illustration of medical web development with healthcare symbols and digital devices" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/web-development-hero.jpg" />
-      </div>
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical web development with healthcare symbols and digital devices" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/web-development-hero.jpg" />
+        </div>
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -61,14 +62,14 @@ get_header();
             <!-- Section 1 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Do Providers Need Specialized Websites?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/Why Do Healthcare Providers Need Specialized Websites.webp" alt="Why Do Healthcare Providers Need Specialized Websites"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/Why Do Healthcare Providers Need Specialized Websites.webp" alt="Why Do Healthcare Providers Need Specialized Websites" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Healthcare professionals need a specialized website to keep their practice up-to-date in the industry. We make it accessible for all kinds of audiences. Whether you are a solo practitioner or working in a large setting, we have got your website covered.
                 </p>
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Below are some of the main reasons why healthcare providers need specialized websites.
                 </p>
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Enhance Patient Engagement and Trust</h3>
@@ -83,7 +84,7 @@ get_header();
                             <li><strong>ADA Compliance:</strong> Our experts ensure to make it work well on a smartphone. So the people with disabilities can feel included and valued by accessing it easily.</li>
                         </ul>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Streamline Administrative Tasks</h3>
                         <p class="text-gray-600 mb-3">
@@ -97,7 +98,7 @@ get_header();
                             <li><strong>Encrypted Communication:</strong> Patients can easily communicate via encrypted chats directly with the providers. Our experts make it secure to remain HIPAA compliant.</li>
                         </ul>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Ensure Compliance with HIPAA</h3>
                         <p class="text-gray-600">
@@ -145,13 +146,13 @@ get_header();
             <!-- Section 2 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Does Prime Doc Billing Deliver Customized Medical Web Solutions?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/How Does Prime Doc Billing Deliver Customized Medical Web Solutions.webp" alt="How Does Prime Doc Billing Deliver Customized Medical Web Solutions"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/How Does Prime Doc Billing Deliver Customized Medical Web Solutions.webp" alt="How Does Prime Doc Billing Deliver Customized Medical Web Solutions" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing specializes in creating customized medical web solutions to enhance patient experience. We strengthen your digital presence to attract more customers. This increases the financial stability of your healthcare practice.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -166,7 +167,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -180,7 +181,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -200,13 +201,13 @@ get_header();
             <!-- Section 3 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">What Features Do We Offer in a Medical Website?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/What Features Do We Offer in a Healthcare Website.webp" alt="What Features Do We Offer in a Healthcare Website"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/What Features Do We Offer in a Healthcare Website.webp" alt="What Features Do We Offer in a Healthcare Website" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Our designed websites include official tools and features like:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -221,7 +222,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -235,7 +236,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -249,7 +250,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -263,7 +264,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -297,13 +298,13 @@ get_header();
             <!-- Section 4 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Do We Ensure Compliance and Security in Our Web Solutions?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/How Do We Ensure Compliance and Security in Our Web Solutions.webp" alt="How Do We Ensure Compliance and Security in Our Web Solutions"class="w-full h-auto rounded-lg shadow-lg mb-6">               
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/How Do We Ensure Compliance and Security in Our Web Solutions.webp" alt="How Do We Ensure Compliance and Security in Our Web Solutions" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         At Prime Doc Billing, we keep your digital practice as secure as possible by these methods:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -318,7 +319,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -332,7 +333,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -366,13 +367,13 @@ get_header();
             <!-- Section 5 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">What Is Our Medical Web Development Process?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/What Is Our Healthcare Web Development Process.webp" alt="What Is Our Healthcare Web Development Process"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/What Is Our Healthcare Web Development Process.webp" alt="What Is Our Healthcare Web Development Process" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         We design our process to deliver user-friendly and compliant solutions. We ensure that your website meets industry requirements and patient needs. Here’s a brief overview of how our healthcare web development process works.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -387,7 +388,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -401,7 +402,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -434,14 +435,14 @@ get_header();
 
             <!-- Section 6 -->
             <section class="mb-16">
-                <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Choose Prime Doc Billing for Your Medical Practice’s Web Development Needs?</h2>         
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/Why Choose Prime Doc Billing for Your Healthcare Web Development Needs.webp" alt="WWhy Choose Prime Doc Billing for Your Healthcare Web Development Needs"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Choose Prime Doc Billing for Your Medical Practice’s Web Development Needs?</h2>
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Web-development/Why Choose Prime Doc Billing for Your Healthcare Web Development Needs.webp" alt="WWhy Choose Prime Doc Billing for Your Healthcare Web Development Needs" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         If you want your website to reach the maximum audience, you are on the right platform! We cater to every need a healthcare website requires and deliver the best product to our clients.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -456,7 +457,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -470,7 +471,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -490,7 +491,7 @@ get_header();
             <!-- Section 7 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Get in Touch with Prime Doc Billing Today!</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Ready to take your online presence to the next level? Prime Doc Billing delivers custom solutions that drive the best results! Connect with us now.
@@ -502,7 +503,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -515,7 +516,7 @@ get_header();
                                 <p>Medical websites require HIPAA compliance for patient security. We provide end-to-end encryption to secure your confidential data. Medical websites also include features like appointment scheduling, patient portals, and telehealth integration.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How long does it take to develop a medical website?</h3>
@@ -532,7 +533,7 @@ get_header();
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can my existing website be upgraded to meet healthcare standards?</h3>
@@ -544,7 +545,7 @@ get_header();
                                 <p>Absolutely! We can upgrade your website with updated compliance standards and payers’ regulations.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Do you provide ongoing support and maintenance after launching the website?</h3>
@@ -556,7 +557,7 @@ get_header();
                                 <p>Yes! Our work does not end at the launch. We provide ongoing support and maintenance to keep your website updated and SEO optimized.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Is it possible to integrate telemedicine features into the website?</h3>
@@ -603,7 +604,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our web development services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -623,7 +624,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

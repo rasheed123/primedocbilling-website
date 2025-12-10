@@ -1,4 +1,5 @@
 <?php
+
 /** Template Name: Accounts Receivable Management in the USA */
 get_header();
 ?>
@@ -7,55 +8,55 @@ get_header();
 <link rel="stylesheet" href="<?php echo get_theme_file_uri(); ?>/services.css">
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services/" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Accounts Receivable Management
-    </li>
-  </ol>
-</nav>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services/" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Accounts Receivable Management
+                    </li>
+                </ol>
+            </nav>
 
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Boost Your Revenue with Comprehensive AR Management Solutions in the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            The entire cash flow of a practice business in the USA depends on the Accounts Receivable. It starts with patients receiving the medical practice services. And ends when a doctor is paid for those treatments. 
-          </p>
-          <p>
-            Prime Doc Billing streamlines the entire process from accurate claim submission to denial management. Our goal is to help your company gain a healthy financial position. We ensure maximum revenue by speeding up the payments from respective payers.
-          </p>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Boost Your Revenue with Comprehensive AR Management Solutions in the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    The entire cash flow of a practice business in the USA depends on the Accounts Receivable. It starts with patients receiving the medical practice services. And ends when a doctor is paid for those treatments.
+                </p>
+                <p>
+                    Prime Doc Billing streamlines the entire process from accurate claim submission to denial management. Our goal is to help your company gain a healthy financial position. We ensure maximum revenue by speeding up the payments from respective payers.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <img alt="3D style modern icon illustration of accounts receivable management with financial symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
-      </div>
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of accounts receivable management with financial symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -65,13 +66,13 @@ get_header();
             <!-- Section 1: Here’s How Our Accounts Receivable Management Services Work -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Here’s How Our Accounts Receivable Management Services Work</h2>
-                    <div class="mt-6 mb-6">
+                <div class="mt-6 mb-6">
                     <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/accounts-recievables/How-Our-Accounts-Receivable-Management-Services-Work.png" alt="Descriptive Alt Text for Your Image" class="w-full h-auto rounded-lg shadow-lg">
-                    </div>
+                </div>
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Prime Doc Billing helps you get paid faster to increase your business’s financial health. Our AR Management Service consists of several steps to complete the process on time. Here’s a brief overview of how it works:
                 </p>
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Create and Send Claims</h3>
@@ -82,7 +83,7 @@ get_header();
                             If the insurance company denies the claim, our experts analyze the entire process from the beginning. We then determine whether the denial was made in error or if an appeal needs to be submitted.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Accounts Receivable Follow-up</h3>
                         <p class="text-gray-600">
@@ -100,7 +101,7 @@ get_header();
                             <li>If the patient is still unable to pay, they are then sent to the collection agency with the consent of doctor</li>
                         </ul>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Denial Identification, and Recovery</h3>
                         <p class="text-gray-600">
@@ -144,7 +145,7 @@ get_header();
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Clean-Up of Outstanding AR Backlogs</h3>
                         <p class="text-gray-600">
-                            Our experts resolve the oldest outstanding balances that have been overlooked or delayed. We resubmit those claims after making necessary corrections. The recovery of pending revenue brings cash flow to the provider. Backlog clean-up frees up space and is important for efficient AR management. 
+                            Our experts resolve the oldest outstanding balances that have been overlooked or delayed. We resubmit those claims after making necessary corrections. The recovery of pending revenue brings cash flow to the provider. Backlog clean-up frees up space and is important for efficient AR management.
                         </p>
                     </div>
                 </div>
@@ -153,9 +154,9 @@ get_header();
             <!-- Section 2: Optimizing Outcomes Through CCOF Implementation -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Optimizing Outcomes Through CCOF Implementation</h2>
-                    <div class="mt-6 mb-6">
+                <div class="mt-6 mb-6">
                     <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/accounts-recievables/Optimizing Outcomes Through CCOF Implementation.png" alt="Optimizing Outcomes Through CCOF Implementation" class="w-full h-auto rounded-lg shadow-lg">
-                    </div>
+                </div>
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Credit Card On File (CCOF) refers to storing a patient’s credit card information in the software. We take patients’ consent to store their credentials and automatically charge them for outstanding balances. Our team sets the payment deduction strategy according to the mutual payment plan made.
@@ -165,16 +166,16 @@ get_header();
                     CCOF implementation saves the time and effort of sending the invoices first, and then waiting for them to pay. However, it requires a particular training to work efficiently with CCOF.
                 </p>
                 <p class="text-lg text-gray-600 leading-relaxed">
-                    Prime Doc Billing uses CCOF to streamline your revenue by ensuring faster claim processing and improved cash flow for your medical practice. 
+                    Prime Doc Billing uses CCOF to streamline your revenue by ensuring faster claim processing and improved cash flow for your medical practice.
                 </p>
             </section>
 
             <!-- Section 3: Utilizing the HCFA 1500 Form: A Critical Tool for Accounts Receivable -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Utilizing the HCFA 1500 Form: A Critical Tool for Accounts Receivable</h2>
-                   <div class="mt-6 mb-6">
+                <div class="mt-6 mb-6">
                     <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/accounts-recievables/Utilizing the HCFA 1500 Form_ A Critical Tool for Accounts Receivable.png" alt="Utilizing the HCFA 1500 Form_ A Critical Tool for Accounts Receivable" class="w-full h-auto rounded-lg shadow-lg">
-                    </div>
+                </div>
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         The HCFA 1500 or CMS 1500 is the form that we use to bill federal (Medicare and Medicaid) and private insurance companies. It contains:
@@ -187,16 +188,16 @@ get_header();
                     </ul>
                 </div>
                 <p class="text-lg text-gray-600 leading-relaxed">
-                    Prime Doc Billing efficiently uses this form to maintain a healthy Accounts Receivable cycle. We can manage funds and increase the reimbursement process with the help of this form. 
+                    Prime Doc Billing efficiently uses this form to maintain a healthy Accounts Receivable cycle. We can manage funds and increase the reimbursement process with the help of this form.
                 </p>
             </section>
 
             <!-- Section 4: Why AR Management Matters for Medical Practices -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why AR Management Matters for Medical Practices</h2>
-                   <div class="mt-6 mb-6">
+                <div class="mt-6 mb-6">
                     <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/accounts-recievables/Why AR Management Matters for Medical Practice.png" alt="Why AR Management Matters for Medical Practice" class="w-full h-auto rounded-lg shadow-lg">
-                    </div>
+                </div>
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     AR management improves the financial health of the providers. We use proactive AR management to recover most of what the payers owe you. Our goal is to make the revenue cycle as short as possible for faster claims and reimbursements.
                 </p>
@@ -213,9 +214,9 @@ get_header();
             <!-- Section 5: Why Choose Prime Doc Billing for AR Management? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Choose Prime Doc Billing for AR Management?</h2>
-                   <div class="mt-6 mb-6">
+                <div class="mt-6 mb-6">
                     <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/accounts-recievables/Why Choose Prime Doc Billing for AR Management.png" alt="Why Choose Prime Doc Billing for AR Management" class="w-full h-auto rounded-lg shadow-lg">
-                    </div>
+                </div>
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -225,7 +226,7 @@ get_header();
                         </div>
                         <div>
                             <p class="text-gray-600">
-                                Our qualified experts in AR management have in-depth knowledge and years of industry experience to streamline your Accounts Receivable process. 
+                                Our qualified experts in AR management have in-depth knowledge and years of industry experience to streamline your Accounts Receivable process.
                             </p>
                         </div>
                     </div>
@@ -237,7 +238,7 @@ get_header();
                         </div>
                         <div>
                             <p class="text-gray-600">
-                                We have a proven track record of successful reimbursement from the payers. And also the retrieval of lost revenue. 
+                                We have a proven track record of successful reimbursement from the payers. And also the retrieval of lost revenue.
                             </p>
                         </div>
                     </div>
@@ -249,7 +250,7 @@ get_header();
                         </div>
                         <div>
                             <p class="text-gray-600">
-                                We use advanced technology software to provide real-time tracking and automated follow-ups. This enhances efficiency for our providers and improves transparency. 
+                                We use advanced technology software to provide real-time tracking and automated follow-ups. This enhances efficiency for our providers and improves transparency.
                             </p>
                         </div>
                     </div>
@@ -283,9 +284,9 @@ get_header();
             <!-- Section 6: Accelerate Cash Flow with Our Proven AR Workflow Process -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Accelerate Cash Flow with Our Proven AR Workflow Process</h2>
-                    <div class="mt-6 mb-6">
+                <div class="mt-6 mb-6">
                     <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/accounts-recievables/Accelerate Cash Flow with Our Proven AR Workflow Process.png" alt="Accelerate Cash Flow with Our Proven AR Workflow Process" class="w-full h-auto rounded-lg shadow-lg">
-                    </div>
+                </div>
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     The goal of our AR workflow is to maximize revenue and minimize delays. We stay compliant to give you a positive patient experience. The following are the three steps of our workflow process:
                 </p>
@@ -338,7 +339,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -360,7 +361,7 @@ get_header();
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do you help reduce AR days for healthcare practices?</h3>
@@ -373,7 +374,7 @@ get_header();
                                 <p class="mt-2">Another way to reduce AR days is CCOF implementation. With the patient's consent, we can get the timely reimbursements from their credit card.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Do you handle AR cleanup for older claims over 90+ days?</h3>
@@ -385,7 +386,7 @@ get_header();
                                 <p>Yes! At Prime Doc Billing, our team deep dives into older claims of 90+ days that have reimbursement potential.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can I track the progress of AR follow-ups and recovery?</h3>
@@ -397,7 +398,7 @@ get_header();
                                 <p>Yes! We deliver timely reports of follow-up and recovery to ensure full transparency to our clients.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Is this service customizable based on my practice’s needs or specialty?</h3>
@@ -420,7 +421,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our AR management services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -440,7 +441,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

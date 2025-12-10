@@ -1,4 +1,5 @@
 <?php
+
 /** Template Name: Provider Credentialing Services in New York */
 get_header();
 ?>
@@ -8,65 +9,64 @@ get_header();
 
 <!-- Hero Section -->
 <section class="py-12 md:py-20 bg-[#3873cc] relative overflow-hidden font-sans">
-  
-  <!-- Background Image with 30% opacity -->
-  <div class="absolute inset-0 z-0 opacity-20">
-    <img 
-      src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg" 
-      alt="Background pattern" 
-      class="w-full h-full object-cover"
-    />
-  </div>
 
-  <!-- Foreground Content -->
-  <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative">
-    
-    <!-- Left Content -->
-    <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-      <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-        <ol class="inline-flex items-center space-x-2">
-          <li class="flex items-center">
-            <a href="/" class="hover:underline text-white/80">Home</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li class="flex items-center">
-            <a href="/new-york/" class="hover:underline text-white/80">New York</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li aria-current="page" class="font-semibold text-white">
-            Provider Credentialing Services
-          </li>
-        </ol>
-      </nav>
-      <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-        Provider Credentialing Services in New York
-      </h1>
-      <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-        <p>
-          Provider Credentialing Services in New York assist healthcare providers or organizations in getting credentialed with insurance companies. The high volume of patients in New York requires providers to credential with maximum payers. Prime Doc Billing aims to expand your patient base.
-        </p>
-        <p>
-          Prime Doc Billing helps the New York providers navigate multiple credentialing authorities. We figure out the payers that best fit their practice and patient population. Our team also helps solve your network restriction problems with timely application processing.
-        </p>
-      </div>
-      <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-        <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-          Book a Demo
-        </button>
-      </a>
+    <!-- Background Image with 30% opacity -->
+    <div class="absolute inset-0 z-0 opacity-20">
+        <img
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg"
+            alt="Background pattern"
+            class="w-full h-full object-cover" />
     </div>
 
-    <!-- Right Image -->
-    <div class="w-full max-w-lg lg:max-w-xl relative">
-      <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+    <!-- Foreground Content -->
+    <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative">
+
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/new-york/" class="hover:underline text-white/80">New York</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Provider Credentialing Services
+                    </li>
+                </ol>
+            </nav>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Provider Credentialing Services in New York
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Provider Credentialing Services in New York assist healthcare providers or organizations in getting credentialed with insurance companies. The high volume of patients in New York requires providers to credential with maximum payers. Prime Doc Billing aims to expand your patient base.
+                </p>
+                <p>
+                    Prime Doc Billing helps the New York providers navigate multiple credentialing authorities. We figure out the payers that best fit their practice and patient population. Our team also helps solve your network restriction problems with timely application processing.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </div>
 </section>
 
 <!-- Main Content -->
@@ -80,9 +80,9 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Credentialing in New York is known for its complexity because of the following pressing issues:
                 </p>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Provider Credentialing Services in NY/Challenges in NY Credentialing_ From Delays to Denials.webp" alt="Challenges in NY Credentialing: From Delays to Denials" class="w-full h-auto rounded-lg shadow-lg mb-6">
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Prolonged Credentialing Delays</h3>
@@ -90,17 +90,17 @@ get_header();
                             New York-based insurers often have inconsistent documentation requirements. Our team proactively communicates with the payers to get accurate requirements for proper submissions. We take consistent follow-ups to reduce credentialing delays to make your practice run efficiently.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Rigid Hospital Privilege Requirements</h3>
                         <p class="text-gray-600">
-                            Hospital privileging is a requirement to ensure providers’ education, training, and clinical experience. Prime Doc Billing handles this complex process in New York. We provide a detailed proof of clinical competencies for every requested privilege. 
+                            Hospital privileging is a requirement to ensure providers’ education, training, and clinical experience. Prime Doc Billing handles this complex process in New York. We provide a detailed proof of clinical competencies for every requested privilege.
                         </p>
                         <p class="text-gray-600">
                             We understand New York’s regulatory environment. Hence, we help them avoid common errors of incomplete documentation, mismatched privilege requests, and outdated license submissions.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Complex Re-Credentialing and Surprise Audits</h3>
                         <p class="text-gray-600">
@@ -150,9 +150,9 @@ get_header();
             <!-- Section 2: Our Credentialing Process Tailored for NY Providers -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Our Credentialing Process Tailored for NY Providers</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Provider Credentialing Services in NY/Our Credentialing Process Tailored for NY Providers.webp" alt="Our Credentialing Process Tailored for NY Providers" class="w-full h-auto rounded-lg shadow-lg mb-6">
-                
+
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         We understand the challenges that come with New York credentialing. That is why we built our step-by-step credentialing process specifically for the payers of New York. Our team ensures that we meet their regulations and expectations.
@@ -183,7 +183,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -197,7 +197,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -207,7 +207,7 @@ get_header();
                         <div>
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Enrollment Submission with New York Insurers</h3>
                             <p class="text-gray-600">
-                                We credential your healthcare practice with all the major insurers. They include Healthfirst, Fidelis Care, Emblem Health, United Healthcare, and more. Our team handles all the administrative workload of 
+                                We credential your healthcare practice with all the major insurers. They include Healthfirst, Fidelis Care, Emblem Health, United Healthcare, and more. Our team handles all the administrative workload of
                             </p>
                             <ul class="list-disc list-inside text-gray-600 ml-4">
                                 <li>Application submission</li>
@@ -220,7 +220,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -237,7 +237,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -271,15 +271,15 @@ get_header();
             <!-- Section 3: Why Timely Credentialing Matters for NY Medical Practices? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Timely Credentialing Matters for NY Medical Practices?</h2>
-                
-                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Provider Credentialing Services in NY/Why Timely Credentialing Matters for NY Medical Practices.webp" alt="Why Timely Credentialing Matters for NY Medical Practices" class="w-full h-auto rounded-lg shadow-lg mb-6">
+
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Provider Credentialing Services in NY/Why Timely Credentialing Matters for NY Medical Practices.webp" alt="Why Timely Credentialing Matters for NY Medical Practices" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         In the fast-paced environment of New York healthcare, it is important to get yourself timely credentialed. The following are a few problems that may arise if you fail to do so:
                     </p>
                 </div>
-                
+
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
@@ -291,7 +291,7 @@ get_header();
                             The New York policies do not always allow retroactive billing, which can disrupt your cash flow. Our team ensures that this does not happen by credentialing you in the right timeframe.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Denied Enrollments</h3>
@@ -299,7 +299,7 @@ get_header();
                             Prime Doc Billing ensures that your credentialing applications are complete and accurate. We also double-check your application to match the insurer-specific formats and deadlines. This reduces the chances of silent enrollment denials.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Legal and Compliance Risks</h3>
@@ -307,7 +307,7 @@ get_header();
                             The New York Department of Health (DOH) and Office of Professional Medical Conduct (OPMC) impose strict penalties for billing before credentialing. Prime Doc Billing helps you avoid legal violations. We keep your practice compliant with New York’s strict healthcare laws.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Disruption to Patient Access</h3>
@@ -315,7 +315,7 @@ get_header();
                             Delays in credentialing mean your patients won’t be able to use your services. Prime Doc Billing offers on-time credentialing to support your patient care continuity. We ensure your practice gets maximum patients. We also minimize enrollment gaps and keep your profile active across major payer panels.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Loss of Competitive Advantage</h3>
@@ -341,7 +341,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -354,7 +354,7 @@ get_header();
                                 <p>Provider credentialing takes around 90-120 days, depending on the payer.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Do you assist with Medicaid Managed Care credentialing in NY?</h3>
@@ -366,7 +366,7 @@ get_header();
                                 <p>Yes! Prime Doc Billing specializes in Medicaid Managed Care credentialing in New York. We handle the entire step-by-step process of credentialing. We also ensure that you meet all the requirements for each insurance agency.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can you enroll providers with payers like Healthfirst or Fidelis Care?</h3>
@@ -378,7 +378,7 @@ get_header();
                                 <p>Absolutely! We work with all the major payers of New York, including Healthfirst and Fidelis Care.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Do I still need re-credentialing if I’m already enrolled with insurance plans in NY?</h3>
@@ -390,7 +390,7 @@ get_header();
                                 <p>Yes. Re-credentialing is typically required every 2-3 years by most insurers in New York.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What specialties do you support for credentialing in NY?</h3>
@@ -413,7 +413,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our credentialing services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -433,7 +433,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

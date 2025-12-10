@@ -1,4 +1,5 @@
 <?php
+
 /** Template Name: Thank You Page */
 get_header();
 ?>

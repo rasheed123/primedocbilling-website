@@ -1,4 +1,5 @@
 <?php
+
 /** Template Name: Medical Billing Services in New York */
 get_header();
 ?>
@@ -9,63 +10,62 @@ get_header();
 <!-- Hero Section -->
 <section class="py-12 md:py-20 bg-[#3873cc] font-sans relative overflow-hidden">
 
-  <!-- Background Image with 30% opacity -->
-  <div class="absolute inset-0 z-0 opacity-20">
-    <img 
-      src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg" 
-      alt="Background pattern" 
-      class="w-full h-full object-cover"
-    />
-  </div>
-
-  <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative z-10">
-    <!-- Left Content -->
-    <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-      <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-        <ol class="inline-flex items-center space-x-2">
-          <li class="flex items-center">
-            <a href="/" class="hover:underline text-white/80">Home</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li class="flex items-center">
-            <a href="/newyork" class="hover:underline text-white/80">New York</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li aria-current="page" class="font-semibold text-white">
-            Medical Billing Services in New York
-          </li>
-        </ol>
-      </nav>
-
-      <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-        Medical Billing Services in New York: Local Challenges, Smart Solutions
-      </h1>
-      <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-        <p>
-          Operating Medical Billing Services in New York brings out a complex set of challenges. New York Medical Billing has ever-evolving and dense regulations. The government and state authorities shape them to handle a high patient volume.
-        </p>
-        <p>
-          Prime Doc Billing navigates the high patient volume of New York practices with complete precision. We do not let administrative burden slow us down or compromise quality care in any way. We hold deep expertise in New York’s changing regulatory environment. It ensures cleaner claims and faster reimbursements.
-        </p>
-      </div>
-      <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-        <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-          Book a Demo
-        </button>
-      </a>
+    <!-- Background Image with 30% opacity -->
+    <div class="absolute inset-0 z-0 opacity-20">
+        <img
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg"
+            alt="Background pattern"
+            class="w-full h-full object-cover" />
     </div>
 
-    <!-- Right Image -->
-    <div class="w-full max-w-lg lg:max-w-xl relative">
-      <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+    <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative z-10">
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/newyork" class="hover:underline text-white/80">New York</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Medical Billing Services in New York
+                    </li>
+                </ol>
+            </nav>
+
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Medical Billing Services in New York: Local Challenges, Smart Solutions
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Operating Medical Billing Services in New York brings out a complex set of challenges. New York Medical Billing has ever-evolving and dense regulations. The government and state authorities shape them to handle a high patient volume.
+                </p>
+                <p>
+                    Prime Doc Billing navigates the high patient volume of New York practices with complete precision. We do not let administrative burden slow us down or compromise quality care in any way. We hold deep expertise in New York’s changing regulatory environment. It ensures cleaner claims and faster reimbursements.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </div>
 </section>
 
 
@@ -83,7 +83,7 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Prime Doc Billing’s experts are trained to meet the demands of New York’s complex healthcare billing system. Our team holds in-depth knowledge of:
                 </p>
-                
+
                 <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
                     <li>New York-specific payer policies</li>
                     <li>Regulatory requirements</li>
@@ -98,7 +98,7 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Prime Doc Billing develops core strategies for revenue optimization. They are specifically tailored to New York’s unique challenges.
                 </p>
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
@@ -107,7 +107,7 @@ get_header();
                             We stay on top of the latest changes in Medicaid, Medicare, and commercial payer policies in New York. This proactive approach ensures the claims are coded and submitted accurately the first time. We focus on minimizing errors to reduce administrative backlogs and accelerate maximum cash flow.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Timely Follow-ups</h3>
@@ -115,7 +115,7 @@ get_header();
                             The high volume of patients in New York increases the possibility of claims getting lost in the shuffle. Therefore, we follow up on each outstanding claim regularly to keep the reimbursements on schedule. It also decreases the chances of aging A/R.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Denial Reduction</h3>
@@ -129,7 +129,7 @@ get_header();
             <!-- Section 2: Prime Doc Billing’s Tailored Medical Billing Solutions For New York Practices -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Prime Doc Billing’s Tailored Medical Billing Solutions For New York Practices</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical Virtual Scribe Services in NY/Key Benefits of Our Virtual Medical Scribes.webp" alt="Key Benefits of Our Virtual Medical Scribes" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -137,7 +137,7 @@ get_header();
                         Prime Doc Billing customizes the core services to meet the unique demands of New York providers. We understand the complexity of New York medical practices. Therefore, our team tailors the billing strategies accordingly.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -152,7 +152,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -166,7 +166,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -180,7 +180,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -194,7 +194,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -312,15 +312,15 @@ get_header();
             <!-- Section 3: What Makes Prime Doc Billing the Ideal Local Billing Partner for New York Healthcare Providers? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">What Makes Prime Doc Billing the Ideal Local Billing Partner for New York Healthcare Providers?</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical Virtual Scribe Services in NY/Our Commitment to HIPAA-Compliant Virtual Scribing Services.webp" alt="Our Commitment to HIPAA-Compliant Virtual Scribing Services" class="w-full h-auto rounded-lg shadow-lg mb-6">
-                
+
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing is your ideal local billing partner with deep roots in New York’s complex healthcare system.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -335,7 +335,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -349,7 +349,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -363,7 +363,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -385,7 +385,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -405,7 +405,7 @@ get_header();
             <!-- Section 4: Ready to Discover Smarter Billing for New York Practices? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Ready to Discover Smarter Billing for New York Practices?</h2>
-                
+
                 <!-- <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical Virtual Scribe Services in NY/Optimizing Clinical Workflows Through Professional Scribing Support.webp" alt="Optimizing Clinical Workflows Through Professional Scribing Support" class="w-full h-auto rounded-lg shadow-lg mb-6"> -->
 
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
@@ -419,7 +419,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -438,7 +438,7 @@ get_header();
                                 <p class="mt-2">Prime Doc Billing stays ahead of every challenge to make your New York practice run smoothly.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do your billing services help practices in New York manage Medicaid claims?</h3>
@@ -450,7 +450,7 @@ get_header();
                                 <p>Prime Doc Billing specializes in New York Medicaid billing claims. We are well-versed with their requirements, rules and pre authorization protocols. Our proactive claim submissions are tailored to New York medical standards.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Are your services compliant with New York State healthcare regulations?</h3>
@@ -462,7 +462,7 @@ get_header();
                                 <p>Absolutely! We operate in full compliance with government and New York healthcare regulations. We ensure your billing stays audit ready at all times.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Which insurance companies do you work with in New York?</h3>
@@ -484,7 +484,7 @@ get_header();
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can you integrate with EHR systems commonly used in New York clinics?</h3>
@@ -519,7 +519,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our medical billing services in New York.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -539,7 +539,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

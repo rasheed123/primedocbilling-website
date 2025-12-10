@@ -1,58 +1,59 @@
 <?php
+
 /** Template Name: Medical Virtual Assistant Services in the USA */
 get_header();
 ?>
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Medical Virtual Assistant Services
-    </li>
-  </ol>
-</nav>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Medical Virtual Assistant Services
+                    </li>
+                </ol>
+            </nav>
 
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Reliable Medical Billing Virtual Assistant<br />Service in the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Medical billing Virtual Assistants are trained professionals who support healthcare providers. It includes handling administrative and communicative tasks.
-          </p>
-          <p>
-            Prime Doc Billing’s MVAs have years of experience in handling your patients’ data, queries, and the complete scope of work with compliance. We provide full support in decreasing your administrative workload so you can focus on patient care.
-          </p>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Reliable Medical Billing Virtual Assistant<br />Service in the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Medical billing Virtual Assistants are trained professionals who support healthcare providers. It includes handling administrative and communicative tasks.
+                </p>
+                <p>
+                    Prime Doc Billing’s MVAs have years of experience in handling your patients’ data, queries, and the complete scope of work with compliance. We provide full support in decreasing your administrative workload so you can focus on patient care.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image (Placeholder - you might want to add an image relevant to MVAs) -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <img alt="3D style modern icon illustration of medical virtual assistant with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
-      </div>
+        <!-- Right Image (Placeholder - you might want to add an image relevant to MVAs) -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical virtual assistant with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -63,12 +64,12 @@ get_header();
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Prime Doc Billing’s Top Services as Your Medical Virtual Assistant</h2>
 
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/Prime Doc Billing’s Top Services as Your Medical Virtual Assistant.webp" alt="Prime Doc Billing’s Top Services as Your Medical Virtual Assistant"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/Prime Doc Billing’s Top Services as Your Medical Virtual Assistant.webp" alt="Prime Doc Billing’s Top Services as Your Medical Virtual Assistant" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     We provide a wide range of Medical Virtual Services for healthcare providers. A few of them are:
                 </p>
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Administrative Services</h3>
@@ -76,14 +77,14 @@ get_header();
                             Our experts provide you with administrative support to decrease your workload. This helps you in attending to multiple patients a day. Some of our administrative services are:
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Appointment Scheduling</h3>
                         <p class="text-gray-600">
                             We manage and confirm the patient’s appointments and send them regular reminders. This reduces the chances of missed appointments, which also saves your valuable time. Our experts manage your entire calendar in advance to help you arrange your schedule accordingly.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Verification of Benefits</h3>
                         <p class="text-gray-600">
@@ -167,8 +168,8 @@ get_header();
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Prime Doc Billing’s Top 5 Benefits to Healthcare Providers</h2>
 
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/Prime Doc Billing’s Top 5 Benefits to Healthcare Providers.webp" alt="Prime Doc Billing’s Top 5 Benefits to Healthcare Providers"class="w-full h-auto rounded-lg shadow-lg mb-6">
-                
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/Prime Doc Billing’s Top 5 Benefits to Healthcare Providers.webp" alt="Prime Doc Billing’s Top 5 Benefits to Healthcare Providers" class="w-full h-auto rounded-lg shadow-lg mb-6">
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Reduced Administrative Burden</h3>
@@ -176,28 +177,28 @@ get_header();
                             As we handle their administrative burden, it helps them focus more on patient treatment. We save their time and enter all the paperwork with accuracy to prevent errors.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Cost Efficiency</h3>
                         <p class="text-gray-600">
-                            We offer the most affordable services and cost way less than the in-house staff. 
+                            We offer the most affordable services and cost way less than the in-house staff.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Scalability</h3>
                         <p class="text-gray-600">
                             We do not burden you with long-term commitments. You can either scale up your bills during busy days or scale down during slow days. This means you will not have to pay for unnecessary costs when the services are not needed. Our team only charges you for the services rendered.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Customized Availability for Practice Hours</h3>
                         <p class="text-gray-600">
                             We schedule our services according to your practice hours. Our team is also available for any emergency services you might need from us.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Increased Revenue</h3>
                         <p class="text-gray-600">
@@ -211,8 +212,8 @@ get_header();
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Do Our Advanced Tools and Technologies Enhance Your Medical Practice?</h2>
 
-                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/How Do Our Advanced Tools and Technologies Enhance Your Medical Practice.webp" alt="How Do Our Advanced Tools and Technologies Enhance Your Medical Practice"class="w-full h-auto rounded-lg shadow-lg mb-6">
-                
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/How Do Our Advanced Tools and Technologies Enhance Your Medical Practice.webp" alt="How Do Our Advanced Tools and Technologies Enhance Your Medical Practice" class="w-full h-auto rounded-lg shadow-lg mb-6">
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">EMR/EHR Platforms</h3>
@@ -220,14 +221,14 @@ get_header();
                             Our MVAs are trained to work efficiently with the EMR and EHR platforms that are provided by the doctors’ office. We enter accurate data, provide medical coding, and maintain documentation. We ensure that your records are always up-to-date.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">HIPAA Compliant Communication Tools</h3>
                         <p class="text-gray-600">
                             We prioritize security with HIPAA-compliant communication tools. Our experts provide safe communication of your team to your patients. We ensure that the patients feel safe with your practice to make it thrive.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Practice Management Software (PMS)</h3>
                         <p class="text-gray-600">
@@ -240,9 +241,9 @@ get_header();
             <!-- Section 4: How Do We Ensure Compliance and Safety? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Do We Ensure Compliance and Safety?</h2>
-                
-                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/How Do We Ensure Compliance and Safety.webp" alt="How Do We Ensure Compliance and Safety"class="w-full h-auto rounded-lg shadow-lg mb-6">
-                
+
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/How Do We Ensure Compliance and Safety.webp" alt="How Do We Ensure Compliance and Safety" class="w-full h-auto rounded-lg shadow-lg mb-6">
+
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing prioritizes compliance and safety since your patients’ trust depends on it. We handle Protected Health Information (PHI) with complete security that follows legal and ethical standards. Moreover, our experts are only provided with the information that is necessary for the services. This minimizes the risk and data exposure of your patients. Prime Doc Billing gives regular training and updates to our MVAs on how to maintain compliance. Since it is not a one-time task but an ongoing responsibility for us. We also maintain transparent audit trails to ensure accountability.
@@ -253,8 +254,8 @@ get_header();
             <!-- Section 5: Prime Doc Billing’s Ongoing Quality Monitoring -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Prime Doc Billing’s Ongoing Quality Monitoring</h2>
-                
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/Prime Doc Billing’s Ongoing Quality MonitoringDo We Ensure Compliance and Safety.webp" alt="Prime Doc Billing’s Ongoing Quality Monitoring"class="w-full h-auto rounded-lg shadow-lg mb-6">
+
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Virtual assistant/Prime Doc Billing’s Ongoing Quality MonitoringDo We Ensure Compliance and Safety.webp" alt="Prime Doc Billing’s Ongoing Quality Monitoring" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
@@ -266,7 +267,7 @@ get_header();
             <!-- Section 6: Ready to Partner with a Trusted Medical Virtual Assistant Provider? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Ready to Partner with a Trusted Medical Virtual Assistant Provider?</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         If you are looking to reduce administrative burden and increase patient satisfaction, you are on the right platform. Connect with us now to support your services with our expert Medical Virtual Assistants.
@@ -278,7 +279,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -291,7 +292,7 @@ get_header();
                                 <p>Our MVAs get up-to-date training in all the major EMR or PMS platforms. We also study your preferences and provide training to our MVAs according to that.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do you ensure HIPAA compliance?</h3>
@@ -303,7 +304,7 @@ get_header();
                                 <p>We use end-to-end encrypted tools that align with HIPAA compliance. We prioritize patients’ trust and hence handle sensitive data securely.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can your services be customized to my practice’s needs?</h3>
@@ -327,7 +328,7 @@ get_header();
                                 <p>We assign you the MVAs that meet your practice’s needs and specialty. Our MVAs become familiar with your processes in no time.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What happens if I need to scale up or down?</h3>
@@ -362,7 +363,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our medical virtual assistant services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -382,7 +383,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

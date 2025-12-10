@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Archive Template for Blog Posts
  *
@@ -13,29 +14,29 @@ get_header();
     <div class="container mx-auto px-4">
         <h1 class="text-3xl md:text-4xl font-bold text-white mb-4">
             <?php
-            if ( is_category() ) {
+            if (is_category()) {
                 single_cat_title();
-            } elseif ( is_tag() ) {
+            } elseif (is_tag()) {
                 single_tag_title();
-            } elseif ( is_author() ) {
-                printf( __( 'Author: %s', 'primedocbilling' ), '<span class="vcard">' . get_the_author() . '</span>' );
-            } elseif ( is_day() ) {
-                printf( __( 'Day: %s', 'primedocbilling' ), '<span>' . get_the_date() . '</span>' );
-            } elseif ( is_month() ) {
-                printf( __( 'Month: %s', 'primedocbilling' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'primedocbilling' ) ) . '</span>' );
-            } elseif ( is_year() ) {
-                printf( __( 'Year: %s', 'primedocbilling' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'primedocbilling' ) ) . '</span>' );
+            } elseif (is_author()) {
+                printf(__('Author: %s', 'primedocbilling'), '<span class="vcard">' . get_the_author() . '</span>');
+            } elseif (is_day()) {
+                printf(__('Day: %s', 'primedocbilling'), '<span>' . get_the_date() . '</span>');
+            } elseif (is_month()) {
+                printf(__('Month: %s', 'primedocbilling'), '<span>' . get_the_date(_x('F Y', 'monthly archives date format', 'primedocbilling')) . '</span>');
+            } elseif (is_year()) {
+                printf(__('Year: %s', 'primedocbilling'), '<span>' . get_the_date(_x('Y', 'yearly archives date format', 'primedocbilling')) . '</span>');
             } else {
-                _e( 'Blog Archive', 'primedocbilling' );
+                _e('Blog Archive', 'primedocbilling');
             }
             ?>
         </h1>
         <p class="text-white max-w-2xl mx-auto">
             <?php
-            if ( is_category() ) {
+            if (is_category()) {
                 echo category_description();
             } else {
-                _e( 'Browse our latest articles on medical billing and practice management', 'primedocbilling' );
+                _e('Browse our latest articles on medical billing and practice management', 'primedocbilling');
             }
             ?>
         </p>
@@ -49,10 +50,10 @@ get_header();
         <a href="<?php echo esc_url(get_post_type_archive_link('post')); ?>" class="px-4 py-2 rounded-full bg-[#20C197] text-white text-sm font-medium hover:bg-[#00D1B2] transition-colors">All Topics</a>
         <?php
         $categories = get_categories();
-        foreach ( $categories as $category ) {
-            $category_link = get_category_link( $category->term_id );
+        foreach ($categories as $category) {
+            $category_link = get_category_link($category->term_id);
             $active_class = (is_category($category->term_id)) ? 'bg-[#20C197] text-white' : 'bg-gray-100 text-gray-800 hover:bg-gray-200';
-            echo '<a href="' . esc_url( $category_link ) . '" class="px-4 py-2 rounded-full text-sm font-medium transition-colors ' . $active_class . '">' . esc_html( $category->name ) . '</a>';
+            echo '<a href="' . esc_url($category_link) . '" class="px-4 py-2 rounded-full text-sm font-medium transition-colors ' . $active_class . '">' . esc_html($category->name) . '</a>';
         }
         ?>
     </div>
@@ -65,7 +66,7 @@ get_header();
             $current_order = isset($_GET['order']) ? sanitize_text_field($_GET['order']) : 'desc';
             $order_newest_class = ($current_order === 'desc') ? 'bg-[#20C197] text-white' : 'bg-white text-gray-700 hover:bg-gray-100';
             $order_oldest_class = ($current_order === 'asc') ? 'bg-[#20C197] text-white' : 'bg-white text-gray-700 hover:bg-gray-100';
-            
+
             // Get current URL without order parameter
             $current_url = remove_query_arg('order');
             ?>
@@ -78,14 +79,14 @@ get_header();
         </div>
     </div>
 
-    <?php 
+    <?php
     // Modify the query based on sort order
     global $wp_query;
     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-    
+
     // Get the current category if we're on a category page
     $category = get_queried_object();
-    
+
     // Set up query arguments
     $args = array(
         'post_type' => 'post',
@@ -95,43 +96,43 @@ get_header();
         'orderby' => 'date',
         'order' => $current_order
     );
-    
+
     // If we're on a category page, add category filter
     if (is_category()) {
         $args['cat'] = $category->term_id;
     }
-    
+
     // Create new query with sorting
     $sorted_query = new WP_Query($args);
-    
-    if ( $sorted_query->have_posts() ) : ?>
+
+    if ($sorted_query->have_posts()) : ?>
         <!-- Posts Grid -->
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
             <?php while ($sorted_query->have_posts()) : $sorted_query->the_post(); ?>
                 <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300">
                     <a href="<?php the_permalink(); ?>" class="block">
                         <?php
-                        if ( has_post_thumbnail() ) {
-                            the_post_thumbnail( 'medium_large', array( 'class' => 'w-full h-48 object-cover', 'alt' => get_the_title() ) );
+                        if (has_post_thumbnail()) {
+                            the_post_thumbnail('medium_large', array('class' => 'w-full h-48 object-cover', 'alt' => get_the_title()));
                         } else {
-                            echo '<img src="' . esc_url( get_template_directory_uri() . '/assets/images/default-post-image.jpg' ) . '" alt="Default image" class="w-full h-48 object-cover">';
+                            echo '<img src="' . esc_url(get_template_directory_uri() . '/assets/images/default-post-image.jpg') . '" alt="Default image" class="w-full h-48 object-cover">';
                         }
                         ?>
                         <div class="p-6">
                             <span class="inline-block px-3 py-1 rounded-full bg-[#EEFAF7] text-[#20C197] text-xs font-medium mb-2">
                                 <?php
                                 $post_categories = get_the_category();
-                                if ( ! empty( $post_categories ) ) {
-                                    echo esc_html( $post_categories[0]->name );
+                                if (! empty($post_categories)) {
+                                    echo esc_html($post_categories[0]->name);
                                 }
                                 ?>
                             </span>
                             <h2 class="text-xl font-bold text-gray-900 mb-3"><?php the_title(); ?></h2>
-                            <p class="text-gray-600 mb-4 text-sm"><?php echo wp_trim_words( get_the_excerpt(), 20, '...' ); ?></p>
+                            <p class="text-gray-600 mb-4 text-sm"><?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?></p>
                             <div class="flex items-center text-xs text-gray-500">
                                 <span><?php echo get_the_date(); ?></span>
                                 <span class="mx-2">•</span>
-                                <span><?php echo esc_html( round( str_word_count( get_the_content() ) / 200 ) ); ?> min read</span>
+                                <span><?php echo esc_html(round(str_word_count(get_the_content()) / 200)); ?> min read</span>
                             </div>
                         </div>
                     </a>
@@ -143,7 +144,7 @@ get_header();
         <div class="flex justify-center">
             <?php
             // Use our sorted query for pagination
-            echo paginate_links( array(
+            echo paginate_links(array(
                 'total' => $sorted_query->max_num_pages,
                 'current' => $paged,
                 'mid_size'  => 2,
@@ -153,11 +154,11 @@ get_header();
                 'after_page_number' => '</span>',
                 'current_class' => 'bg-[#20C197] text-white border-[#20C197]',
                 'class' => 'flex space-x-2',
-            ) );
+            ));
             ?>
         </div>
 
-        <?php 
+        <?php
         // Reset post data to restore original query
         wp_reset_postdata();
         ?>
@@ -166,7 +167,7 @@ get_header();
         <div class="text-center py-12">
             <h2 class="text-2xl font-bold text-gray-900 mb-4">No posts found</h2>
             <p class="text-gray-600 mb-8">Sorry, no posts matched your criteria.</p>
-            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="px-6 py-3 bg-[#20C197] text-white rounded-lg hover:bg-[#00D1B2] transition-colors">
+            <a href="<?php echo esc_url(home_url('/')); ?>" class="px-6 py-3 bg-[#20C197] text-white rounded-lg hover:bg-[#00D1B2] transition-colors">
                 Return to Home
             </a>
         </div>
@@ -177,10 +178,10 @@ get_header();
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Ready to Transform Your Billing Process?</h2>
         <p class="text-gray-700 mb-6 max-w-2xl mx-auto">Our team of certified billing specialists can help you streamline operations, reduce denials, and increase collections.</p>
         <div class="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="<?php echo esc_url( home_url( '/calendly' ) ); ?>" class="px-6 py-3 bg-[#20C197] hover:bg-[#00D1B2] text-white font-medium rounded-lg shadow-md transition-colors duration-300 inline-flex items-center justify-center">
+            <a href="<?php echo esc_url(home_url('/calendly')); ?>" class="px-6 py-3 bg-[#20C197] hover:bg-[#00D1B2] text-white font-medium rounded-lg shadow-md transition-colors duration-300 inline-flex items-center justify-center">
                 <i class="fas fa-calendar-check mr-2"></i> Schedule a Consultation
             </a>
-            <a href="<?php echo esc_url( home_url( '/calendly' ) ); ?>" class="px-6 py-3 bg-white border border-[#20C197] text-[#20C197] hover:bg-[#20C197] hover:text-white font-medium rounded-lg shadow-md transition-colors duration-300 inline-flex items-center justify-center">
+            <a href="<?php echo esc_url(home_url('/calendly')); ?>" class="px-6 py-3 bg-white border border-[#20C197] text-[#20C197] hover:bg-[#20C197] hover:text-white font-medium rounded-lg shadow-md transition-colors duration-300 inline-flex items-center justify-center">
                 <i class="fas fa-file-invoice-dollar mr-2"></i> Request Free Analysis
             </a>
         </div>

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying Author Archive pages.
  *
@@ -13,7 +14,7 @@ get_header(); ?>
         <div class="absolute inset-0 opacity-10">
             <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,<svg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'><g fill=\'none\' fill-rule=\'evenodd\'><g fill=\'%23ffffff\' fill-opacity=\'0.1\'><circle cx=\'30\' cy=\'30\' r=\'2\'/></g></g></svg>');"></div>
         </div>
-        
+
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             <div class="text-center">
                 <?php
@@ -24,28 +25,28 @@ get_header(); ?>
                 $author_avatar = get_avatar_url($author_id, array('size' => 200));
                 $author_email = get_the_author_meta('email', $author_id);
                 ?>
-                
+
                 <div class="flex justify-center mb-6">
                     <div class="relative">
-                        <img src="<?php echo esc_url($author_avatar); ?>" 
-                             alt="<?php echo esc_attr($author_name); ?>" 
-                             class="w-32 h-32 rounded-full border-4 border-white shadow-2xl">
+                        <img src="<?php echo esc_url($author_avatar); ?>"
+                            alt="<?php echo esc_attr($author_name); ?>"
+                            class="w-32 h-32 rounded-full border-4 border-white shadow-2xl">
                     </div>
                 </div>
-                
+
                 <h1 class="text-4xl md:text-6xl font-bold mb-4">
                     <?php echo esc_html($author_name); ?>
                 </h1>
-                
+
                 <?php if ($author_bio) : ?>
                     <p class="text-xl opacity-90 max-w-3xl mx-auto leading-relaxed mb-8">
                         <?php echo esc_html($author_bio); ?>
                     </p>
                 <?php endif; ?>
-                
+
                 <div class="flex justify-center space-x-4 mt-6">
-                    <a href="mailto:<?php echo esc_attr($author_email); ?>" 
-                       class="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-full transition-all duration-300">
+                    <a href="mailto:<?php echo esc_attr($author_email); ?>"
+                        class="bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-full transition-all duration-300">
                         <i class="fas fa-envelope mr-2"></i>Contact
                     </a>
                 </div>
@@ -63,7 +64,7 @@ get_header(); ?>
                     </div>
                     <div class="text-gray-600 font-medium">Articles Written</div>
                 </div>
-                
+
                 <div class="text-center p-6 bg-gradient-to-br from-green-50 to-emerald-100 rounded-2xl">
                     <div class="text-4xl font-bold text-green-600 mb-2">
                         <?php
@@ -77,7 +78,7 @@ get_header(); ?>
                     </div>
                     <div class="text-gray-600 font-medium">Comments Received</div>
                 </div>
-                
+
                 <div class="text-center p-6 bg-gradient-to-br from-purple-50 to-violet-100 rounded-2xl">
                     <div class="text-4xl font-bold text-purple-600 mb-2">
                         <?php
@@ -91,7 +92,7 @@ get_header(); ?>
                     </div>
                     <div class="text-gray-600 font-medium">Total Views</div>
                 </div>
-                
+
                 <div class="text-center p-6 bg-gradient-to-br from-orange-50 to-amber-100 rounded-2xl">
                     <div class="text-4xl font-bold text-orange-600 mb-2">
                         <?php
@@ -101,7 +102,7 @@ get_header(); ?>
                             'order' => 'ASC'
                         ));
                         if ($first_post) {
-                            $years = floor((current_time('timestamp') - strtotime($first_post[0]->post_date)) / (365*24*60*60));
+                            $years = floor((current_time('timestamp') - strtotime($first_post[0]->post_date)) / (365 * 24 * 60 * 60));
                             echo $years > 0 ? $years . '+' : '1';
                         }
                         ?>
@@ -126,7 +127,7 @@ get_header(); ?>
                     'posts_per_page' => 9
                 );
                 $author_posts = new WP_Query($args);
-                
+
                 if ($author_posts->have_posts()) :
                     while ($author_posts->have_posts()) : $author_posts->the_post();
                 ?>
@@ -138,7 +139,7 @@ get_header(); ?>
                                     </a>
                                 </div>
                             <?php endif; ?>
-                            
+
                             <div class="p-6">
                                 <div class="flex items-center text-sm text-gray-500 mb-3">
                                     <i class="fas fa-calendar mr-2"></i>
@@ -146,28 +147,28 @@ get_header(); ?>
                                         <?php echo get_the_date('M j, Y'); ?>
                                     </time>
                                 </div>
-                                
+
                                 <h3 class="text-xl font-bold text-gray-900 mb-3">
                                     <a href="<?php the_permalink(); ?>" class="block">
                                         <?php the_title(); ?>
                                     </a>
                                 </h3>
-                                
+
                                 <p class="text-gray-600 mb-4">
                                     <?php echo wp_trim_words(get_the_excerpt(), 20, '...'); ?>
                                 </p>
-                                
-                                <a href="<?php the_permalink(); ?>" 
-                                   class="inline-flex items-center text-[#3873cc] hover:text-blue-700 font-medium">
+
+                                <a href="<?php the_permalink(); ?>"
+                                    class="inline-flex items-center text-[#3873cc] hover:text-blue-700 font-medium">
                                     Read More
                                     <i class="fas fa-arrow-right ml-2"></i>
                                 </a>
                             </div>
                         </article>
-                <?php
+                    <?php
                     endwhile;
                 else :
-                ?>
+                    ?>
                     <div class="col-span-full text-center py-16">
                         <h3 class="text-2xl font-bold text-gray-900 mb-2">No Articles Found</h3>
                         <p class="text-gray-600">This author hasn't published any articles yet.</p>
@@ -200,7 +201,7 @@ get_header(); ?>
                 }
                 ?>
             </div>
-            
+
             <?php wp_reset_postdata(); ?>
         </div>
     </section>

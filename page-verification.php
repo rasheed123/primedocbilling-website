@@ -1,58 +1,59 @@
 <?php
+
 /** Template Name: Insurance Verification of Benefits Services in the USA */
 get_header();
 ?>
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Insurance Verification of Benefits
-    </li>
-  </ol>
-</nav>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Insurance Verification of Benefits
+                    </li>
+                </ol>
+            </nav>
 
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Efficient Insurance Verification of Benefits<br />Services in the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Prime Doc Billing is a trusted partner of providers for comprehensive VOB services. Our trained professionals verify patient insurance and submit clear and error-free claims. This enhances the quality of your patient care.
-          </p>
-          <p>
-            Our services eliminate insurance denials and reduce admin burden on your staff. With our thorough verification checks, we ensure a stable cash flow for your practice.
-          </p>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Efficient Insurance Verification of Benefits<br />Services in the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Prime Doc Billing is a trusted partner of providers for comprehensive VOB services. Our trained professionals verify patient insurance and submit clear and error-free claims. This enhances the quality of your patient care.
+                </p>
+                <p>
+                    Our services eliminate insurance denials and reduce admin burden on your staff. With our thorough verification checks, we ensure a stable cash flow for your practice.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image (Optional, if you want to add one like in the original) -->
-      <!-- <div class="w-full max-w-lg lg:max-w-xl relative">
+        <!-- Right Image (Optional, if you want to add one like in the original) -->
+        <!-- <div class="w-full max-w-lg lg:max-w-xl relative">
         <img alt="3D style modern icon illustration of medical credentialing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
       </div> -->
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -62,11 +63,11 @@ get_header();
             <!-- Section 1 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Verify Insurance Benefits Before Appointments?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/Why Verify Insurance Benefits Before Appointments.webp" alt="Why Verify Insurance Benefits Before Appointments"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/Why Verify Insurance Benefits Before Appointments.webp" alt="Why Verify Insurance Benefits Before Appointments" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Prime Doc Billing verifies insurance benefits beforehand to avoid the following problems:
                 </p>
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Prevent Claim Denials and Delays</h3>
@@ -77,14 +78,14 @@ get_header();
                             We ensure clean claim submissions the first time for faster reimbursements.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Confirm Patient Eligibility in Real-Time</h3>
                         <p class="text-gray-600">
                             Our experts use payer portals and clearinghouses to confirm patients’ insurance status. This reduces the chances of seeing patients with lapsed coverage. We confirm eligibility in real-time to quickly identify the insurance coverage.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Clarify Coverage Limits and Exclusions</h3>
                         <p class="text-gray-600">
@@ -152,11 +153,11 @@ get_header();
             <!-- Section 2 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Does Prime Doc Billing Verify Insurance Benefits?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/How Does Prime Doc Billing Verify Insurance Benefits.webp" alt="How Does Prime Doc Billing Verify Insurance Benefits"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/How Does Prime Doc Billing Verify Insurance Benefits.webp" alt="How Does Prime Doc Billing Verify Insurance Benefits" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Here is our step-by-step insurance verification of benefits process:
                 </p>
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Initial Patient Information Collection</h3>
@@ -170,14 +171,14 @@ get_header();
                             <li>Appointment type</li>
                         </ul>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Real-Time Eligibility Checks with Insurance Portals</h3>
                         <p class="text-gray-600">
                             We use trusted insurance portals for real-time eligibility checks. This ensures whether the patient’s insurance is active or not. Our team also identifies the services covered, policy status, and the plan type.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Manual Verification for Complex Cases</h3>
                         <p class="text-gray-600">
@@ -235,13 +236,13 @@ get_header();
             <!-- Section 3 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Do We Ensure Compliance and Accuracy?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/How Do We Ensure Compliance and Accuracy.webp" alt="How Do We Ensure Compliance and Accuracy"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/How Do We Ensure Compliance and Accuracy.webp" alt="How Do We Ensure Compliance and Accuracy" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         We leave no stone unturned in ensuring compliance and accuracy in our services:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -256,7 +257,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -270,7 +271,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -284,7 +285,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -298,7 +299,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -351,13 +352,13 @@ get_header();
             <!-- Section 4 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Who Benefits Most from This Service?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/Who Benefits Most from This Service.webp" alt="Who Benefits Most from This Service"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/Who Benefits Most from This Service.webp" alt="Who Benefits Most from This Service" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         We provide our insurance VOB services to every medical field with no boundaries in the USA. A few of them are:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -369,7 +370,7 @@ get_header();
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Private Medical Practices</h3>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -380,7 +381,7 @@ get_header();
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Specialty Clinics</h3>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -441,13 +442,13 @@ get_header();
             <!-- Section 5 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">What Are the Advantages of Outsourcing Insurance Verification?</h2>
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/What Are the Advantages of Outsourcing Insurance Verification.webp" alt="What Are the Advantages of Outsourcing Insurance Verification"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Verification of benefits/What Are the Advantages of Outsourcing Insurance Verification.webp" alt="What Are the Advantages of Outsourcing Insurance Verification" class="w-full h-auto rounded-lg shadow-lg mb-6">
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         You can get several benefits by outsourcing Insurance Verification to PDB, like:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -462,7 +463,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -476,7 +477,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -490,7 +491,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -504,7 +505,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -552,7 +553,7 @@ get_header();
             <!-- Section 6 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Can You Get Started?</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         If you want a hassle-free and quick Insurance Verification of Benefits Services in the USA, you are on the right platform! Book a free demo or connect with us now.
@@ -564,7 +565,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -577,7 +578,7 @@ get_header();
                                 <p>Insurance VOB is the process of confirming a patient’s insurance coverage before the services are rendered. It prevents claim denials and reduces the delay in patients’ treatment.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">2. Will you verify co-pays, deductibles, and out-of-pocket limits?</h3>
@@ -589,7 +590,7 @@ get_header();
                                 <p>Yes. Our VOB process includes verifying co-pays, deductibles, and out-of-pocket costs. We provide transparent data so the patients have a clear understanding of their financial responsibility.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">3. Can you check the in-network versus out-of-network status?</h3>
@@ -601,7 +602,7 @@ get_header();
                                 <p>Yes. We verify the in-network and out-of-network status of the patient’s insurance plan. This helps the providers make informed decisions before the start of treatment.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">4. How do you safeguard patient data during verification?</h3>
@@ -613,7 +614,7 @@ get_header();
                                 <p>We use encrypted systems to handle patients’ information. Our team follows HIPAA compliance at every step of the VOB process.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">5. How does insurance verification speed up the billing process?</h3>
@@ -648,7 +649,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our insurance verification services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -668,7 +669,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

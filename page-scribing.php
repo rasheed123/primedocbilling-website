@@ -1,58 +1,59 @@
 <?php
+
 /** Template Name: Medical Scribe Services in the USA */
 get_header();
 ?>
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Medical Scribe Services
-    </li>
-  </ol>
-</nav>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Medical Scribe Services
+                    </li>
+                </ol>
+            </nav>
 
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Virtual Medical Scribe Services<br />in the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Looking for Virtual Medical Scribe Services in the USA? A medical scribe in the USA is a trained professional who documents clinical encounters between a patient and a healthcare provider. 
-          </p>
-          <p>
-            Our medical scribes ensure real-time documentation into your EHR system. We make sure to document data with compliance and accuracy. We handle all the administrative tasks for your practice so that you can focus on patient care. If you are looking for virtual medical scribe services in the USA, you are on the right platform.
-          </p>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Virtual Medical Scribe Services<br />in the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Looking for Virtual Medical Scribe Services in the USA? A medical scribe in the USA is a trained professional who documents clinical encounters between a patient and a healthcare provider.
+                </p>
+                <p>
+                    Our medical scribes ensure real-time documentation into your EHR system. We make sure to document data with compliance and accuracy. We handle all the administrative tasks for your practice so that you can focus on patient care. If you are looking for virtual medical scribe services in the USA, you are on the right platform.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <img alt="3D style modern icon illustration of medical scribe services with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
-      </div>
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical scribe services with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -65,9 +66,9 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     As easy as it may sound, Medical Scribing is one of the most critical and detail-oriented tasks. Prime Doc Billing follows a process that ensures accuracy and efficiency in your practice:
                 </p>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/Process Behind Our Medical Scribing Services.webp" alt="Process Behind Our Medical Scribing Services" class="w-full rounded-lg shadow-md mb-8">
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Connecting the Scribe with Provider</h3>
@@ -75,7 +76,7 @@ get_header();
                             We value the providers’ needs and specialties. Therefore, we connect them with a scribe who understands and has experience in their field. Building a strong connection is very important for a productive outcome.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Live or Recorded Documentation</h3>
                         <p class="text-gray-600">
@@ -88,7 +89,7 @@ get_header();
                             <strong>Recorded/ Asynchronous:</strong> Prime Doc Billing also provides medical scribe services in recorded sessions. Recorded sessions can have both audio or video format.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">EHR Entry & Quality Assurance</h3>
                         <p class="text-gray-600">
@@ -108,9 +109,9 @@ get_header();
             <!-- Section 2 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Top Reasons Why Our Virtual Medical Scribes are Essential for Your Practice</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/Top Reasons Why Our Virtual Medical Scribes are Essential for Your Practice.webp" alt="Top Reasons Why Our Virtual Medical Scribes are Essential for Your Practice" class="w-full rounded-lg shadow-md mb-8">
-                
+
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
@@ -119,7 +120,7 @@ get_header();
                             The documentation process is very long, time-consuming, and complex. Charting the sessions and providing patient care at once can be tough for your practice. Prime Doc Billing’s medical scribes take up all your administrative workload, helping you create a work-life balance by preventing burnout.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Documentation Handling</h3>
@@ -127,7 +128,7 @@ get_header();
                             Our experts identify all the important and relevant information during a patient encounter. We follow a standardized template for efficient charting, ensuring consistency and efficiency. This includes information like presenting complaint, history of current illness, symptoms, physical examination, assessment, plan, and next follow-up date. We stick to factual and objective medical information to make it understandable by healthcare professionals.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Improved Efficiency</h3>
@@ -135,7 +136,7 @@ get_header();
                             With our Medical Scribes by your side, you can see more patients in less time, improving efficiency for your healthcare practice.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Cost-Effective Alternative</h3>
@@ -143,7 +144,7 @@ get_header();
                             On-site staffing can cost more for healthcare practitioners. Our Medical Scribes are a reasonable and cost-effective alternative while delivering high-quality care.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Enhances Patient Experience</h3>
@@ -151,7 +152,7 @@ get_header();
                             Our medical scribes free you from administrative work, allowing you to focus more on maintaining eye contact and active listening, hence enhancing your patient experience.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Prioritizing Privacy</h3>
@@ -159,7 +160,7 @@ get_header();
                             Our fundamental responsibility is to maintain and respect your patient’s privacy. We adhere to organizational policies and ethical guidelines with secure handling of patient information.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Flexible with all Healthcare Specialties</h3>
@@ -173,15 +174,15 @@ get_header();
             <!-- Section 3 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">What Services are Included in Our Medical Scribe Services?</h2>
-                
-                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/Our Medical Sribe Services.webp" alt="Our Medical Sribe Services" alt="Process Behind Our Medical Scribing Services" class="w-full rounded-lg shadow-md mb-8">
+
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/Our Medical Sribe Services.webp" alt="Our Medical Sribe Services" alt="Process Behind Our Medical Scribing Services" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing offers a wide range of services in Medical Scribing. Some of them are given below:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -196,7 +197,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -210,7 +211,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -224,7 +225,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -238,7 +239,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -258,15 +259,15 @@ get_header();
             <!-- Section 4 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Who Can Benefit from Our Scribe Services?</h2>
-                
-                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/Who Can Benefit from Our Scribe Services.webp" alt="Who Can Benefit from Our Scribe Services" class="w-full rounded-lg shadow-md mb-8">
+
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/Who Can Benefit from Our Scribe Services.webp" alt="Who Can Benefit from Our Scribe Services" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Our virtual medical scribes are trained to benefit every profession in the healthcare department. We have customized workflows for every profession to meet their needs and criteria.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -281,7 +282,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -295,7 +296,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -315,7 +316,7 @@ get_header();
             <!-- Section 5 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Can Virtual Medical Scribing Improve Your Experience?</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/How Can Virtual Medical Scribing Improve Your Experience.webp" alt="How Can Virtual Medical Scribing Improve Your Experience" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -330,7 +331,7 @@ get_header();
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Choose Prime Doc Billing for Virtual Medical Scribing?</h2>
 
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/Why Choose Prime Doc Billing for Virtual Medical Scribing.webp" alt="Why Choose Prime Doc Billing for Virtual Medical Scribing" class="w-full rounded-lg shadow-md mb-8">
-                
+
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing has experts trained with every specialty. We provide you with the option for real-time or asynchronous charting. Our team stays connected with your staff, providers, and billing team to produce the best results. If you want a workflow that is accurate and compliant, you should choose Prime Doc Billing without a doubt.
@@ -341,7 +342,7 @@ get_header();
             <!-- Section 7 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Get Started with Prime Doc Billing Today!</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Let us handle the EHR documentation tasks so you can excel in what you do best—patient care! Get in touch with our virtual assistants or visit our website.
@@ -353,7 +354,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -366,7 +367,7 @@ get_header();
                                 <p>Documenting the provider-patient interaction in real-time is known as a medical scribe service. Since physicians have a lot on their plates, our medical scribes lessen their administrative workload. That way, they can focus more on the treatment plans.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Do your medical scribes work with our existing EHR system?</h3>
@@ -378,7 +379,7 @@ get_header();
                                 <p>Yes! Our medical scribes are trained to align with multiple types of existing EHR systems.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Are your medical scribe services HIPAA-compliant?</h3>
@@ -390,7 +391,7 @@ get_header();
                                 <p>We believe in compliance and confidentiality. Our team uses secure methods for communication and documentation of your important data.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can your scribes support both telemedicine and in-person visits?</h3>
@@ -402,7 +403,7 @@ get_header();
                                 <p>Our medical scribes can document both in-person and telemedicine encounters. We offer real-time and asynchronous charting for both.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do I get started with Prime Doc Billing’s scribe services?</h3>
@@ -425,7 +426,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our medical scribe services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -445,7 +446,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

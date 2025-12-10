@@ -1,4 +1,4 @@
-<?php 
+<?php
 /* Template Name: Coming soon page */
 
 get_header();
@@ -11,4 +11,4 @@ get_header();
         We're working hard to bring you something amazing. Stay tuned!
     </p>
 </div>
-<?php get_footer();?>
+<?php get_footer(); ?>

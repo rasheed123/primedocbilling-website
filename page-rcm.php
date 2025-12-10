@@ -1,61 +1,62 @@
 <?php
+
 /** Template Name: Revenue Cycle Management Services in the USA */
 get_header();
 ?>
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Revenue Cycle Management Services
-    </li>
-  </ol>
-</nav>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Revenue Cycle Management Services
+                    </li>
+                </ol>
+            </nav>
 
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Revenue Cycle Management Services<br />in the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Struggling to Maximize Revenue? Here’s How Prime Doc Billing’s RCM Services Can Help Your Practice Thrive!
-          </p>
-          <p>
-            Navigating the financial side of patient care has become very difficult in today’s fast-paced healthcare environment. Revenue Cycle Management (RCM) plays a vital role in maintaining financial stability, covering every stage from patient collection to the final payment.
-          </p>
-          <p>
-            At Prime Doc Billing, we take the complexity out of RCM. Our end-to-end Revenue Cycle Management (RCM) services are designed to boost revenue with faster reimbursements. We handle the financial legwork, optimizing every step of RCM while you can focus on patient care.
-          </p>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Revenue Cycle Management Services<br />in the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Struggling to Maximize Revenue? Here’s How Prime Doc Billing’s RCM Services Can Help Your Practice Thrive!
+                </p>
+                <p>
+                    Navigating the financial side of patient care has become very difficult in today’s fast-paced healthcare environment. Revenue Cycle Management (RCM) plays a vital role in maintaining financial stability, covering every stage from patient collection to the final payment.
+                </p>
+                <p>
+                    At Prime Doc Billing, we take the complexity out of RCM. Our end-to-end Revenue Cycle Management (RCM) services are designed to boost revenue with faster reimbursements. We handle the financial legwork, optimizing every step of RCM while you can focus on patient care.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <img alt="3D style modern icon illustration of medical credentialing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
-      </div>
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical credentialing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -66,12 +67,12 @@ get_header();
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">What Makes Our End-to-End Revenue Cycle Management Services Stand Out in the USA Market?</h2>
 
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Revenue cycle management/What Makes Our End-to-End Revenue Cycle Management Services Stand Out in the USA Market.webp" alt="What Makes Our End-to-End Revenue Cycle Management Services Stand Out in the USA Market"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Revenue cycle management/What Makes Our End-to-End Revenue Cycle Management Services Stand Out in the USA Market.webp" alt="What Makes Our End-to-End Revenue Cycle Management Services Stand Out in the USA Market" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     End-to-end RCM services refer to the financial process of managing every step. It begins when a patient is registered till the time a health care provider receives their deserved and accurate payment.
                 </p>
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Tailored Solutions</h3>
@@ -79,7 +80,7 @@ get_header();
                             Prime Doc Billing offers more than just basic RCM services. We do not use a one-size-fits-all method; instead understand and tailor to the unique needs of different specialties.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Expertise Across Specialties</h3>
                         <p class="text-gray-600">
@@ -93,12 +94,12 @@ get_header();
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Your Complete Guide to How Prime Doc Billing’s Revenue Cycle Management Services Work:</h2>
 
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Revenue cycle management/Your Complete Guide to How Prime Doc Billing’s Revenue Cycle Management Services Work.webp" alt="Your Complete Guide to How Prime Doc Billing’s Revenue Cycle Management Services Work"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Revenue cycle management/Your Complete Guide to How Prime Doc Billing’s Revenue Cycle Management Services Work.webp" alt="Your Complete Guide to How Prime Doc Billing’s Revenue Cycle Management Services Work" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Revenue Cycle Management (RCM) is the financial heartbeat of health care organizations. From the scheduling of a patient to receiving the final payment, we will guide you to have a better understanding of how our RCM services work:
                 </p>
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Patient Registration & Eligibility Verification</h3>
@@ -106,7 +107,7 @@ get_header();
                             Patient registration and eligibility verification mark the first step of RCM. At Prime Doc Billing, we verify demographics, insurance coverage, and out-of-pocket costs with precision to reduce denials. This is done before any services are provided to avoid risks and maximize revenue flow, all while enhancing the patient experience.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Medical Coding & Charge Entry</h3>
                         <p class="text-gray-600">
@@ -121,35 +122,35 @@ get_header();
                             After successfully coding the patient’s detailed information, our experts at Prime Doc Billing in the USA identify the charges of treatments and procedures based on the coding of respective areas. It includes the fee schedule pre-set by the institution.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Claims Submission & Tracking</h3>
                         <p class="text-gray-600">
                             Our experts at Prime Doc Billing take care of this crucial step very smoothly. Claim submission is one of those steps that even an expert has to be mindful of. A single mistake can lead to great loss, but not on our watch. We streamline real-time claim submission data on EHR, which helps to reduce denials and increase revenue, boosting cash flow. We submit claims to insurance companies in an optimized way to save time and reduce errors. We use real-time tracking, which helps us detect any possible error that can lead to denial.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Payment Posting & Reconciliation</h3>
                         <p class="text-gray-600">
                             Our team at Prime Doc Billing uses the advanced digital resource Electronic Remittance Advice (ERA) which helps us get a proper record of payments made by patients or insurance companies. By the use of ERA, our experts can get proper reconciliation. Reconciliation refers to matching the payment posted and the bank statements to ensure the right payments are made. We record those payments to keep track of whether the insurance is paying the right amount to the health care providers.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Denial Management & AR Follow-up</h3>
                         <p class="text-gray-600">
                             Our experts at Prime Doc Billing use a comprehensive strategy to identify, analyze, and resolve the issues that lead to denial management. We make sure to provide our clients with proper reimbursement because every dollar counts. Prime Doc Billing consistently follows up on the Accounts Receivables Aging Report to determine how long payments have been outstanding. Our team maintains regular communication with the insurance agencies to identify and resolve potential issues, thus ensuring cash flow. Our result-oriented approach is what makes us one of the top medical billing service companies in the USA.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Patient Billing & Collections</h3>
                         <p class="text-gray-600">
                             We verify the patient’s insurance beforehand and get an estimate of what they will owe. Our team encourages up-front payment to keep the revenue cycle moving. After that, we provide an easy-to-read bill to the patients for outstanding balances determined by aging reports, along with friendly reminders and payment plans if needed. We believe in compassionate collection while being respectful to our clients. Our payment plans have always proved to be beneficial, and we continue to improve them for our clients.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Reporting & Analytics</h3>
                         <p class="text-gray-600">
@@ -166,7 +167,7 @@ get_header();
                             Keeping a report of the following, analyzing the metrics, fixing the bugs, and constantly finding ways to improve the revenue cycle can help generate a better cash flow.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Compliance & Audit</h3>
                         <p class="text-gray-600">
@@ -180,14 +181,14 @@ get_header();
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Outsource RCM To Prime Doc Billing And Say Goodbye To Billing Errors:</h2>
 
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Revenue cycle management/Outsource RCM To Prime Doc Billing And Say Goodbye To Billing Errors.webp" alt="Outsource RCM To Prime Doc Billing And Say Goodbye To Billing Errors"class="w-full h-auto rounded-lg shadow-lg mb-6">
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Revenue cycle management/Outsource RCM To Prime Doc Billing And Say Goodbye To Billing Errors.webp" alt="Outsource RCM To Prime Doc Billing And Say Goodbye To Billing Errors" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing has a team of certified coders from the American Association of Professional Coders (AAPC), a Quality Assurance (QA) team, Virtual Assistants (VAs), and, Accounts Receivables (AR) team, who have years of experience in this industry. Every member of our team works collectively to produce the best outcomes of benefits for our clients. Some of them are:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -199,7 +200,7 @@ get_header();
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Improved RCM</h3>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -210,7 +211,7 @@ get_header();
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Faster reimbursement rates</h3>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -221,7 +222,7 @@ get_header();
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Real-time reporting and transparency</h3>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -232,7 +233,7 @@ get_header();
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Enhanced patient satisfaction</h3>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -243,7 +244,7 @@ get_header();
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Reduction in denials</h3>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -254,7 +255,7 @@ get_header();
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Access to advanced billing technology</h3>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -288,7 +289,7 @@ get_header();
                         Our trained experts at Prime Doc Billing keep enhancing the RCM process for a better workflow. This also helps to align with the updated and best practices of this industry. We go through the following key stages of the RCM workflow with the help of a cloud-based medical billing software:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -303,7 +304,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -317,7 +318,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -331,7 +332,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -345,7 +346,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -367,69 +368,69 @@ get_header();
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Top Benefits of Partnering with Prime Doc Billing for Revenue Cycle Success</h2>
 
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Revenue cycle management/Top Benefits of Partnering with Prime Doc Billing for Revenue Cycle Success.webp" alt="Top Benefits of Partnering with Prime Doc Billing for Revenue Cycle Success" class="w-full h-auto rounded-lg shadow-lg mb-6">
-                
+
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         With the advanced software, technology, and up-to-date training of our experts, Prime Doc Billing provides several benefits in our RCM services:
                     </p>
                 </div>
-                
+
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Faster reimbursements</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Access to the latest industry regulations and experienced professionals</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Quality of care</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Dedicated POC for effective communication and correspondence</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Increased efficiency</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">HIPAA Compliant</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Data integrity</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Improved cash flow</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Simplified processes</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Error reduction</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Financial stability</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Minimized claim denials</h3>
@@ -440,7 +441,7 @@ get_header();
             <!-- Section 7 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Do I Sign Up For RCM Services At Prime Doc Billing?</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing offers the best medical billing expertise in the US. You can focus solely on your treatment while leaving the rest to us. Our services are available all over the US with virtual assistants. You can also book a demo on our website to get an idea beforehand.
@@ -452,7 +453,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -465,7 +466,7 @@ get_header();
                                 <p>The tracking of patient care from appointment to the final payment is known as Revenue Cycle Management. It enhances compliance, reduces errors, improves cash flow, and minimizes denials. Hence, very important for the practice of a medical biller.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How does Prime Doc Billing improve the efficiency of the RCM process?</h3>
@@ -477,7 +478,7 @@ get_header();
                                 <p>Prime Doc Billing improves the efficiency of the RCM process by staying one step ahead of the entire cycle. We track the errors in advance to rule out possible denials.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can Prime Doc Billing integrate with my existing Electronic Health Record (EHR) system?</h3>
@@ -489,7 +490,7 @@ get_header();
                                 <p>Our experts at Prime Doc Billing can integrate and transition with your Electronic Health Record (EHR) very smoothly. It is as if we were working with you from the start.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What measures are in place to ensure compliance with healthcare regulations?</h3>
@@ -501,7 +502,7 @@ get_header();
                                 <p>We comply with HIPAA US to safeguard patient information and avoid legal penalties.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What types of medical practices can benefit from your RCM services?</h3>
@@ -513,7 +514,7 @@ get_header();
                                 <p>Our RCM services pretty much cover every medical practice. It includes primary care, specialty, and dental practices.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do I get started with Prime Doc Billing's RCM services?</h3>
@@ -536,7 +537,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our Revenue Cycle Management services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -556,7 +557,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

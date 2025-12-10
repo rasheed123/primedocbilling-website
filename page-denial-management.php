@@ -1,4 +1,5 @@
 <?php
+
 /** Template Name: Denial Management Services */
 get_header();
 ?>
@@ -6,57 +7,57 @@ get_header();
 <!-- Hero Section -->
 <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Denial Management Services
-    </li>
-  </ol>
-</nav>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Denial Management Services
+                    </li>
+                </ol>
+            </nav>
 
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Looking to Boost Revenue? Here’s How Our Expert Denial Management Services Can Help!
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Denied claims are one of the main reasons for lost revenue in healthcare management. Prime Doc Billing conducts a thorough analysis to
-          </p>
-          <ul class="list-disc list-inside ml-4">
-              <li>Determine the root causes of claim rejection</li>
-              <li>Make necessary corrections</li>
-              <li>Resubmit the claim</li>
-              <li>Streamline the entire process repeatedly to prevent future denials.</li>
-          </ul>
-          <p>
-            Our experts at Prime Doc Billing protect your financial performance by minimizing denied payments. We prioritize our clients' financial stability. Hence, we tailor our strategies to support their long-term revenue growth.
-          </p>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Looking to Boost Revenue? Here’s How Our Expert Denial Management Services Can Help!
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Denied claims are one of the main reasons for lost revenue in healthcare management. Prime Doc Billing conducts a thorough analysis to
+                </p>
+                <ul class="list-disc list-inside ml-4">
+                    <li>Determine the root causes of claim rejection</li>
+                    <li>Make necessary corrections</li>
+                    <li>Resubmit the claim</li>
+                    <li>Streamline the entire process repeatedly to prevent future denials.</li>
+                </ul>
+                <p>
+                    Our experts at Prime Doc Billing protect your financial performance by minimizing denied payments. We prioritize our clients' financial stability. Hence, we tailor our strategies to support their long-term revenue growth.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image (Optional, if you want to keep the image from the original hero) -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <img alt="3D style modern icon illustration of medical credentialing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
-      </div> 
+        <!-- Right Image (Optional, if you want to keep the image from the original hero) -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical credentialing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
 </section>
 
@@ -68,43 +69,44 @@ get_header();
             <!-- Section 2 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Trust Our Team for Denial Management Outsourcing?</h2>
-                    <div class="mt-6 mb-6">
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Why Trust Our Team for Denial Management Outsourcing.webp" alt="Why Trust Our Team for Denial Management Outsourcing" class="w-full h-auto rounded-lg shadow-lg"></div>
+                <div class="mt-6 mb-6">
+                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Why Trust Our Team for Denial Management Outsourcing.webp" alt="Why Trust Our Team for Denial Management Outsourcing" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Prime Doc Billing values maintaining a partnership with our clients. We design our strategies with one goal in mind. That is to provide you with long-term growth. By trusting our team with your denial management, you can get the following merits:
                 </p>
-                
+
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Maximum claim resolution on the first submission</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Insights into denial to prevent them in the future</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Tailored reporting and analysis for your practice</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Increased patient satisfaction</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">No administrative workload</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Ensure Compliance with HIPAA regulations</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Improved efficiency to stabilize your revenue stream</h3>
@@ -115,14 +117,15 @@ get_header();
             <!-- Section 3 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Step-by-Step Guide to Our Denial Management Services</h2>
-                    <div class="mt-6 mb-6">
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Step-by-Step Guide to Our Denial Management Services.webp" alt="Step-by-Step Guide to Our Denial Management Services" class="w-full h-auto rounded-lg shadow-lg"></div>                
+                <div class="mt-6 mb-6">
+                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Step-by-Step Guide to Our Denial Management Services.webp" alt="Step-by-Step Guide to Our Denial Management Services" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing offers a very detailed denial management service. We cover every step from identification to prevention. Here is a step-by-step guide to help you understand our process:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -150,7 +153,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -170,7 +173,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -233,8 +236,9 @@ get_header();
             <!-- Section 4 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why is Denial Management Service a Must-Have for Effective Healthcare Revenue?</h2>
-                     <div class="mt-6 mb-6">
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Why is Denial Management Service a Must-Have for Effective Healthcare Revenue.webp" alt="Why is Denial Management Service a Must-Have for Effective Healthcare Revenue" class="w-full h-auto rounded-lg shadow-lg"></div>               
+                <div class="mt-6 mb-6">
+                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Why is Denial Management Service a Must-Have for Effective Healthcare Revenue.webp" alt="Why is Denial Management Service a Must-Have for Effective Healthcare Revenue" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Denial rate in the US is very frequent. One in five claims are denied upon first submission. That is why it is very important to have a denial management service that can provide you maximum healthcare revenue. The unresolved claims impact the overall financial health of your practice.
@@ -248,39 +252,40 @@ get_header();
             <!-- Section 5 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Top Reasons to Choose Prime Doc Billing for Your Denial Management Services</h2>
-                     <div class="mt-6 mb-6">
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Top Reasons to Choose Prime Doc Billing for Your Denial Management Services.webp" alt="Top Reasons to Choose Prime Doc Billing for Your Denial Management Services" class="w-full h-auto rounded-lg shadow-lg"></div>               
+                <div class="mt-6 mb-6">
+                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Top Reasons to Choose Prime Doc Billing for Your Denial Management Services.webp" alt="Top Reasons to Choose Prime Doc Billing for Your Denial Management Services" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Our denial management experts prevent the same mistake from happening twice.</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">We have a proven track record in recovering the revenue after denial.</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">We use integrated EHR and billing platforms for data accuracy and real-time eligibility check.</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Our teams work together to boost productivity.</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Our experts understand the needs and meet the requirements of every specialty.</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">We resolve the denials quickly to enhance patient experience.</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Our pre-submission scrubbing results in a high claim acceptance rate.</h3>
@@ -306,14 +311,15 @@ get_header();
             <!-- Section 6 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Our End-to-End Denial Resolution Process with Proven Results</h2>
-                     <div class="mt-6 mb-6">
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Top Reasons to Choose Prime Doc Billing for Your Denial Management Services (3).webp" alt="Top Reasons to Choose Prime Doc Billing for Your Denial Management Services (3)" class="w-full h-auto rounded-lg shadow-lg"></div>               
+                <div class="mt-6 mb-6">
+                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Top Reasons to Choose Prime Doc Billing for Your Denial Management Services (3).webp" alt="Top Reasons to Choose Prime Doc Billing for Your Denial Management Services (3)" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Our end-to-end denial resolution process extracts the root cause of denials and eliminate them for future claim submissions. Here is a structured form of our denial resolution process:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -331,7 +337,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -348,7 +354,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -371,8 +377,9 @@ get_header();
             <!-- Section 7 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Unlock the Benefits of Denial Management Services with Prime Doc Billing</h2>
-                     <div class="mt-6 mb-6">
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Our End-to-End Denial Resolution Process with Proven Results.webp" alt="Our End-to-End Denial Resolution Process with Proven Results" class="w-full h-auto rounded-lg shadow-lg"></div>               
+                <div class="mt-6 mb-6">
+                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Denials-management/Our End-to-End Denial Resolution Process with Proven Results.webp" alt="Our End-to-End Denial Resolution Process with Proven Results" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -390,7 +397,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -407,7 +414,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -454,7 +461,7 @@ get_header();
 
             <!-- Section 8 -->
             <section class="mb-16">
-                <h2 class="text-3xl font-bold text-gray-800 mb-6">Get Started with Denial Management Services from Prime Doc Billing</h2>            
+                <h2 class="text-3xl font-bold text-gray-800 mb-6">Get Started with Denial Management Services from Prime Doc Billing</h2>
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Our Denial Management Services can turn lost revenue into reimbursements. Let us take over the hectic part of documentation so you can focus on delivering the best patient care. Get in touch with our virtual assistant or contact us now!
@@ -466,7 +473,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -487,7 +494,7 @@ get_header();
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How fast can you appeal a denied claim?</h3>
@@ -499,7 +506,7 @@ get_header();
                                 <p>We start working on a denied claim as soon as 24-48 hours time window. Our team works faster on recovering a claim to increase the chances of reimbursements.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can you help reduce future denials too and not just resolve current ones?</h3>
@@ -511,7 +518,7 @@ get_header();
                                 <p>Our main goal is to implement our strategies in a way that help us prevent denials from happening in the future. We learn from today and get better for tomorrow.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Do you offer denial reporting and performance insights?</h3>
@@ -523,7 +530,7 @@ get_header();
                                 <p>We believe in transparency and hence offer a detailed layout or reporting and performance insights. This helps clients get an idea of their practice’s performance structure.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do you collaborate with our billing and coding teams?</h3>
@@ -546,7 +553,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our denial management services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -566,7 +573,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Request A Free Audit</h3>
                     </div>
                     <div class="pb-6 pl-6 pr-6">
-                       <?php echo do_shortcode('[wpforms id="4746" title="false"]'); ?>
+                        <?php echo do_shortcode('[wpforms id="4746" title="false"]'); ?>
                     </div>
                 </div>
 

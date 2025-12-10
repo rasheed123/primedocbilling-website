@@ -11,13 +11,13 @@ get_header();
     </div>
     <div class="max-w-[950px] flex flex-col gap-4 text-center mx-auto">
         <h1 class="text-center text-[32px] font-semibold text-white capitalize">
-               Core Values
+            Core Values
         </h1>
         <p class="text-white leading-7">
-        Welcome to Prime Doc Billing LLC, your trusted partner in seamless and precise medical billing solutions across the USA. With a steadfast commitment focusing on 3Ps, Precision, Professionalism, and Personalized Service, we ensure your billing needs are met with unparalleled expertise. Our collaborative approach, customer-centric focus, and dedication to Continuous Improvement empower healthcare providers for success in today's dynamic healthcare landscape.
+            Welcome to Prime Doc Billing LLC, your trusted partner in seamless and precise medical billing solutions across the USA. With a steadfast commitment focusing on 3Ps, Precision, Professionalism, and Personalized Service, we ensure your billing needs are met with unparalleled expertise. Our collaborative approach, customer-centric focus, and dedication to Continuous Improvement empower healthcare providers for success in today's dynamic healthcare landscape.
         </p>
         <div class="text-white leading-7">
-        Our basic beliefs serve as our stepping stones and enable us to establish a standard in the healthcare industry. Our foundation is built on a set of core values that guide every aspect of our business.
+            Our basic beliefs serve as our stepping stones and enable us to establish a standard in the healthcare industry. Our foundation is built on a set of core values that guide every aspect of our business.
         </div>
 </section>
 <section class="pb-10 lg:pb-16">
@@ -61,23 +61,23 @@ get_header();
                         Collaboration
                     </h3>
                     <p class="text-gray-600 leading-7" data-aos="fade-up">
-                    This collaborative approach allows us to tailor our services to maximize their revenue and streamline their billing operations by working closely with our clients, we gain profound insight into their unique needs and challenges. 
+                        This collaborative approach allows us to tailor our services to maximize their revenue and streamline their billing operations by working closely with our clients, we gain profound insight into their unique needs and challenges.
                     </p>
                 </div>
                 <div>
                     <h3 class="capitalize text-[20px] mb-2 text-gray-700 font-semibold" data-aos="fade-up">
-                    Continuous Improvement
+                        Continuous Improvement
                     </h3>
                     <p class="text-gray-600 leading-7" data-aos="fade-up">
-                    We believe that there is always room for enhancement, so our team is dedicated to staying at the forefront of industry advancements and best practices. By continuously seeking ways to refine our processes and services, we ensure our clients receive the highest level of support.
+                        We believe that there is always room for enhancement, so our team is dedicated to staying at the forefront of industry advancements and best practices. By continuously seeking ways to refine our processes and services, we ensure our clients receive the highest level of support.
                     </p>
                 </div>
                 <div>
                     <h3 class="capitalize text-[20px] mb-2 text-gray-700 font-semibold" data-aos="fade-up">
-                    Compliance
+                        Compliance
                     </h3>
                     <p class="text-gray-600 leading-7" data-aos="fade-up">
-                    We are unwavering in our commitment to compliance with all regulatory standards and industry best practices. Our team stays current with the latest coding and billing guidelines to ensure our clients remain in full compliance with federal and state regulations.
+                        We are unwavering in our commitment to compliance with all regulatory standards and industry best practices. Our team stays current with the latest coding and billing guidelines to ensure our clients remain in full compliance with federal and state regulations.
                     </p>
                 </div>
                 <div>
@@ -85,7 +85,7 @@ get_header();
                         The 3Es
                     </h3>
                     <h3 class="capitalize text-[20px] mb-2 text-gray-700 font-semibold" data-aos="fade-up">
-                    Efficiency
+                        Efficiency
                     </h3>
                     <p class="text-gray-600 leading-7" data-aos="fade-up">
                         Through the use of cutting-edge technology and streamlined processes, we aim to expedite the billing cycle, allowing healthcare providers to focus on what they do best: caring for patients.
@@ -93,7 +93,7 @@ get_header();
                 </div>
                 <div>
                     <h3 class="capitalize text-[20px] mb-2 text-gray-700 font-semibold" data-aos="fade-up">
-                    Empathy
+                        Empathy
                     </h3>
                     <p class="text-gray-600 leading-7" data-aos="fade-up">
                         We empathize with the challenges faced by both healthcare providers and patients. This empathy drives us to go the extra mile to resolve billing issues and ensure a positive experience for everyone involved.
@@ -101,7 +101,7 @@ get_header();
                 </div>
                 <div>
                     <h3 class="capitalize text-[20px] mb-2 text-gray-700 font-semibold" data-aos="fade-up">
-                    Excellence
+                        Excellence
                     </h3>
                     <p class="text-gray-600 leading-7" data-aos="fade-up">
                         We are dedicated to achieving excellence in every aspect of medical billing. From the quality of our services to the outcomes we deliver, we hold ourselves to the highest standards.

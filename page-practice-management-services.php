@@ -1,4 +1,5 @@
 <?php
+
 /** Template Name: Medical Practice Management Services in New York */
 get_header();
 ?>
@@ -9,63 +10,62 @@ get_header();
 <!-- Hero Section -->
 <section class="py-12 md:py-20 bg-[#3873cc] font-sans relative overflow-hidden">
 
-  <!-- Background Image with 30% opacity -->
-  <div class="absolute inset-0 z-0 opacity-20">
-    <img 
-      src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg" 
-      alt="Background pattern" 
-      class="w-full h-full object-cover"
-    />
-  </div>
-
-  <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative z-10">
-    <!-- Left Content -->
-    <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-      <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-        <ol class="inline-flex items-center space-x-2">
-          <li class="flex items-center">
-            <a href="/" class="hover:underline text-white/80">Home</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li class="flex items-center">
-            <a href="/newyork" class="hover:underline text-white/80">New York</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li aria-current="page" class="font-semibold text-white">
-            Medical Practice Management Services
-          </li>
-        </ol>
-      </nav>
-
-      <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-        Expert Medical Practice Management Services in New York
-      </h1>
-      <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-        <p>
-          New York’s healthcare landscape functions at a very fast pace. This rapid change creates challenges for medical practices. Prime Doc Billing handles these complex Medical Practice Management Services every day.
-        </p>
-        <p>
-          Our team coordinates with your staff and ensures compliance in every step. We streamline your entire Medical Practice Management Services. From complex billing requirements to ensuring operational efficiency, we provide it all.
-        </p>
-      </div>
-      <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-        <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-          Book a Demo
-        </button>
-      </a>
+    <!-- Background Image with 30% opacity -->
+    <div class="absolute inset-0 z-0 opacity-20">
+        <img
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg"
+            alt="Background pattern"
+            class="w-full h-full object-cover" />
     </div>
 
-    <!-- Right Image -->
-    <div class="w-full max-w-lg lg:max-w-xl relative">
-      <img alt="3D style modern icon illustration of medical practice management with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+    <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative z-10">
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/newyork" class="hover:underline text-white/80">New York</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Medical Practice Management Services
+                    </li>
+                </ol>
+            </nav>
+
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Expert Medical Practice Management Services in New York
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    New York’s healthcare landscape functions at a very fast pace. This rapid change creates challenges for medical practices. Prime Doc Billing handles these complex Medical Practice Management Services every day.
+                </p>
+                <p>
+                    Our team coordinates with your staff and ensures compliance in every step. We streamline your entire Medical Practice Management Services. From complex billing requirements to ensuring operational efficiency, we provide it all.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical practice management with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </div>
 </section>
 
 
@@ -80,9 +80,9 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     New York’s constantly evolving healthcare environment demands strategic and local expertise. Prime Doc Billing tailors those strategies to overcome the obstacles providers endure. The following are some of the most pressing issues and how we help you navigate them:
                 </p>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical Practice Management Services in NY/Why New York Practices Need Effective Practice Management Services.webp" alt="Why New York Practices Need Effective Practice Management Services" class="w-full rounded-lg shadow-md mb-8">
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Regulatory Complexity</h3>
@@ -93,7 +93,7 @@ get_header();
                             Our team focuses on providing New York practices with effective Practice Management Services. We conduct proactive audits, up-to-date documentation, and alignment with relevant policies. This helps you stay fully prepared for the regulatory changes.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">High Operational Costs</h3>
                         <p class="text-gray-600">
@@ -103,7 +103,7 @@ get_header();
                             Our efficient practice management and administrative operations reduce unnecessary expenses and enhance profitability.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Staff Shortage</h3>
                         <p class="text-gray-600">
@@ -154,9 +154,9 @@ get_header();
             <!-- Section 2 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Key Features of Our Practice Management Solutions in New York</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical Practice Management Services in NY/Key Features of Our Practice Management Solutions in New York.webp" alt="Key Features of Our Practice Management Solutions in New York" class="w-full rounded-lg shadow-md mb-8">
-                
+
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing navigates the complexities of New York’s healthcare landscape. Our team transforms the challenges into key features of our Practice Management services. We turn obstacles into opportunities for your operational workflow.
@@ -180,7 +180,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -197,7 +197,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -214,7 +214,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -228,7 +228,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -318,15 +318,15 @@ get_header();
             <!-- Section 3 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Top 5 Benefits of Our Practice Management Services in New York</h2>
-                
-                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical Practice Management Services in NY/Top 5 Benefits of Our Practice Management Services in New York.webp" alt="Top 5 Benefits of Our Practice Management Services in New York" class="w-full rounded-lg shadow-md mb-8">
+
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical Practice Management Services in NY/Top 5 Benefits of Our Practice Management Services in New York.webp" alt="Top 5 Benefits of Our Practice Management Services in New York" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Our customized Practice Management workflow fits right into the complex infrastructure of New York healthcare landscape. Here are the top 5 benefits of our Practice Management Services in New York:
                     </p>
                 </div>
-                
+
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
@@ -335,7 +335,7 @@ get_header();
                             New York has a large payer base, and each one of them requires a different set of documents for credentialing. Prime Doc Billing ensures accurate and effective documentation. Our team makes sure your paperwork is compliant, audit-ready, and aligned with the state-specific requirements for credentialing.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Better Patient Experience</h3>
@@ -343,7 +343,7 @@ get_header();
                             In the competitive market of New York healthcare, Prime Doc Billing helps your practice deliver personalized care. We provide you with the fastest service delivery so that your patients stay loyal and satisfied.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Maximum Revenue</h3>
@@ -354,7 +354,7 @@ get_header();
                             Our strategic planning of RCM cycle can maximize financial health of your practice.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Optimal Claim Approvals</h3>
@@ -362,7 +362,7 @@ get_header();
                             New York providers face frequent claim denials and payer scrutiny. Prime Doc Billing holds payer-specific knowledge of requirements and policies. With our precise billing, you can get optimal claim approvals on the first attempt.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Improved Efficiency</h3>
@@ -376,15 +376,15 @@ get_header();
             <!-- Section 4 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Outsource Practice Management in New York?</h2>
-                
-                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical Practice Management Services in NY/Why Outsource Practice Management in New York.webp" alt="Why Outsource Practice Management in New York" class="w-full rounded-lg shadow-md mb-8">
+
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical Practice Management Services in NY/Why Outsource Practice Management in New York.webp" alt="Why Outsource Practice Management in New York" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         By outsourcing your New York Practice Management to Prime Doc Billing, you will have a strategic partner at your service. We have in-depth knowledge and expertise on New York’s complex healthcare industry.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -399,7 +399,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -419,7 +419,7 @@ get_header();
             <!-- Section 5 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Ready to Partner with Prime Doc Billing?</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Ready to simplify your Practice Management operations and boost revenue in New York? Contact us today for a free consultation.
@@ -431,7 +431,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -444,7 +444,7 @@ get_header();
                                 <p>Medical Practice Management refers to handling the administrative and operational workflow of a healthcare practice. We manage the entire RCM cycle, from patient scheduling to payment crediting to providers.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Is practice management service suitable for solo practitioners?</h3>
@@ -456,7 +456,7 @@ get_header();
                                 <p>Yes! Since solo practitioners faces the same burden as large hospitals. They often have fewer resources which makes Practice Management Services suitable for them.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What compliance factors must practices follow in New York?</h3>
@@ -475,7 +475,7 @@ get_header();
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can you customize services based on specialty?</h3>
@@ -487,7 +487,7 @@ get_header();
                                 <p>Absolutely! Prime Doc Billing can customize our Practice Management services based on your specialty.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How does practice management reduce patient no-shows?</h3>
@@ -510,7 +510,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our medical practice management services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -530,7 +530,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

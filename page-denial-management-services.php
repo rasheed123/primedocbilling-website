@@ -1,4 +1,5 @@
 <?php
+
 /** Template Name: Denial Management Services in New York */
 get_header();
 ?>
@@ -9,62 +10,61 @@ get_header();
 <!-- Hero Section -->
 <section class="py-12 md:py-20 bg-[#3873cc] font-sans relative overflow-hidden">
 
-  <!-- Background Image with 30% opacity -->
-  <div class="absolute inset-0 z-0 opacity-20">
-    <img 
-      src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg" 
-      alt="Background pattern" 
-      class="w-full h-full object-cover"
-    />
-  </div>
-
-  <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative z-10">
-    <!-- Left Content -->
-    <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-      <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-        <ol class="inline-flex items-center space-x-2">
-          <li class="flex items-center">
-            <a href="/" class="hover:underline text-white/80">Home</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li class="flex items-center">
-            <a href="/newyork/" class="hover:underline text-white/80">New York</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li aria-current="page" class="font-semibold text-white">
-            Denial Management Services
-          </li>
-        </ol>
-      </nav>
-
-      <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-        Streamline Expert Denial Management Solutions in New York
-      </h1>
-      <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-        <p>
-          Managing denials in New York is more complex than in any other state. The constantly shifting mix of multiple payers causes administrative roadblocks. We handle the entire process, from identifying the root cause to submitting timely appeals.
-        </p>
-        <p>
-          At Prime Doc Billing, we specialize in developing proven strategies for NY-specific denial management. We conduct real-time analysis and compliance monitoring to prevent future denials.
-        </p>
-      </div>
-      <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-        <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-          Book a Demo
-        </button>
-      </a>
+    <!-- Background Image with 30% opacity -->
+    <div class="absolute inset-0 z-0 opacity-20">
+        <img
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg"
+            alt="Background pattern"
+            class="w-full h-full object-cover" />
     </div>
-    <!-- Right Image -->
-    <div class="w-full max-w-lg lg:max-w-xl relative">
-      <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+
+    <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative z-10">
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/newyork/" class="hover:underline text-white/80">New York</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Denial Management Services
+                    </li>
+                </ol>
+            </nav>
+
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Streamline Expert Denial Management Solutions in New York
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Managing denials in New York is more complex than in any other state. The constantly shifting mix of multiple payers causes administrative roadblocks. We handle the entire process, from identifying the root cause to submitting timely appeals.
+                </p>
+                <p>
+                    At Prime Doc Billing, we specialize in developing proven strategies for NY-specific denial management. We conduct real-time analysis and compliance monitoring to prevent future denials.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
+        </div>
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </div>
 </section>
 
 
@@ -79,9 +79,9 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     NY Denial Management services require specialized expertise. We overcome your practice’s denial obstacles to maximize reimbursement and improve workflow efficiency.
                 </p>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Denial Management Services in NY/Challenges in New York Denial Management Services.webp" alt="Challenges in New York Denial Management Services" class="w-full rounded-lg shadow-md mb-8">
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">High Claim Denial Rates</h3>
@@ -92,7 +92,7 @@ get_header();
                             Our denial management team also considers any coding errors and missing information to make up for your revenue loss.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Payer-specific Regulations</h3>
                         <p class="text-gray-600">
@@ -102,7 +102,7 @@ get_header();
                             We also maintain detailed payer profiles to stay updated with their changing regulations.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Delayed Reimbursements</h3>
                         <p class="text-gray-600">
@@ -170,9 +170,9 @@ get_header();
             <!-- Section 2 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Our End-to-End Denial Management Process For New York Providers</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Denial Management Services in NY/Our End-to-End Denial Management Process For New York Providers.webp" alt="Our End-to-End Denial Management Process For New York Providers" class="w-full rounded-lg shadow-md mb-8">
-                
+
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
@@ -189,7 +189,7 @@ get_header();
                             Prime Doc Billing is well-versed in every denial code and rule. This enables our team to quickly identify denial reasons in real time. We take instant and effective action to resolve them without delay.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Root Cause Analysis</h3>
@@ -205,7 +205,7 @@ get_header();
                             We correct the claims and conduct a root cause analysis for denial management.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Strategic Action Planning</h3>
@@ -213,7 +213,7 @@ get_header();
                             Inconsistent payer feedback for denial is quite common in NY commercial plans. That makes it hard for the providers and their staff to respond correctly. Prime Doc Billing tailors strategic plans for each denial. We conduct strategic action planning that best matches the requirements of NY payers.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Timely Appeals and Resubmissions</h3>
@@ -221,7 +221,7 @@ get_header();
                             NY MCOs often provide a strict appeal window. Our dedicated team tracks each specific deadline for appeal submission. We provide proper documentation and clinical justifications if needed to get you maximum reimbursements.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Payer Follow-up</h3>
@@ -229,7 +229,7 @@ get_header();
                             The local MCOs of NY often give a very slow response time. Our trained staff excels in NY-based payer navigation. We consistently follow up on every claim to overturn maximum denials with clarity.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Real-Time Reporting and Analytics</h3>
@@ -237,7 +237,7 @@ get_header();
                             Lack of New York’s denial trends insight can cause repetitive errors and revenue leakage. Prime Doc Billing provides real-time reporting and analytics of the reasons for denial. This data helps us in making better decisions for your practice’s denial management.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Prevention of Future Denials</h3>
@@ -259,15 +259,15 @@ get_header();
             <!-- Section 3 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Outsource NY Denial Management Services to Prime Doc Billing?</h2>
-                
-                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Denial Management Services in NY/Why Outsource NY Denial Management Services to Prime Doc Billing.webp" alt="Why Outsource NY Denial Management Services to Prime Doc Billing" class="w-full rounded-lg shadow-md mb-8">
+
+                <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Denial Management Services in NY/Why Outsource NY Denial Management Services to Prime Doc Billing.webp" alt="Why Outsource NY Denial Management Services to Prime Doc Billing" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing understands the unique demands of New York’s healthcare system. We solve systematic issues to help your practice overcome denial management.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -282,7 +282,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -296,7 +296,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -310,7 +310,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -324,7 +324,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -358,7 +358,7 @@ get_header();
             <!-- Section 4 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Boost Your Revenue - Get in Touch Today!</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Prime Doc Billing helps you avoid losing revenue with our expert denial management services. Book a demo on our website or get in touch today!
@@ -370,7 +370,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -388,7 +388,7 @@ get_header();
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What types of providers benefit most from your denial management services?</h3>
@@ -400,7 +400,7 @@ get_header();
                                 <p>We work with all types of providers with no boundaries to specialty. Our denial management services can benefit providers from primary care to Ambulatory surgery centres.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can you handle denials from union health plans and Medicaid MCOs in New York?</h3>
@@ -412,7 +412,7 @@ get_header();
                                 <p>Absolutely! Our team is experienced in managing claim denials for New York’s MCOs and union health funds.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Do you offer reporting and denial trend analysis?</h3>
@@ -424,7 +424,7 @@ get_header();
                                 <p>Yes! We provide tailored reporting and denial trend analysis to highlight root cause and recurring issues.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Is your service scalable for multi-site or growing practices in New York?</h3>
@@ -447,7 +447,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our denial management services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -467,7 +467,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

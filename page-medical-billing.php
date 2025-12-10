@@ -1,57 +1,58 @@
 <?php
+
 /** Template Name: Medical Billing Services in the USA */
 get_header();
 ?>
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Medical Billing Services
-    </li>
-  </ol>
-</nav>
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Medical Billing Services in the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Running a successful healthcare practice comes with several challenges, and medical billing should not be one of them. At Prime Doc Billing, we specialize in customized billing solutions that optimize your revenue cycle, reduce administrative burdens, and ensure faster reimbursements.
-          </p>
-          <p>
-            Our certified medical billing professionals handle everything from coding to collections, ensuring faster reimbursements and fewer claim rejections. With a proven track record in boosting revenue cycles across the USA, we help you focus on patient care while we optimize your billing process.
-          </p>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Medical Billing Services
+                    </li>
+                </ol>
+            </nav>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Medical Billing Services in the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Running a successful healthcare practice comes with several challenges, and medical billing should not be one of them. At Prime Doc Billing, we specialize in customized billing solutions that optimize your revenue cycle, reduce administrative burdens, and ensure faster reimbursements.
+                </p>
+                <p>
+                    Our certified medical billing professionals handle everything from coding to collections, ensuring faster reimbursements and fewer claim rejections. With a proven track record in boosting revenue cycles across the USA, we help you focus on patient care while we optimize your billing process.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
-      </div>
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -61,43 +62,44 @@ get_header();
             <!-- Section 1: Why Choose Prime Doc Billing? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Choose Prime Doc Billing?</h2>
-                     <div class="mt-6 mb-6">
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/medical-billing/How Does Prime Doc Billing Improve Revenue Performance for New York Medical Practices.webp" alt="How Does Prime Doc Billing Improve Revenue Performance for New York Medical Practices" class="w-full h-auto rounded-lg shadow-lg"></div> 
+                <div class="mt-6 mb-6">
+                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/medical-billing/How Does Prime Doc Billing Improve Revenue Performance for New York Medical Practices.webp" alt="How Does Prime Doc Billing Improve Revenue Performance for New York Medical Practices" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     We are here to make your healthcare journey easier and more efficient, providing reliable solutions that support your needs every step of the way, ensuring:
                 </p>
-                
+
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Faster reimbursements and optimized cash flow</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Quick denial resolution to reduce lost revenue</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Real-time reporting for complete transparency</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">HIPAA and CMS compliance for worry-free operations</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Advanced EHR systems to streamline billing and cut errors</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Proven strategies to boost revenue and reduce admin stress</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">24/7 dedicated support team ensuring smooth, uninterrupted operations</h3>
@@ -113,7 +115,7 @@ get_header();
             <!-- Section 2: What services do we offer? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">What services do we offer?</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/billing/Our Medical Billing Services.webp" alt="Our Medical Billing Services" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -121,7 +123,7 @@ get_header();
                         We help you stay ahead of industry changes via our varied billing services that are suitable for every provider. As a leading medical billing services provider, we ensure providers get every last dollar from their claims with 24/7 billing cycle oversight. We offer the following services all across the USA:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -136,7 +138,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -156,7 +158,7 @@ get_header();
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -170,7 +172,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -184,7 +186,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -288,7 +290,7 @@ get_header();
             <!-- Section 3: Whom We Serve? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Whom We Serve?</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/billing/Who Can Benefit from Our Scribe Services.webp" alt="Who Can Benefit from Our Scribe Services" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -296,7 +298,7 @@ get_header();
                         At Prime Doc Billing, we understand that no two medical practices are alike. That’s why we’re dedicated to serving a range of healthcare specialties with customized, high-performance medical billing solutions. Our services are designed for:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -311,7 +313,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -325,7 +327,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -421,13 +423,13 @@ get_header();
             <!-- Section 4: Why Outsource Medical Billing Services in the USA? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Outsource Medical Billing Services in the USA?</h2>
-                
+
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Running a healthcare practice in the USA is not free from challenges. Our outsourced medical billing services handle the heavy lifting, ensuring faster payments, accurate claim submissions, and reduced denials, ideally suited to the healthcare landscape across the USA.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -442,7 +444,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -456,7 +458,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -470,7 +472,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -490,7 +492,7 @@ get_header();
             <!-- Section 5: What are the Benefits of our Medical Billing Service? -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">What are the Benefits of our Medical Billing Service?</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/billing/Benefits of Medical Billing Service.webp" alt="Benefits of Medical Billing Service" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -498,7 +500,7 @@ get_header();
                         Our medical billing can transform your practice, improving cash flow, cutting admin work, and ensuring accurate claims. Here’s what you gain with Prime Doc Billing:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -513,7 +515,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -527,7 +529,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -541,7 +543,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -552,7 +554,7 @@ get_header();
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">You will stay compliant with ever-changing healthcare regulations like HIPAA.</h3>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -572,7 +574,7 @@ get_header();
             <!-- Section 6: Get Started with Prime Doc Billing Today! -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Get Started with Prime Doc Billing Today!</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Contact us for a free consultation, experience a smooth onboarding process, and let our experts handle your medical billing.
@@ -584,7 +586,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions (FAQs)</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -597,7 +599,7 @@ get_header();
                                 <p>We offer personalized, specialty-specific billing services that fit your practice’s nature. Our team of certified medical billers ensures significant revenue improvement. Avoid administrative burdens, and let us handle your billing worries.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do you ensure data security and HIPAA compliance?</h3>
@@ -609,7 +611,7 @@ get_header();
                                 <p>We prioritize patient data security with strict adherence to HIPAA regulations, using advanced encryption, secure systems, and regular compliance audits.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What are your pricing models for medical billing services?</h3>
@@ -621,7 +623,7 @@ get_header();
                                 <p>Our pricing is transparent and flexible. Get a free consultation to design your billing plan as per your practice's size, specialty, and unique needs, ensuring you only pay for what you need.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can you handle billing for multiple specialties?</h3>
@@ -633,7 +635,7 @@ get_header();
                                 <p>Yes, we specialize in multi-specialty billing, from cardiology and dermatology to mental health, ensuring accurate coding and faster reimbursements across diverse practices.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How quickly can we see improvements in our revenue cycle?</h3>
@@ -668,7 +670,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our medical billing services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -688,7 +690,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

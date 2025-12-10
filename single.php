@@ -22,7 +22,7 @@
                         <div class="w-full h-64 md:h-96 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center rounded-t-3xl">
                             <svg class="w-16 h-16 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                             </svg>
                         </div>
                     <?php endif; ?>
@@ -43,7 +43,7 @@
                     <!-- Meta Info -->
                     <div class="flex flex-wrap items-center text-gray-500 text-sm space-x-4 mb-8">
                         <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"
-                           class="flex items-center space-x-2 group" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                            class="flex items-center space-x-2 group" itemprop="author" itemscope itemtype="https://schema.org/Person">
                             <?php echo get_avatar(get_the_author_meta('ID'), 32, '', '', ['class' => 'w-8 h-8 rounded-full ring-2 ring-white shadow-sm group-hover:ring-[#3873CC] transition']); ?>
                             <span itemprop="name" class="font-medium text-gray-700 group-hover:text-[#3873CC] transition"><?php the_author(); ?></span>
                         </a>
@@ -89,7 +89,7 @@
                             <div class="flex flex-wrap gap-3">
                                 <?php foreach ($post_tags as $tag) : ?>
                                     <a href="<?php echo esc_url(get_tag_link($tag->term_id)); ?>"
-                                       class="inline-block bg-gray-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold hover:bg-[#3873CC] hover:text-white transition">
+                                        class="inline-block bg-gray-100 text-gray-700 px-4 py-2 rounded-full text-sm font-semibold hover:bg-[#3873CC] hover:text-white transition">
                                         <?php echo esc_html($tag->name); ?>
                                     </a>
                                 <?php endforeach; ?>
@@ -106,7 +106,7 @@
                             <div class="flex items-center justify-between mb-3">
                                 <h3 class="text-2xl font-bold text-gray-900">
                                     <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>"
-                                       class="text-[#3873CC] hover:underline transition">
+                                        class="text-[#3873CC] hover:underline transition">
                                         <?php the_author(); ?>
                                     </a>
                                 </h3>
@@ -117,8 +117,8 @@
                                     <div class="flex space-x-3">
                                         <?php foreach ($social_links as $social) : ?>
                                             <a href="<?php echo esc_url($social['url']); ?>"
-                                               class="w-10 h-10 flex items-center justify-center rounded-full bg-[#3873CC] text-white shadow-md hover:bg-[#2c5ba3] hover:shadow-lg transition transform hover:-translate-y-1"
-                                               target="_blank" rel="noopener noreferrer" title="<?php echo esc_attr($social['label']); ?>">
+                                                class="w-10 h-10 flex items-center justify-center rounded-full bg-[#3873CC] text-white shadow-md hover:bg-[#2c5ba3] hover:shadow-lg transition transform hover:-translate-y-1"
+                                                target="_blank" rel="noopener noreferrer" title="<?php echo esc_attr($social['label']); ?>">
                                                 <i class="<?php echo esc_attr($social['icon']); ?> fa-lg"></i>
                                             </a>
                                         <?php endforeach; ?>
@@ -138,7 +138,7 @@
                                     <span>Member since <?php echo date('Y', strtotime(get_the_author_meta('user_registered'))); ?></span>
                                 </span>
                                 <a href="<?php echo esc_url(get_author_posts_url($author_id)); ?>"
-                                   class="text-[#3873CC] hover:underline font-semibold transition">
+                                    class="text-[#3873CC] hover:underline font-semibold transition">
                                     View all articles →
                                 </a>
                             </div>
@@ -174,7 +174,7 @@
                                         <div class="w-full h-48 bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center rounded-t-2xl">
                                             <svg class="w-12 h-12 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+                                                    d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
                                             </svg>
                                         </div>
                                     <?php endif; ?>
@@ -215,12 +215,12 @@
 
 <!-- Reading Progress JavaScript -->
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
         const progressBar = document.getElementById('reading-progress');
         const article = document.querySelector('article');
 
         if (progressBar && article) {
-            window.addEventListener('scroll', function () {
+            window.addEventListener('scroll', function() {
                 const articleTop = article.offsetTop;
                 const articleHeight = article.offsetHeight;
                 const windowHeight = window.innerHeight;

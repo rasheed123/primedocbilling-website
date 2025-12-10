@@ -1,4 +1,5 @@
 <?php
+
 /** Template Name: Medical Scribe Services in New York */
 get_header();
 ?>
@@ -9,62 +10,61 @@ get_header();
 <!-- Hero Section -->
 <section class="py-12 md:py-20 bg-[#3873cc] font-sans relative overflow-hidden">
 
-  <!-- Background Image with 30% opacity -->
-  <div class="absolute inset-0 z-0 opacity-20">
-    <img 
-      src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg" 
-      alt="Background pattern" 
-      class="w-full h-full object-cover"
-    />
-  </div>
-
-  <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative">
-    <!-- Left Content -->
-    <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-      <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-        <ol class="inline-flex items-center space-x-2">
-          <li class="flex items-center">
-            <a href="/" class="hover:underline text-white/80">Home</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li class="flex items-center">
-            <a href="/newyork" class="hover:underline text-white/80">New York</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li aria-current="page" class="font-semibold text-white">
-            Medical Scribe Services
-          </li>
-        </ol>
-      </nav>
-
-      <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-        Boost Efficiency with Our Virtual Medical Scribe Services in New York
-      </h1>
-      <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-        <p>
-          Medical Scribing in New York is more than just streamlining operations. It requires creating a space for better healthcare and faster reimbursements. Prime Doc Billing helps you stay productive in NY’s competitive and demanding healthcare landscape.
-        </p>
-        <p>
-          Our Virtual Medical Scribe services reduce the administrative burden on providers. We help you stay focused on clinical care instead of time-consuming charting.
-        </p>
-      </div>
-      <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-        <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-          Book a Demo
-        </button>
-      </a>
+    <!-- Background Image with 30% opacity -->
+    <div class="absolute inset-0 z-0 opacity-20">
+        <img
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg"
+            alt="Background pattern"
+            class="w-full h-full object-cover" />
     </div>
-    <!-- Right Image -->
-    <div class="w-full max-w-lg lg:max-w-xl relative">
-      <img alt="3D style modern icon illustration of medical scribing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+
+    <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative">
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/newyork" class="hover:underline text-white/80">New York</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Medical Scribe Services
+                    </li>
+                </ol>
+            </nav>
+
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Boost Efficiency with Our Virtual Medical Scribe Services in New York
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Medical Scribing in New York is more than just streamlining operations. It requires creating a space for better healthcare and faster reimbursements. Prime Doc Billing helps you stay productive in NY’s competitive and demanding healthcare landscape.
+                </p>
+                <p>
+                    Our Virtual Medical Scribe services reduce the administrative burden on providers. We help you stay focused on clinical care instead of time-consuming charting.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
+        </div>
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical scribing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </div>
 </section>
 
 
@@ -200,7 +200,7 @@ get_header();
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Our Commitment to HIPAA-Compliant Virtual Scribing Services</h2>
 
-                 <!-- <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/hipaa-compliant-virtual-scribing-ny.webp" alt="Our Commitment to HIPAA-Compliant Virtual Scribing Services" class="w-full rounded-lg shadow-md mb-8"> -->
+                <!-- <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/hipaa-compliant-virtual-scribing-ny.webp" alt="Our Commitment to HIPAA-Compliant Virtual Scribing Services" class="w-full rounded-lg shadow-md mb-8"> -->
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
@@ -242,7 +242,7 @@ get_header();
             <!-- Section 4: Optimizing Clinical Workflows Through Professional Scribing Support -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Optimizing Clinical Workflows Through Professional Scribing Support</h2>
-<!-- 
+                <!-- 
                  <img src="<?php echo get_theme_file_uri() ?>/assets/images/scribing/optimizing-clinical-workflows-ny.webp" alt="Optimizing Clinical Workflows Through Professional Scribing Support" class="w-full rounded-lg shadow-md mb-8"> -->
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -432,7 +432,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our medical scribe services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -452,7 +452,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

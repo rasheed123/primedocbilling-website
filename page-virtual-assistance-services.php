@@ -1,4 +1,5 @@
 <?php
+
 /** Template Name: Insurance Verification of Benefits Services in New York */
 get_header();
 ?>
@@ -9,63 +10,62 @@ get_header();
 <!-- Hero Section -->
 <section class="py-12 md:py-20 bg-[#3873cc] font-sans relative overflow-hidden">
 
-  <!-- Background Image with 30% opacity -->
-  <div class="absolute inset-0 z-0 opacity-20">
-    <img 
-      src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg" 
-      alt="Background pattern" 
-      class="w-full h-full object-cover"
-    />
-  </div>
-
-  <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative z-10">
-    <!-- Left Content -->
-    <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-      <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-        <ol class="inline-flex items-center space-x-2">
-          <li class="flex items-center">
-            <a href="/" class="hover:underline text-white/80">Home</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li class="flex items-center">
-            <a href="/newyork" class="hover:underline text-white/80">New York</a>
-            <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-              viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-            </svg>
-          </li>
-          <li aria-current="page" class="font-semibold text-white">
-            Insurance Verification of Benefits Services
-          </li>
-        </ol>
-      </nav>
-
-      <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-        Streamline Patient Coverage with Insurance Verification of Benefits Services in New York
-      </h1>
-      <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-        <p>
-          Navigating insurance coverage in New York’s highly regulated healthcare environment can be overwhelming for providers. Even a small error can result in costly delays in the complex mix of the NY healthcare insurance system.
-        </p>
-        <p>
-          Prime Doc Billing specializes in New York-based Insurance VOB services. We offer fast, accurate, and compliant services tailored to the unique needs of NYC practices. Our team ensures you get paid faster with fewer denials.
-        </p>
-      </div>
-      <a href="https://primedocbilling.com/calendly/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-        <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-          Book a Demo
-        </button>
-      </a>
+    <!-- Background Image with 30% opacity -->
+    <div class="absolute inset-0 z-0 opacity-20">
+        <img
+            src="<?php echo get_template_directory_uri(); ?>/assets/images/newyork-services/newyork-bg.jpg"
+            alt="Background pattern"
+            class="w-full h-full object-cover" />
     </div>
 
-    <!-- Right Image -->
-    <div class="w-full max-w-lg lg:max-w-xl relative">
-      <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+    <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12 relative z-10">
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/newyork" class="hover:underline text-white/80">New York</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Insurance Verification of Benefits Services
+                    </li>
+                </ol>
+            </nav>
+
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Streamline Patient Coverage with Insurance Verification of Benefits Services in New York
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Navigating insurance coverage in New York’s highly regulated healthcare environment can be overwhelming for providers. Even a small error can result in costly delays in the complex mix of the NY healthcare insurance system.
+                </p>
+                <p>
+                    Prime Doc Billing specializes in New York-based Insurance VOB services. We offer fast, accurate, and compliant services tailored to the unique needs of NYC practices. Our team ensures you get paid faster with fewer denials.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/calendly/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
+        </div>
+
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical billing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </div>
 </section>
 
 <!-- Main Content -->
@@ -82,18 +82,18 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Prime Doc Billing provides insurance verification services to reduce financial risks for your practice. Insurance VOB is crucial for New York providers due to their wide and complex insurance environment. It includes a variety of:
                 </p>
-                
+
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Private plans</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Medicaid Managed Care programs</h3>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Health Exchange policies</h3>
@@ -168,7 +168,7 @@ get_header();
             <!-- Section 2 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">What Does Our New York-Based Insurance Verification Service Include?</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical virtual assistant NY/Administrative Support.webp" alt="Administrative Support" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -191,7 +191,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -205,7 +205,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -219,7 +219,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -233,7 +233,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -295,7 +295,7 @@ get_header();
             <!-- Section 3 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How Does Prime Doc Billing Ensure Accuracy and Speed in NYC's Fast-Paced Healthcare Landscape?</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical virtual assistant NY/Prime Doc Billing’s Specialty-Specific Assistance.webp" alt="Prime Doc Billing’s Specialty-Specific Assistance" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -303,7 +303,7 @@ get_header();
                         Prime Doc Billing designs insurance verification processes to meet the needs of New York’s fast-paced practices. Whether you are dealing with high-patient volume or accommodating walk-ins, we can customize insurance VOB services for all. Our team ensures minimum wait times as we can seamlessly integrate into your front-desk operations.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -318,7 +318,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -332,7 +332,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -352,7 +352,7 @@ get_header();
             <!-- Section 4 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Serving Diverse NYC Medical Practices: Who Can Benefit?</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/newyork-services/Medical virtual assistant NY/Why Outsource MVA Support to Prime Doc Billing.webp" alt="Why Outsource MVA Support to Prime Doc Billing" class="w-full h-auto rounded-lg shadow-lg mb-6">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -375,7 +375,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -389,7 +389,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -437,7 +437,7 @@ get_header();
             <!-- Section 5 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Choose Prime Doc Billing for Insurance Verification in New York?</h2>
-                
+
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Our medical billing can transform your practice, improving cash flow, cutting admin work, and ensuring accurate claims. Here’s what you gain with Prime Doc Billing:
@@ -458,7 +458,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -472,7 +472,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -493,7 +493,7 @@ get_header();
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -513,7 +513,7 @@ get_header();
             <!-- Section 6 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Ready to Eliminate Eligibility Errors and Maximize Cash Flow?</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Partner with Prime Doc Billing for faster turnaround times and reliable results. Book a free demo or connect with us now!
@@ -525,7 +525,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -546,7 +546,7 @@ get_header();
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do you ensure accuracy with complex NYC insurance networks?</h3>
@@ -558,7 +558,7 @@ get_header();
                                 <p>We use verified portals and standardized checklists to ensure every detail is accurate. Our team also customizes payer-specific workflows for complete accuracy.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How does this service help reduce claim denials for NYC practices?</h3>
@@ -575,7 +575,7 @@ get_header();
                                 </ul>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Is your insurance verification process HIPAA-compliant?</h3>
@@ -587,7 +587,7 @@ get_header();
                                 <p>Absolutely! We follow all HIPAA guidelines and New York-specific privacy regulations. Our staff receives regular training on data protection and compliance.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How quickly can I start using Prime Doc Billing’s insurance verification service in New York?</h3>
@@ -610,7 +610,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our insurance verification services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -630,7 +630,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

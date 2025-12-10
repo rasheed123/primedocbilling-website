@@ -1,63 +1,64 @@
 <?php
+
 /** Template Name: Workers' Compensation Billing Services */
 get_header();
 ?>
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Workers' Compensation Billing Services
-    </li>
-  </ol>
-</nav>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Workers' Compensation Billing Services
+                    </li>
+                </ol>
+            </nav>
 
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Efficient and Compliant Workers' Compensation Billing Services Across the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Workers’ Compensation Billing services refer to managing and submitting claims for employees who get sick or injured due to their job. Workers’ medical billing is very different from regular billing because of:
-          </p>
-          <ul class="list-disc list-inside ml-4">
-              <li>State-Specific Rules</li>
-              <li>Unique Coding Requirements</li>
-              <li>Specialized Documentations</li>
-          </ul>
-          <p>
-            Our experts can work with the complexities of workers’ compensation billing services. We understand the different requirements for many types of injuries. Our team then customizes billing services accordingly.
-          </p>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Efficient and Compliant Workers' Compensation Billing Services Across the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Workers’ Compensation Billing services refer to managing and submitting claims for employees who get sick or injured due to their job. Workers’ medical billing is very different from regular billing because of:
+                </p>
+                <ul class="list-disc list-inside ml-4">
+                    <li>State-Specific Rules</li>
+                    <li>Unique Coding Requirements</li>
+                    <li>Specialized Documentations</li>
+                </ul>
+                <p>
+                    Our experts can work with the complexities of workers’ compensation billing services. We understand the different requirements for many types of injuries. Our team then customizes billing services accordingly.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/calendly/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/calendly/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image (Optional, if you want to keep the image from the original hero) -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <img alt="3D style modern icon illustration of medical credentialing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
-      </div>
+        <!-- Right Image (Optional, if you want to keep the image from the original hero) -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical credentialing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -71,7 +72,7 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Workers’ compensation billing is a complex process since it has different requirements from the regular billing services. A few of them are:
                 </p>
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Involvement of Multiple Stakeholders</h3>
@@ -88,11 +89,11 @@ get_header();
                             We keep everyone in the loop to ensure accurate reimbursements for your practice. Our experts ensure all the stakeholders receive timely follow-ups to streamline the entire billing process.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">State-Specific Laws and Regulations</h3>
                         <p class="text-gray-600">
-                            Every state in the US has different laws and regulations for workers’ compensation billing. It includes 
+                            Every state in the US has different laws and regulations for workers’ compensation billing. It includes
                         </p>
                         <ul class="list-disc list-inside ml-4 text-gray-600">
                             <li>Treatment guidelines</li>
@@ -104,11 +105,11 @@ get_header();
                             Our teams stay up-to-date with the laws of every state to ensure accurate claims. We also follow HIPAA compliance in every state.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Different Payer Rules</h3>
                         <p class="text-gray-600">
-                            In the context of workers’ compensation billing, each payer has a different rule. It includes 
+                            In the context of workers’ compensation billing, each payer has a different rule. It includes
                         </p>
                         <ul class="list-disc list-inside ml-4 text-gray-600">
                             <li>Coding guidelines</li>
@@ -140,7 +141,7 @@ get_header();
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Preauthorization</h3>
                         <p class="text-gray-600">
-                            Our experts conduct pre authorization from insurance companies to ensure timely reimbursements. We follow the payers’ instructions for utilization review to ensure the treatment is medically necessary. 
+                            Our experts conduct pre authorization from insurance companies to ensure timely reimbursements. We follow the payers’ instructions for utilization review to ensure the treatment is medically necessary.
                         </p>
                     </div>
 
@@ -162,7 +163,7 @@ get_header();
                         Workers’ Compensation billing is an overwhelming process. Prime Doc Billing simplifies it for you to speed up the treatment and get maximum reimbursements.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -177,7 +178,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -191,7 +192,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -217,7 +218,7 @@ get_header();
                         Even though the process for submitting workers’ compensation claims is quite complex, our experts excel in it. Here is a step-by-step process of how we handle workers’ compensation claims:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -232,7 +233,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -246,7 +247,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -260,7 +261,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -274,7 +275,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -343,7 +344,7 @@ get_header();
                         <div>
                             <h3 class="text-xl font-semibold text-gray-800 mb-2">Appeal</h3>
                             <p class="text-gray-600">
-                                If the insurance companies deny or underpay the claim, we file for an appeal. The patients have the right to ask for IMR (Independent Medical Review). A certified neutral doctor conducts IMR to resolve the payer’s dispute. 
+                                If the insurance companies deny or underpay the claim, we file for an appeal. The patients have the right to ask for IMR (Independent Medical Review). A certified neutral doctor conducts IMR to resolve the payer’s dispute.
                             </p>
                             <p class="text-gray-600 mt-3">
                                 Prime Doc Billing files for an IMR within 30 days of the denial. We take care of the necessary paperwork and submit it accurately.
@@ -390,7 +391,7 @@ get_header();
                         We do not set any limit to our services. However, the healthcare providers that can benefit the most from workers’ compensation billing services are:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -408,7 +409,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -425,7 +426,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -465,7 +466,7 @@ get_header();
                         Prime Doc Billing has always delivered exceptional results in Workers’ Compensation Billing. We ensure accuracy and compliance in every claim to increase reimbursements. Here is why the providers choose us for their WC billing:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -487,7 +488,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -504,7 +505,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -524,7 +525,7 @@ get_header();
             <!-- Section 6 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">How to Get Started with Prime Doc Billing?</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
                         Ready to simplify your workers’ compensation billing? Your Claims, Our Priority! Connect with us now.
@@ -536,7 +537,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -549,7 +550,7 @@ get_header();
                                 <p>When a worker gets injured on their job, their medical treatment is covered under workers’ compensation insurance. Workers’ compensation billing is the process of managing and submitting claims specifically for work-related injuries.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do you ensure compliance with state-specific workers' comp laws?</h3>
@@ -561,7 +562,7 @@ get_header();
                                 <p>We regularly monitor updates from state workers’ compensation boards to stay updated with the changing laws. That way, we can stay compliant with the updated laws, ensuring patients’ privacy.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can Prime Doc Billing help reduce denials for workers’ comp claims?</h3>
@@ -573,7 +574,7 @@ get_header();
                                 <p>We ensure correct documentation and accurate coding to help reduce denials for WC claims in the first attempt.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Is there a difference between workers' comp billing and regular insurance billing?</h3>
@@ -591,7 +592,7 @@ get_header();
                                 <p class="mt-3">WC billing also has state-specific laws, varying from state to state.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What information is needed to file a workers' compensation claim?</h3>
@@ -633,7 +634,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Ready to simplify your workers’ compensation billing? Your Claims, Our Priority!
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -653,7 +654,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

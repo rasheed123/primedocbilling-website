@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: Medical Billing Super Bill 
  */
@@ -13,43 +14,43 @@ get_header();
       <h1 class="text-4xl font-extrabold text-[#0a1a3b] mb-6 mt-6">
         Superbill in Medical Billing: Definition, Purpose, & How to Submit
       </h1>
-		<img src="https://primedocbilling.com/wp-content/uploads/2025/11/superbill-in-medical-billing.webp" alt="What is super bill in medical billing" class="w-full h-full object-cover rounded-xl shadow-md">
-     <div class="space-y-6 leading-relaxed pt-8">
-      <p>
-        Superbill is a detailed document through which healthcare providers list the services provided to patients to get accurate reimbursements. It involves recording patient information, provider credentials, procedure and diagnosis codes, and the services performed. It serves as the basis for submitting an insurance claim to the payer.
-      </p>
+      <img src="https://primedocbilling.com/wp-content/uploads/2025/11/superbill-in-medical-billing.webp" alt="What is super bill in medical billing" class="w-full h-full object-cover rounded-xl shadow-md">
+      <div class="space-y-6 leading-relaxed pt-8">
+        <p>
+          Superbill is a detailed document through which healthcare providers list the services provided to patients to get accurate reimbursements. It involves recording patient information, provider credentials, procedure and diagnosis codes, and the services performed. It serves as the basis for submitting an insurance claim to the payer.
+        </p>
 
-      <p>
-        The service details recorded in Superbill allow the insurers to verify coverage and determine the amount for reimbursement. Accurate codes in a superbill help process claims efficiently and prevent delays or denials. Superbill ensures that the insurance claim reflects the care provided to the patient.
-      </p>
+        <p>
+          The service details recorded in Superbill allow the insurers to verify coverage and determine the amount for reimbursement. Accurate codes in a superbill help process claims efficiently and prevent delays or denials. Superbill ensures that the insurance claim reflects the care provided to the patient.
+        </p>
 
-      <p>
-        Once the details and documents are compiled, the  <a href="https://primedocbilling.com/medical-billing/service/" class="font-semibold text-[#3873CC]" > billing team </a> submits them either electronically or through a clearinghouse. It can be submitted directly by the provider or the patient. Accurately prepared billing documents in the superbill help minimize errors and streamline approvals. Superbill documents help provide a clear record of services and payments for both healthcare providers and patients.
-      </p>
+        <p>
+          Once the details and documents are compiled, the <a href="https://primedocbilling.com/medical-billing/service/" class="font-semibold text-[#3873CC]"> billing team </a> submits them either electronically or through a clearinghouse. It can be submitted directly by the provider or the patient. Accurately prepared billing documents in the superbill help minimize errors and streamline approvals. Superbill documents help provide a clear record of services and payments for both healthcare providers and patients.
+        </p>
+      </div>
     </div>
-	</div>
   </section>
 
   <!-- ===== TABLE OF CONTENTS (single TOC at top) ===== -->
   <section id="table-of-contents" class="py-8 bg-[#f8fbff] w-full">
     <div class="max-w-5xl mx-auto px-6">
       <h2 class="text-3xl md:text-4xl font-extrabold text-[#0a1a3b] mb-6 text-center">Table of Contents</h2>
-	  <!-- Toggle Button -->
+      <!-- Toggle Button -->
       <button id="toc-toggle" class="px-4 py-2 bg-[#3873CC] text-white rounded hover:bg-[#2b5da0]">
-      Hide Table of Contents
+        Hide Table of Contents
       </button>
 
       <div class="border border-[#dce8f7] rounded-lg bg-white p-8 shadow-sm">
 
         <ul class="space-y-4 text-[#0a1a3b] text-base font-semibold">
-		 <li>
+          <li>
             <a href="#superbill" class="toc-link underline decoration-[#3873CC] hover:text-[#3873CC]">Superbill in Medical Billing: Definition, Purpose, & How to Submit
-</a>
+            </a>
           </li>
 
           <li>
-		  <a href="#what-is-superbill" class="toc-link underline decoration-[#3873CC] hover:text-[#3873CC]">What is a Superbill in Medical Billing?
-</a>
+            <a href="#what-is-superbill" class="toc-link underline decoration-[#3873CC] hover:text-[#3873CC]">What is a Superbill in Medical Billing?
+            </a>
             <ul class="list-decimal list-inside ml-6 mt-3 space-y-2 text-gray-700 text-sm font-semibold">
               <li><a href="#another-name" class="toc-link underline decoration-[#3873CC] hover:text-[#3873CC]">What is another name for a superbill?</a></li>
               <li><a href="#types-superbill" class="toc-link underline decoration-[#3873CC] hover:text-[#3873CC]">What are the types of superbill?</a></li>
@@ -57,7 +58,7 @@ get_header();
           </li>
 
           <li>
-            
+
           </li>
 
           <li>
@@ -128,10 +129,10 @@ get_header();
       <p>
         An accurate and well-prepared superbill minimizes the risk of claim rejections. It also provides a reliable record for audits. This helps healthcare organizations maintain financial integrity and legal compliance.
       </p>
-	  <h3 id="another-name" class="text-2xl font-semibold text-[#3873CC] mt-8 mb-3">What is another name for a superbill? </h3>
+      <h3 id="another-name" class="text-2xl font-semibold text-[#3873CC] mt-8 mb-3">What is another name for a superbill? </h3>
       <p>
-	  In <a href="https://primedocbilling.com/medical-billing/" class="font-semibold text-[#3873CC]" >medical billing </a>, the term superbill is often used interchangeably with charge slip. It is a detailed form used to capture charges for medical services performed. A charge slip acts as a communication tool between healthcare providers and the billing team.
-However, a superbill or charge slip is also commonly known as an encounter form, routing slip, or fee ticket.
+        In <a href="https://primedocbilling.com/medical-billing/" class="font-semibold text-[#3873CC]">medical billing </a>, the term superbill is often used interchangeably with charge slip. It is a detailed form used to capture charges for medical services performed. A charge slip acts as a communication tool between healthcare providers and the billing team.
+        However, a superbill or charge slip is also commonly known as an encounter form, routing slip, or fee ticket.
       </p>
 
       <h3 id="types-superbill" class="text-2xl font-semibold text-[#3873CC] mt-8 mb-3">What are the types of superbill? </h3>
@@ -235,7 +236,7 @@ However, a superbill or charge slip is also commonly known as an encounter form,
       </p>
 
       <h3 id="practice-fusion" class="text-2xl font-semibold text-[#3873CC] mt-8 mb-3">How to create a Superbill in Practice Fusion?</h3>
-	  <p>After completing the chart on Practice Fusion, navigate to the patient’s note </p>
+      <p>After completing the chart on Practice Fusion, navigate to the patient’s note </p>
       <ul class="list-disc pl-6 space-y-2">
         <li>Click on the Superbill Record at the bottom of the Chart note, or use the ‘Actions’ dropdown and select ‘Add Superbill’.</li>
         <li>In the Superbill window, select the correct Healthcare provider and facility where the service was rendered.</li>
@@ -244,19 +245,19 @@ However, a superbill or charge slip is also commonly known as an encounter form,
         <li>Review all the entries for accuracy. Save or send the superbill when complete.</li>
         <li>The superbill will then be sent via an integrated billing partner, or it will be exported to the internal billing team.</li>
       </ul>
-	  <div class="w-full max-w-4xl mx-auto my-8">
-		  <div class="relative w-full overflow-hidden rounded-xl shadow-lg" >
-			<iframe 
-			  class="absolute top-0 left-0 w-full h-full"
-			  src="https://www.youtube.com/embed/H_-CFxVxwqA?si=PL61cuE5AkU9BwYt"
-			  title="YouTube video player"
-			  frameborder="0"
-			  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			  allowfullscreen>
-			</iframe>
-		  </div>
-		</div>
-		<!-- 
+      <div class="w-full max-w-4xl mx-auto my-8">
+        <div class="relative w-full overflow-hidden rounded-xl shadow-lg">
+          <iframe
+            class="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/H_-CFxVxwqA?si=PL61cuE5AkU9BwYt"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+      <!-- 
       <p class="mt-3"><a href="https://youtu.be/H_-CFxVxwqA?si=PL61cuE5AkU9BwYt" class="text-[#3873CC] underline">Practice Fusion - video</a></p>
 	  -->
 
@@ -267,19 +268,19 @@ However, a superbill or charge slip is also commonly known as an encounter form,
         <li>A superbill can still be generated for insurance purposes even if the payment has already been made. The medical billers will only need to edit the paid invoice and add the billing codes if necessary.</li>
         <li>After entering all the required information, the superbill can be exported or printed via ‘Export’ or ‘Download’.</li>
       </ul>
-	  <div class="w-full max-w-4xl mx-auto my-8">
-		  <div class="relative w-full overflow-hidden rounded-xl shadow-lg" >
-			<iframe 
-			  class="absolute top-0 left-0 w-full h-full"
-			  src="https://www.youtube.com/embed/PU2uEgNs_iA"
-			  title="YouTube video player"
-			  frameborder="0"
-			  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			  allowfullscreen>
-			</iframe>
-		  </div>
-		</div>
-		<!--
+      <div class="w-full max-w-4xl mx-auto my-8">
+        <div class="relative w-full overflow-hidden rounded-xl shadow-lg">
+          <iframe
+            class="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/PU2uEgNs_iA"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+      <!--
       <p class="mt-3"><a href="https://youtu.be/PU2uEgNs_iA?si=UzMj3A9f-krVosl2" class="text-[#3873CC] underline">Jane App - video</a></p>
 	  -->
 
@@ -291,19 +292,19 @@ However, a superbill or charge slip is also commonly known as an encounter form,
         <li>Once you select the appointments, click on ‘Create Superbill’</li>
         <li>The superbill will be generated, which the biller can print, download, or Email to the client.</li>
       </ul>
-	  <div class="w-full max-w-4xl mx-auto my-8">
-		  <div class="relative w-full overflow-hidden rounded-xl shadow-lg" >
-			<iframe 
-			  class="absolute top-0 left-0 w-full h-full"
-			  src="https://www.youtube.com/embed/sM8eXMEp7Qk"
-			  title="YouTube video player"
-			  frameborder="0"
-			  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-			  allowfullscreen>
-			</iframe>
-		  </div>
-		</div>
-		<!-- 
+      <div class="w-full max-w-4xl mx-auto my-8">
+        <div class="relative w-full overflow-hidden rounded-xl shadow-lg">
+          <iframe
+            class="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/sM8eXMEp7Qk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+      <!-- 
       <p class="mt-3"><a href="https://youtu.be/sM8eXMEp7Qk?si=PDZBCJMwp1-iSYFp" class="text-[#3873CC] underline">Simple Practice - video</a></p>
 	  -->
     </div>
@@ -438,125 +439,136 @@ However, a superbill or charge slip is also commonly known as an encounter form,
 
 <!-- ===== JS: TOC toggle, smooth scroll with sticky header offset, and basic accordion behavior ===== -->
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  // TOC toggle
-  const tocToggle = document.getElementById('toc-toggle');
-  const tocContent = document.querySelector('#table-of-contents .border');
-  if (tocToggle && tocContent) {
-    tocToggle.addEventListener('click', function() {
-      if (tocContent.style.display === 'none') {
-        tocContent.style.display = '';
-        tocToggle.textContent = 'Hide Table of Contents';
-      } else {
-        tocContent.style.display = 'none';
-        tocToggle.textContent = 'Show Table of Contents';
-      }
-    });
-  }
+  document.addEventListener("DOMContentLoaded", function() {
+    // TOC toggle
+    const tocToggle = document.getElementById('toc-toggle');
+    const tocContent = document.querySelector('#table-of-contents .border');
+    if (tocToggle && tocContent) {
+      tocToggle.addEventListener('click', function() {
+        if (tocContent.style.display === 'none') {
+          tocContent.style.display = '';
+          tocToggle.textContent = 'Hide Table of Contents';
+        } else {
+          tocContent.style.display = 'none';
+          tocToggle.textContent = 'Show Table of Contents';
+        }
+      });
+    }
 
-  // Sticky header height detection for scroll offsets
-  function getStickyHeaderHeight() {
-    const headers = document.querySelectorAll('header, .header, .site-header, .elementor-sticky--active');
-    let total = 0;
-    headers.forEach(h => {
-      const styles = window.getComputedStyle(h);
-      total += h.offsetHeight + parseInt(styles.marginBottom || 0);
-    });
-    return total || 120; // fallback
-  }
+    // Sticky header height detection for scroll offsets
+    function getStickyHeaderHeight() {
+      const headers = document.querySelectorAll('header, .header, .site-header, .elementor-sticky--active');
+      let total = 0;
+      headers.forEach(h => {
+        const styles = window.getComputedStyle(h);
+        total += h.offsetHeight + parseInt(styles.marginBottom || 0);
+      });
+      return total || 120; // fallback
+    }
 
-  // Apply scroll-margin-top to anchors
-  const anchors = document.querySelectorAll("h2[id], h3[id], section[id]");
-  anchors.forEach(el => {
-    el.style.scrollMarginTop = (getStickyHeaderHeight() + 20) + "px";
+    // Apply scroll-margin-top to anchors
+    const anchors = document.querySelectorAll("h2[id], h3[id], section[id]");
+    anchors.forEach(el => {
+      el.style.scrollMarginTop = (getStickyHeaderHeight() + 20) + "px";
+    });
+
+    // Smooth scroll for TOC links
+    document.querySelectorAll('.toc-link').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (!target) return;
+        const offset = getStickyHeaderHeight() + 20;
+        const top = target.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({
+          top,
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Simple accordion open/close (for FAQ items)
+    document.querySelectorAll('.accordion__item').forEach(item => {
+      const header = item.querySelector('div.flex');
+      header && header.addEventListener('click', () => {
+        const p = item.querySelector('p');
+        if (!p) return;
+        if (p.classList.contains('hidden')) {
+          p.classList.remove('hidden');
+        } else {
+          p.classList.add('hidden');
+        }
+      });
+    });
   });
-
-  // Smooth scroll for TOC links
-  document.querySelectorAll('.toc-link').forEach(link => {
-    link.addEventListener('click', function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute('href'));
-      if (!target) return;
-      const offset = getStickyHeaderHeight() + 20;
-      const top = target.getBoundingClientRect().top + window.scrollY - offset;
-      window.scrollTo({ top, behavior: 'smooth' });
-    });
-  });
-
-  // Simple accordion open/close (for FAQ items)
-  document.querySelectorAll('.accordion__item').forEach(item => {
-    const header = item.querySelector('div.flex');
-    header && header.addEventListener('click', () => {
-      const p = item.querySelector('p');
-      if (!p) return;
-      if (p.classList.contains('hidden')) {
-        p.classList.remove('hidden');
-      } else {
-        p.classList.add('hidden');
-      }
-    });
-  });
-});
 </script>
 
 <style>
-/* Keep toc-link hover like your previous file */
-.toc-link { transition: all 0.2s ease; }
-.toc-link:hover { color: #2a54a0; }
+  /* Keep toc-link hover like your previous file */
+  .toc-link {
+    transition: all 0.2s ease;
+  }
 
-/* small helper to keep hidden class consistent if Tailwind not loaded */
-.hidden { display: none !important; }
+  .toc-link:hover {
+    color: #2a54a0;
+  }
+
+  /* small helper to keep hidden class consistent if Tailwind not loaded */
+  .hidden {
+    display: none !important;
+  }
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-  const tocLinks = document.querySelectorAll('.toc-link');
+  document.addEventListener("DOMContentLoaded", function() {
+    const tocLinks = document.querySelectorAll('.toc-link');
 
-  function getStickyHeaderHeight() {
-    const headers = document.querySelectorAll('header, .header, .site-header, .elementor-sticky--active');
-    let totalHeight = 0;
+    function getStickyHeaderHeight() {
+      const headers = document.querySelectorAll('header, .header, .site-header, .elementor-sticky--active');
+      let totalHeight = 0;
 
-    headers.forEach(h => {
-      const styles = window.getComputedStyle(h);
-      totalHeight += h.offsetHeight + parseInt(styles.marginBottom || 0);
+      headers.forEach(h => {
+        const styles = window.getComputedStyle(h);
+        totalHeight += h.offsetHeight + parseInt(styles.marginBottom || 0);
+      });
+
+      return totalHeight || 120; // fallback if no header detected
+    }
+
+    // ✅ Auto-apply scroll-margin-top to headings so they never go too high
+    const allAnchors = document.querySelectorAll("h2[id], h3[id], li[id], section[id]");
+    allAnchors.forEach(el => {
+      el.style.scrollMarginTop = (getStickyHeaderHeight() + 20) + "px";
     });
 
-    return totalHeight || 120; // fallback if no header detected
-  }
+    // CLICK HANDLER
+    tocLinks.forEach(link => {
+      link.addEventListener("click", function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute("href"));
 
-  // ✅ Auto-apply scroll-margin-top to headings so they never go too high
-  const allAnchors = document.querySelectorAll("h2[id], h3[id], li[id], section[id]");
-  allAnchors.forEach(el => {
-    el.style.scrollMarginTop = (getStickyHeaderHeight() + 20) + "px";
-  });
+        if (target) {
+          const headerOffset = getStickyHeaderHeight();
+          const topPos = target.getBoundingClientRect().top + window.scrollY - headerOffset - 20;
 
-  // CLICK HANDLER
-  tocLinks.forEach(link => {
-    link.addEventListener("click", function(e) {
-      e.preventDefault();
-      const target = document.querySelector(this.getAttribute("href"));
-
-      if (target) {
-        const headerOffset = getStickyHeaderHeight();
-        const topPos = target.getBoundingClientRect().top + window.scrollY - headerOffset - 20;
-
-        window.scrollTo({
-          top: topPos,
-          behavior: "smooth"
-        });
-      }
+          window.scrollTo({
+            top: topPos,
+            behavior: "smooth"
+          });
+        }
+      });
     });
   });
-});
 </script>
 
 <style>
-.toc-link {
-  transition: all 0.3s ease;
-}
-.toc-link:hover {
-  color: #2a54a0;
-}
+  .toc-link {
+    transition: all 0.3s ease;
+  }
+
+  .toc-link:hover {
+    color: #2a54a0;
+  }
 </style>
 
 <?php get_footer(); ?>

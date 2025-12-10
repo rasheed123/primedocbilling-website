@@ -160,15 +160,15 @@ function primedocbilling_scripts()
 	echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' . "\n";
 
 	// Load stylesheets with proper versioning
-	// Check if Tailwind CSS file exists before enqueuing
-	$tailwind_css_path = get_template_directory() . '/assets/css/tailwind.prod.min.css';
-	$tailwind_css_uri  = get_template_directory_uri() . '/assets/css/tailwind.prod.min.css';
 
-	wp_enqueue_style('primedocbilling-tailwind-style', $tailwind_css_uri, array(), $theme_version);
-	wp_enqueue_style('primedocbilling-aos-style', get_template_directory_uri() . '/assets/css/aos.css', array(), $theme_version, true);
+	wp_enqueue_style('primedocbilling-tailwind-style', get_template_directory_uri() . '/assets/css/tailwind.prod.min.css', array(), $theme_version);
+
+	wp_enqueue_style('primedocbilling-aos-style', get_template_directory_uri() . '/assets/css/all-style.min.css', array(), $theme_version, true);
+
 	wp_enqueue_style('primedocbilling-slick-style', get_template_directory_uri() . '/assets/css/plugins/slick.1.8.1.min.css', array(), $theme_version);
+
 	wp_enqueue_style('primedocbilling-main-style', get_stylesheet_uri(), array(), $theme_version);
-	wp_enqueue_style('primedocbilling-offer-card-enhancements', get_template_directory_uri() . '/offer-card-enhancements.css', array(), $theme_version);
+
 	wp_enqueue_style('primedocbilling-fontawesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css', array(), '5.15.3');
 
 	// Load Google Fonts with display=swap for performance
@@ -181,30 +181,7 @@ function primedocbilling_scripts()
 	wp_enqueue_script('primedocbilling-slick-js', get_template_directory_uri() . '/assets/js/plugins/slick.1.8.1.min.js', array('primedocbilling-jquery-js'), '1.8.1', true);
 
 	// AOS animation library
-	wp_enqueue_script('primedocbilling-aos-js', get_template_directory_uri() . '/assets/js/aos.js', array(), '2.3.4', true);
-
-	// TW Elements
-	wp_enqueue_script('primedocbilling-twelements-js', get_template_directory_uri() . '/assets/js/tw-elements.umd.min.js', array(), $theme_version, true);
-
-	// Main bundle - load in footer
-	wp_enqueue_script('primedocbilling-tailwind-js', get_template_directory_uri() . '/assets/js/bundle.js', array(), $theme_version, true);
-
-	// Main theme script - depends on jQuery
-	wp_enqueue_script('primedocbilling-main-js', get_template_directory_uri() . '/assets/js/main.js', array('primedocbilling-jquery-js'), $theme_version, true);
-
-	// Modal and TOC functionality
-	wp_enqueue_script('primedocbilling-modal-toc-js', get_template_directory_uri() . '/assets/js/modal-toc.js', array(), $theme_version, true);
-
-	// Modal popup styles
-	wp_enqueue_style('primedocbilling-modal-popup', get_template_directory_uri() . '/assets/css/modal-popup.css', array(), $theme_version);
-
-	// REMOVED: Tailwind CDN script - this is a major performance issue
-	// wp_enqueue_script( 'primedocbilling-tailwind-script', '//cdn.tailwindcss.com', array(), NULL, true);
-
-	// If local Tailwind CSS is missing or incomplete, fallback to CDN for development
-	// if ( ! file_exists( get_template_directory_uri() . '/assets/css/tailwind.prod.min.css' ) ) {
-	// 	wp_enqueue_script( 'primedocbilling-tailwind-script', '//cdn.tailwindcss.com', array(), NULL, true );
-	// }
+	wp_enqueue_script('primedocbilling-aos-js', get_template_directory_uri() . '/assets/js/all-js.min.js', array(), '2.3.4', true);
 
 	// Add defer attribute to non-critical scripts
 	add_filter('script_loader_tag', 'primedocbilling_defer_scripts', 10, 2);

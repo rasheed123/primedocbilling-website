@@ -1,58 +1,59 @@
 <?php
+
 /** Template Name: Medical Credentialing Services in the USA */
 get_header();
 ?>
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services/" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Medical Credentialing Services 
-    </li>
-  </ol>
-</nav>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services/" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Medical Credentialing Services
+                    </li>
+                </ol>
+            </nav>
 
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Comprehensive Medical Credentialing<br />Services all across the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Medical credentialing service is the process of enrolling healthcare professionals with federal and commercial insurance agencies. It is a vital step for providers so they can give services to patients who are enrolled with those agencies.
-          </p>
-          <p>
-            Prime Doc Billing simplifies, manages, and speeds up the entire process for providers. Our experts guide you through the process, reducing the chances of denial.
-          </p>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Comprehensive Medical Credentialing<br />Services all across the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Medical credentialing service is the process of enrolling healthcare professionals with federal and commercial insurance agencies. It is a vital step for providers so they can give services to patients who are enrolled with those agencies.
+                </p>
+                <p>
+                    Prime Doc Billing simplifies, manages, and speeds up the entire process for providers. Our experts guide you through the process, reducing the chances of denial.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <img alt="3D style modern icon illustration of medical credentialing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
-      </div>
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <img alt="3D style modern icon illustration of medical credentialing with healthcare symbols and documents" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="https://storage.googleapis.com/a1aa/image/fc886894-9448-467a-bc08-3a069a2bc9d5.jpg" />
+        </div>
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -62,8 +63,9 @@ get_header();
             <!-- Section 1: Why Prime Doc Billing is the Right Choice -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Prime Doc Billing is the Right Choice for Credentialing Services</h2>
-                    <div class="mt-6 mb-6">
-                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/credentialing-usa/Why Prime Doc Billing is the Right Choice for Credentialing Services.webp" alt="Why Prime Doc Billing is the Right Choice for Credentialing Services" class="w-full h-auto rounded-lg shadow-lg"></div>
+                <div class="mt-6 mb-6">
+                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/credentialing-usa/Why Prime Doc Billing is the Right Choice for Credentialing Services.webp" alt="Why Prime Doc Billing is the Right Choice for Credentialing Services" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Prime Doc Billing has expert credentialing specialists to help providers with network participation. We have a thorough understanding of accreditation standards. It enables our medical credentialing services to meet quality standards, compliance, and safety.
                 </p>
@@ -78,10 +80,11 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     The Medical Credentialing Process can be draining and time-consuming. It requires significant time and effort throughout the process. That is why we are here to handle the steps, so you can focus on patient care.
                 </p>
-                
+
                 <div class="mt-6 mb-6">
-                <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/credentialing-usa/Prime Doc Billing’s Medical Credentialing Process.webp" alt="Prime Doc Billing’s Medical Credentialing Process" class="w-full h-auto rounded-lg shadow-lg"></div>
-                
+                    <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/credentialing-usa/Prime Doc Billing’s Medical Credentialing Process.webp" alt="Prime Doc Billing’s Medical Credentialing Process" class="w-full h-auto rounded-lg shadow-lg">
+                </div>
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Collecting the Required Documents</h3>
@@ -89,11 +92,11 @@ get_header();
                             Before starting the medical credentialing process, we collect all the required documents from our client. It includes their education, training, work history, and license. Our experts make sure to double-check the documents so there's no error of incomplete documentation in the future.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Choosing the Right Insurance</h3>
                         <p class="text-gray-600">
-                            Choosing the right insurance is very important for the provider’s patient population. We help you select the insurance panels that best match your needs. 
+                            Choosing the right insurance is very important for the provider’s patient population. We help you select the insurance panels that best match your needs.
                         </p>
                         <ul class="list-disc list-inside text-gray-600 mt-3 space-y-1">
                             <li>Get patient access</li>
@@ -101,7 +104,7 @@ get_header();
                             <li>Faster reimbursements for your services.</li>
                         </ul>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">CAQH Enrollment</h3>
                         <p class="text-gray-600">
@@ -118,17 +121,17 @@ get_header();
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Fast Credentialing Approval</h3>
                         <p class="text-gray-600">
-                            Complete documentation and regular follow-up are the keys to fast credentialing approval. 
+                            Complete documentation and regular follow-up are the keys to fast credentialing approval.
                         </p>
                         <p class="text-gray-600 mt-2">
-                            Our dedicated teams perform proactive re-credentialing so the provider stays active. This helps the process get fast credentialing approval. Often completed in weeks rather than months. 
+                            Our dedicated teams perform proactive re-credentialing so the provider stays active. This helps the process get fast credentialing approval. Often completed in weeks rather than months.
                         </p>
                     </div>
 
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">In-Network Enrollment</h3>
                         <p class="text-gray-600">
-                            Once the provider is credentialed with insurance, they can apply for in-network enrollment. 
+                            Once the provider is credentialed with insurance, they can apply for in-network enrollment.
                         </p>
                         <p class="text-gray-600 mt-2">
                             Our dedicated team helps providers join the right insurance panels that best fit their credentials. This helps them get timely reimbursements, increasing cashflow.
@@ -174,7 +177,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -187,7 +190,7 @@ get_header();
                                 Commercial Insurance Credentialing allows providers to work with private insurance to get reimbursements.
                             </p>
                             <p class="text-gray-600 mt-2">
-                                Prime Doc Billing helps you be an in-network provider to broaden the type of patients you can treat. From handling paperwork to automated reminders, we are here at your service. 
+                                Prime Doc Billing helps you be an in-network provider to broaden the type of patients you can treat. From handling paperwork to automated reminders, we are here at your service.
                             </p>
                         </div>
                     </div>
@@ -209,7 +212,7 @@ get_header();
                             We perform Physician Credentialing by verifying the physicians’ medical school, residency, and license. They must also have continuing medical education (CME) to stay updated with the latest medical practices.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Therapists (PT/OT/SLP)</h3>
@@ -223,7 +226,7 @@ get_header();
                             Speech-Language Pathologists (SLPs) are required to own a Certificate of Clinical Competence (CCC). Prime Doc Billing knows every required document and credentialing process.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Ambulatory Surgery Centers (ASC)</h3>
@@ -236,10 +239,10 @@ get_header();
                             <li>NPI</li>
                         </ul>
                         <p class="text-gray-600 text-sm mt-2">
-                            We handle documents, identify gaps, track records, and rework applications if needed. 
+                            We handle documents, identify gaps, track records, and rework applications if needed.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Optometrists & Audiologists</h3>
@@ -247,7 +250,7 @@ get_header();
                             They are non-physician providers; hence, we can find them in retail locations as well. Prime Doc Billing guides them through vision and hearing-specific insurance panels. We also ensure NPI registration for a smooth credentialing process.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">PAs/NPs</h3>
@@ -255,7 +258,7 @@ get_header();
                             Our team helps Physician Assistants and Nurse Practitioners keep their CAQH profiles updated. We also check their work history, license, and supervisor physician info for credentialing.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Podiatrists</h3>
@@ -263,7 +266,7 @@ get_header();
                             Podiatrists are foot and ankle specialists. Our experts handle their Medicare and Medicaid enrollment with separate forms. They use equipment like diabetic shoes and ankle braces, so we help them enroll as suppliers.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Urgent Care Facilities</h3>
@@ -329,14 +332,14 @@ get_header();
             <!-- Section 6: Get Started with Prime Doc Billing’s Credentialing Services Now! -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Get Started with Prime Doc Billing’s Credentialing Services Now!</h2>
-                
+
                 <div class="bg-sky-50 border-l-4 border-sky-500 p-6 mb-8">
                     <p class="text-gray-700">
-                        Here at Prime Doc Billing, we take care of credentialing so you can focus on patient care. Our fast and accurate credentialing can help your practice get proper reimbursements. 
+                        Here at Prime Doc Billing, we take care of credentialing so you can focus on patient care. Our fast and accurate credentialing can help your practice get proper reimbursements.
                     </p>
                     <p class="mt-2 text-gray-700">
-                    No matter what your specialty is, our team can guide you through every step of the way. Connect with us now!
-                </p>
+                        No matter what your specialty is, our team can guide you through every step of the way. Connect with us now!
+                    </p>
                 </div>
             </section>
 
@@ -344,7 +347,7 @@ get_header();
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -357,7 +360,7 @@ get_header();
                                 <p>The verification and certification of healthcare providers is known as the credentialing process. The process takes around 90-120 days to get credentialed with insurance companies.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do you ensure compliance with payer requirements and regulations?</h3>
@@ -369,7 +372,7 @@ get_header();
                                 <p>We make sure to use a standardized compliance checklist and document tracking. This ensures compliance and avoids costly delays.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can you help with re-credentialing for existing providers?</h3>
@@ -381,7 +384,7 @@ get_header();
                                 <p>Yes! We gather updated documents and submit re-credential applications. We also handle follow-ups throughout the process.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do I check the status of my credentialing application?</h3>
@@ -393,7 +396,7 @@ get_header();
                                 <p>Our team can provide you with real-time tracking, so you can always reach out to us.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Do you handle credentialing for many specialties?</h3>
@@ -416,7 +419,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our medical credentialing services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4" >
+                    <div class="flex flex-col sm:flex-row justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>
@@ -436,7 +439,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

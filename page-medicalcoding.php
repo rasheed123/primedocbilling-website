@@ -1,59 +1,60 @@
 <?php
+
 /** Template Name: Medical Coding Services for Healthcare Providers in the USA */
 get_header();
 ?>
 
 <!-- Hero Section -->
-  <section class="py-12 md:py-20 bg-[#3873cc] font-sans">
+<section class="py-12 md:py-20 bg-[#3873cc] font-sans">
     <div class="max-w-7xl mx-auto px-6 flex flex-col-reverse lg:flex-row items-center gap-12">
-      <!-- Left Content -->
-      <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
-<nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
-  <ol class="inline-flex items-center space-x-2">
-    <li class="flex items-center">
-      <a href="/" class="hover:underline text-white/80">Home</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li class="flex items-center">
-      <a href="/services" class="hover:underline text-white/80">Services</a>
-      <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
-        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
-      </svg>
-    </li>
-    <li aria-current="page" class="font-semibold text-white">
-      Medical Coding Services
-    </li>
-  </ol>
-</nav>
+        <!-- Left Content -->
+        <div class="max-w-3xl text-white space-y-6 lg:space-y-8">
+            <nav aria-label="Breadcrumb" class="text-sm opacity-80 font-medium tracking-wide">
+                <ol class="inline-flex items-center space-x-2">
+                    <li class="flex items-center">
+                        <a href="/" class="hover:underline text-white/80">Home</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li class="flex items-center">
+                        <a href="/services" class="hover:underline text-white/80">Services</a>
+                        <svg class="w-4 h-4 mx-2 text-[#00D1B2]" fill="none" stroke="currentColor" stroke-width="2"
+                            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </li>
+                    <li aria-current="page" class="font-semibold text-white">
+                        Medical Coding Services
+                    </li>
+                </ol>
+            </nav>
 
-        <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
-          Medical Coding Services for Healthcare Providers in the USA
-        </h1>
-        <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
-          <p>
-            Accurate medical coding is the first step in improving your organization’s finances. Any error in coding directly affects billing precision, claim approvals, and financial performance. It can lead to denied claims, delayed payments, or compliance issues.
-          </p>
-          <p>
-            With the Affordable Care Act, 20 million more Americans now have insurance coverage. With that comes more responsibility on organizations to submit accurate and error-free claims. Prime Doc Billing provides timely, error-free, and accurate coding services.
-          </p>
+            <h1 class="text-5xl font-extrabold tracking-tight leading-tight drop-shadow-lg">
+                Medical Coding Services for Healthcare Providers in the USA
+            </h1>
+            <div class="space-y-4 text-lg opacity-90 leading-relaxed drop-shadow-md">
+                <p>
+                    Accurate medical coding is the first step in improving your organization’s finances. Any error in coding directly affects billing precision, claim approvals, and financial performance. It can lead to denied claims, delayed payments, or compliance issues.
+                </p>
+                <p>
+                    With the Affordable Care Act, 20 million more Americans now have insurance coverage. With that comes more responsibility on organizations to submit accurate and error-free claims. Prime Doc Billing provides timely, error-free, and accurate coding services.
+                </p>
+            </div>
+            <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
+                <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
+                    Book a Demo
+                </button>
+            </a>
         </div>
-        <a href="https://primedocbilling.com/schedule-demo/" target="_blank" rel="noopener noreferrer" class="inline-block mt-8">
-          <button class="hover:border-white border border-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
-            Book a Demo
-          </button>
-        </a>
-      </div>
-      <!-- Right Image -->
-      <div class="w-full max-w-lg lg:max-w-xl relative">
-        <!-- You can add an image here if desired, similar to the credentialing page -->
-        <!-- <img alt="3D style modern icon illustration of medical coding" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="YOUR_CODING_IMAGE_URL_HERE.jpg" /> -->
-      </div>
+        <!-- Right Image -->
+        <div class="w-full max-w-lg lg:max-w-xl relative">
+            <!-- You can add an image here if desired, similar to the credentialing page -->
+            <!-- <img alt="3D style modern icon illustration of medical coding" class="w-full h-auto drop-shadow-2xl rounded-xl animate-[float_6s_ease-in-out_infinite]" decoding="async" loading="lazy" src="YOUR_CODING_IMAGE_URL_HERE.jpg" /> -->
+        </div>
     </div>
-  </section>
+</section>
 
 <!-- Main Content -->
 <div class="container mx-auto px-4 md:px-6 py-12 max-w-7xl">
@@ -66,9 +67,9 @@ get_header();
                 <p class="text-lg text-gray-600 mb-6 leading-relaxed">
                     Managing a medical coding team in-house comes with several challenges for healthcare providers:
                 </p>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Medical coding/1.webp" alt="Outsource Medical Coding Services" class="w-full rounded-lg shadow-md mb-8">
-                
+
                 <div class="space-y-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Complexity of Coding Systems</h3>
@@ -76,14 +77,14 @@ get_header();
                             With thousands of codes, coders must be precise and accurate. Complex coding systems like ICD-10 and CPT need expert coders. They ensure accuracy in specialized coding systems with in-depth knowledge and continuous training.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Regulatory Changes</h3>
                         <p class="text-gray-600">
                             Continuous regulatory changes are a significant challenge in medical coding. Updated regulations change coding guidelines, billing requirements, and payer policies. These regulations affect how providers document and report services, making compliance a continuous challenge.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <h3 class="text-xl font-semibold text-sky-700 mb-3">Data Security and Privacy Concerns</h3>
                         <p class="text-gray-600">
@@ -103,9 +104,9 @@ get_header();
             <!-- Section 2 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Benefits of Outsourcing Medical Coding Services</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Medical coding/2.webp" alt="Benefits of Outsourcing Medical Coding Services" class="w-full rounded-lg shadow-md mb-8">
-                
+
                 <div class="grid md:grid-cols-2 gap-6">
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
@@ -114,7 +115,7 @@ get_header();
                             Compared to hiring in-house coders, outsourcing can significantly reduce overhead costs.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Access to Certified Coders</h3>
@@ -122,7 +123,7 @@ get_header();
                             Gain access to certified coders with specialized knowledge in various coding systems.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">On-site, Remote, and Offshore Options</h3>
@@ -130,7 +131,7 @@ get_header();
                             We provide flexible options to handle volume spikes, ensuring your needs are met.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Minimizing Claim Rejections</h3>
@@ -138,7 +139,7 @@ get_header();
                             Experienced coders help minimize claim rejections, ensuring timely payments.
                         </p>
                     </div>
-                    
+
                     <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition duration-300">
                         <div class="text-teal-600 text-2xl mb-3">➔</div>
                         <h3 class="text-xl font-semibold text-gray-800 mb-2">Focus on Patient Care</h3>
@@ -152,7 +153,7 @@ get_header();
             <!-- Section 3 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Accurate Medical Coding Matters?</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Medical coding/3.webp" alt="Importance of Accurate Medical Coding" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -160,7 +161,7 @@ get_header();
                         Accurate medical coding is necessary to avoid claim denials and timely payment processing. Here are some critical factors for which accurate medical coding is important:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -175,7 +176,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -189,7 +190,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -209,7 +210,7 @@ get_header();
             <!-- Section 4 -->
             <section class="mb-16">
                 <h2 class="text-3xl font-bold text-gray-800 mb-6">Our Coding Journey: From First Entry to Final Payout</h2>
-                
+
                 <img src="<?php echo get_theme_file_uri() ?>/assets/images/usa-services/Medical coding/4.webp" alt="Coding Journey" class="w-full rounded-lg shadow-md mb-8">
 
                 <div class="bg-teal-50 border-l-4 border-teal-500 p-6 mb-8">
@@ -217,7 +218,7 @@ get_header();
                         Wondering whether we follow the industry practices or not? We ensure more than that. From patient data to successful reimbursement, we cover an error-free process. Here is the bird’s eye view of the main steps:
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -232,7 +233,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -246,7 +247,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -260,7 +261,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -274,7 +275,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -288,7 +289,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -301,8 +302,8 @@ get_header();
                                 We conduct a second-level audit to ensure compliance and accuracy, reducing denials and speeding up insurance payouts.
                             </p>
                         </div>
-                                        </div>
-                    
+                    </div>
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -316,7 +317,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -342,7 +343,7 @@ get_header();
                         Stop over-coding and under-coding. Avoid losing revenue or facing penalties by ensuring every service is coded accurately.
                     </p>
                 </div>
-                
+
                 <div class="space-y-6">
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
@@ -357,7 +358,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -371,7 +372,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -385,7 +386,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -399,7 +400,7 @@ get_header();
                             </p>
                         </div>
                     </div>
-                    
+
                     <div class="flex items-start gap-4">
                         <div class="bg-teal-100 p-3 rounded-full">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-teal-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -416,11 +417,11 @@ get_header();
                 </div>
             </section>
 
-             <!-- FAQ Section -->
+            <!-- FAQ Section -->
             <section class="bg-gray-50 py-16">
                 <div class="container mx-auto px-4 md:px-6 max-w-4xl">
                     <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Frequently Asked Questions</h2>
-                    
+
                     <div class="space-y-4">
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
@@ -433,7 +434,7 @@ get_header();
                                 <p>Accurate coding ensures faster reimbursements and prevents costly denials. It also supports proper patient care and keeps healthcare organizations compliant with regulations, contributing to a fast and successful revenue cycle.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What happens if medical codes are incorrect or incomplete?</h3>
@@ -445,7 +446,7 @@ get_header();
                                 <p>Incorrect or incomplete codes can lead to denied claims, delayed payments, and penalties. They can also impact patient records, affecting continuity of care.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How does Prime Doc Billing ensure coding accuracy?</h3>
@@ -457,7 +458,7 @@ get_header();
                                 <p>We ensure accuracy by assigning specialty-specific coders. We also apply advanced auditing systems and integrate modifiers precisely. Finally, we stay updated with the latest AAPC, AMA, and CMS guidelines to ensure accuracy.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">What types of medical coding does Prime Doc Billing handle?</h3>
@@ -469,7 +470,7 @@ get_header();
                                 <p>We cover all major coding systems, including ICD-10, CPT, HCPCS, and HCC coding. We use coding systems for various specialties, such as cardiology, radiology, and emergency medicine.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How does Prime Doc Billing prevent modifier errors?</h3>
@@ -481,7 +482,7 @@ get_header();
                                 <p>Our coders are trained to apply modifiers accurately, especially those often misused, like modifier 59. They ensure they are only used when required to avoid denials.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Can outsourcing medical coding improve revenue?</h3>
@@ -493,7 +494,7 @@ get_header();
                                 <p>Yes, outsourcing medical coding can significantly improve revenue. Fewer errors lead to faster claim approvals via proper code application, which helps improve cash flow and reduces overhead.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How do you ensure data security and privacy?</h3>
@@ -505,7 +506,7 @@ get_header();
                                 <p>We ensure data security and privacy by strictly following HIPAA guidelines. We use secure systems for data transfer and conduct regular audits to protect patient information throughout the process.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">Is Prime Doc Billing a good fit for small practices, too?</h3>
@@ -517,7 +518,7 @@ get_header();
                                 <p>Yes, whether you're a solo practitioner or a large hospital, we provide services for all your needs. We offer high-level expertise without the hefty overhead of an in-house coding team.</p>
                             </div>
                         </div>
-                        
+
                         <div class="bg-white p-6 rounded-lg shadow-sm border border-gray-100 transition duration-300 hover:shadow-md accordion__item">
                             <button class="w-full flex justify-between items-center" aria-expanded="false">
                                 <h3 class="text-lg font-medium text-gray-800 text-left">How quickly can we start working with Prime Doc Billing?</h3>
@@ -560,7 +561,7 @@ get_header();
                         <h3 class="text-xl font-bold text-white">Book A Demo</h3>
                     </div>
                     <div class="p-6">
-                       <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
+                        <?php echo do_shortcode('[contact-form-7 id="87cc5b3" title="Book a Demo Form - Service"]'); ?>
                     </div>
                 </div>
 

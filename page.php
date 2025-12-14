@@ -1,7 +1,11 @@
 <?php
-
 /**
- * Template Name: Blog Sample Page
+ * The default template for displaying all pages.
+ *
+ * This template is used for all WordPress pages unless a custom template is assigned.
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ * @package primedocbilling
  */
 get_header();
 ?>

@@ -569,7 +569,7 @@ get_header();
                     <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
                         Join hundreds of healthcare providers who have transformed their practice with our insurance verification services.
                     </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 justify-center gap-4">
                         <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
                             Schedule a Demo
                         </button>

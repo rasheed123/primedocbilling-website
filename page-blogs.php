@@ -150,7 +150,7 @@ get_header();
     <section class="mt-16 bg-[#EEFAF7] rounded-xl p-8 text-center">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Ready to Transform Your Billing Process?</h2>
         <p class="text-gray-700 mb-6 max-w-2xl mx-auto">Our team of certified billing specialists can help you streamline operations, reduce denials, and increase collections.</p>
-        <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 justify-center gap-4">
             <a href="<?php echo esc_url(home_url('/contact-us')); ?>" class="px-6 py-3 bg-[#20C197] hover:bg-[#00D1B2] text-white font-medium rounded-lg shadow-md transition-colors duration-300 inline-flex items-center justify-center">
                 <i class="fas fa-calendar-check mr-2"></i> Schedule a Consultation
             </a>

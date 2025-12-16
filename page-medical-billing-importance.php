@@ -477,7 +477,7 @@ get_header();
     <div class="max-w-3xl mx-auto px-6">
       <h2 class="text-3xl font-extrabold mb-4">Partner with Prime Doc Billing Today</h2>
       <p class="text-lg mb-8">Let our experts handle your billing — streamline your revenue cycle and focus on patient care.</p>
-      <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <div class="grid grid-cols-1 sm:grid-cols-2 justify-center gap-4">
         <a href="/schedule-demo/"
           class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105">
           Schedule a Demo

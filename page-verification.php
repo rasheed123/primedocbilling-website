@@ -645,18 +645,7 @@ get_header();
             <!-- Final CTA -->
             <section class="py-16 bg-sky-700">
                 <div class="container mx-auto px-4 md:px-6 text-center">
-                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Get Started Today</h2>
-                    <p class="text-xl text-teal-100 max-w-2xl mx-auto mb-8">
-                        Join hundreds of healthcare providers who have transformed their practice with our insurance verification services.
-                    </p>
-                    <div class="flex flex-col sm:flex-row justify-center gap-4">
-                        <button class="bg-white text-sky-700 hover:bg-gray-100 font-medium py-3 px-8 rounded-md shadow-lg transition duration-300 transform hover:scale-105" data-te-toggle="modal" data-te-target="#demoModal" data-te-ripple-init data-te-ripple-color="light">
-                            Schedule a Demo
-                        </button>
-                        <button class="tawlk-toggle bg-transparent border-2 border-white text-white hover:bg-white hover:text-sky-700 font-medium py-3 px-8 rounded-md shadow transition duration-300 transform hover:scale-105">
-                            Contact Sales
-                        </button>
-                    </div>
+<?php get_template_part('template-parts/cta-final'); ?>
                 </div>
             </section>
         </div>

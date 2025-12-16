@@ -17,12 +17,12 @@ get_header();
         <h1 class="text-[32px] sm:text-[48px] font-bold capitalize hero-heading" data-aos="fade-right">
           Putting Patients First, Every Claim, Every Time
         </h1>
-        <div class="flex flex-col md:flex-row gap-6 mt-8 md:mt-16" data-aos="fade-up">
+        <div class="flex flex-col md:flex-row gap-6 mt-8 md:mt-16 relative z-10" data-aos="fade-up">
           <!-- Calendly Link Button - Replaces your existing button -->
           <a href="https://primedocbilling.com/schedule-demo/" class="hover:border-white border border-[#00D1B2] hover:bg-transparent shadow-lg hover:shadow-none transition duration-300 ease-in hero-btn py-4 px-8 capitalize bg-[#00D1B2] text-white text-[18px] font-medium rounded text-center">
             Book a Demo
           </a>
-          <button class="hover:border-white hover:border-white hover:bg-transparent border-[#00D1B2] bg-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in-out hero-btn py-4 px-8 capitalize border text-[15px] font-medium rounded" data-te-toggle="modal" data-te-target="#requestModal" data-te-ripple-init data-te-ripple-color="light" id="openDemoModal">
+          <button class="hover:border-white hover:bg-transparent border-[#00D1B2] bg-[#00D1B2] shadow-lg hover:shadow-none transition duration-300 ease-in-out hero-btn py-4 px-8 capitalize border text-[15px] font-medium rounded" data-te-toggle="modal" data-te-target="#requestModal" data-te-ripple-init data-te-ripple-color="light" id="openDemoModal">
             request a free practice analysis
           </button>
         </div>
